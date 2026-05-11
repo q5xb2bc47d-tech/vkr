@@ -1,0 +1,10 @@
+\newpage
+
+\justifying\onehalfspacing\fontdimen2\font=.3cm\fontdimen3\font=3cm\noindent\makebox[1cm]{}\makebox[2cm][l]{\uppercase{Глава}}\makebox[1cm][l]{\thei}\uppercase{Описание аналоговой части   АСУ самолетом по приборной скорости}\label{c:1xx}\par
+
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{pc:1xx}\label{ps:2.1xx}
+
+\endinput

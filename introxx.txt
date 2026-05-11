@@ -1,0 +1,166 @@
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{3.pdf}
+%\end{textblock*}
+
+%\centering\onehalfspacing\bfseries\uppercase{Введение}\label{intro:1}\par
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В системах СВС-2Ц  [\ref{bib:non-fiction.avia1}]  применяются  датчики давления  ДДГ    [\ref{bib:non-fiction.avia1}].\par%
+
+
+%\noindent\makebox[1cm]{}Чувствительный  элемент  датчика  представляет  собой  цилиндрический  резонатор  в  соответствии  с  рисунком  А.\ref{il:a.fun1}.  При  подаче  давления  $p$,  Па,  во  внутреннюю  полость  резонатора  изменяется  его  жесткость,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{м}^{-1}$}Н,  следовательно,  и  частота,  Гц,  собственных  колебаний.\par
+
+
+%\noindent\makebox[1cm]{}Рис.  А.\ref{il:a.fun1}  приведен  в  Приложении  А.\par
+
+
+%\noindent\makebox[1cm]{}В  обмотке  катушки  2  при  колебаниях  резонатора  наводится  электродвижущая  сила,  В.\par
+
+%\noindent\makebox[1cm]{}После  усиления  и  ограничения  по  амплитуде  сигнал  обратной  связи  в  виде  тока  $i\left( t\right)$,  А,  поступает  в  обмотку  катушки    5.\par
+
+%\noindent\makebox[1cm]{}Выходной  сигнал  датчика  представляет  собой  последовательность  прямоугольных  импульсов.\par%   Они  формируются  в  согласующем  устройстве     датчика.\par
+
+%\noindent\makebox[1cm]{}Частота,  Гц,  следования  импульсов  равна  частоте  $f$,  Гц,  колебаний  резонатора.\par
+
+%\noindent\makebox[1cm]{}Датчики  не  термостатированы.  Компенсация  температурных  погрешностей  осуществляется  в  вычислителе.  В  датчике  термодиодом  [\ref{bib:non-fiction.trof1}]  измеряется  температура,  К,  резонатора.\par
+
+%\noindent\makebox[1cm]{}Выходной  сигнал  с  обмотки  L1  подаются  через  резистор  R1  на  вход  A1  [\ref{bib:non-fiction.vib1}]  в  соответствии  с  рисунком  А.%\ref{il:a.schem1}.  С  выхода  A1  через  конденсатор  C1  и  резистор  R3  переменная  составляющая  сигнала  $i$,  А,  поступает  на  вход  A2,  в  котором  происходит  ее  усиление  и  ограничение  на  уровне,  определяемом  характеристиками  элемента  VD1  [\ref{bib:non-fiction.vai1}].  Выходной  сигнал  с  A2  через  конденсатор  C2  и  резистор  R5  подается  на  вход  A3,  включенного  по  схеме  с  токовой  обратной  связью  [\ref{bib:non-fiction.herp1}].\par
+
+
+%\noindent\makebox[1cm]{}Рис.  А.\ref{il:a.schem1}  приведен  в  Приложении  А.\par
+
+
+%\noindent\makebox[1cm]{}Фазовый  сдвиг,  рад,  обеспечивается  фильтрами  [\ref{bib:non-fiction.butikovfizika1}]  в  тракте  усиления  и  преобразования  сигнала.\par
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{7.pdf}
+%\end{textblock*}
+
+
+%\refstepcounter{np}
+
+
+%\noindent\makebox[1cm]{}При  воздействии  облучений  на  полупроводниковые  приборы  представляют  интерес  два  эффекта:  ионизации  и  смещения.  Эффекты,  связанные  с  ионизацией,  являются  кратковременными,  но  могут  вывести  схему  из  рабочего  состояния.  Эффекты  смещения  вызывают  долговременные  повреждения  полупроводниковых  приборов.\par
+
+
+
+
+
+%\noindent\makebox[1cm]{}Электромагнитные  излучения,  взаимодействуя  с  электронами    атомов  полупроводников,  могут  сообщать  им  энергию,  для  перехода  в  зону  проводимости  полупроводника.  В  результате    образуются  избыточные  носители  ---  электроны  и  дырки,  которые  меняют  проводимость,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{Ом}^{-1}$},  и,  следовательно,  характеристики  полупроводниковых  приборов.\par
+
+
+
+
+
+%\refstepcounter{np}
+
+%\label{pintro:1}
+
+
+
+
+
+
+%\noindent\makebox[1cm]{}В  результате  облучения  диода  при  малых  токах,  А,  происходит  увеличение  прямого  тока,  А,  а  при  больших  ---  уменьшение.  Обратный  ток,  А,  диода  при  облучении  увеличивается.\par
+
+%\noindent\makebox[1cm]{}В  конденсаторах  под  действием  излучения  изменяется  емкость,  Ф,  сопротивление  изоляции,  Ом,  тангенс  угла  диэлектрических  потерь,  проводимость,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{Ом}^{-1}$}.\par
+
+
+
+%\noindent\makebox[1cm]{}Радиационная     стойкость  интегральных  микросхем  не  превышает  стойкости  полупроводниковых      приборов.\par
+
+%\noindent\makebox[1cm]{}В  замкнутой  электрической  цепи  появляется  электрический  ток,  А,  пропорциональный  мощности  излучения,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{с}^{-1}$}.\par
+
+
+\noindent\makebox[1cm]{}Датчики  ДДГ-2-1, ДДГ-2-2, ДДГ-2-3, ДДГ-2-4 и БДДМ-1  [\ref{bib:electronic.dat1}]  не  имеют       стойкости к ионизирующему  излучению  [\ref{bib:regulatory.vib1}].\par%
+
+
+\noindent\makebox[1cm]{}Структуры  КНС  обладают  радиационной       стойкостью     [\ref{bib:non-fiction.stu1}].       В   датчиках давления  используются тензочувствительные элементы   на  основе      структур          КНС.\par%
+%      в  соответствии  с  рисунком       А.\ref{il:a.rhom44}.
+
+%\noindent\makebox[1cm]{}На     рисунке    А.\ref{il:a.rhom44}      приведены      результаты        при   облучении    структур   $p$-КНС     нейтронами     и      $\mathit{γ}$-квантами    в   реакторе       ВВР-2000.\par
+%Были  получены  результаты      при  облучении  структур  $p$-КНС  нейтронами  и  $\mathit{γ}$-квантами  в  реакторе  ВВР-2000  
+%в  соответствии  с  рисунком  А.\ref{il:a.rhom44}.
+
+%\noindent\makebox[1cm]{}Были  получены  результаты      при  облучении  структур  $p$-КНС  нейтронами  и  $\mathit{γ}$-квантами  в  реакторе  ВВЭР-2000  
+%в  соответствии  с  рисунком  А.\ref{il:a.rhom44}.\par
+
+
+%\noindent\makebox[1cm]{}Рис.  А.\ref{il:a.rhom44}  приведен  в  Приложении  А.\par
+
+\noindent\makebox[1cm]{}Необходимо    разработать     АСУ самолетом по приборной скорости при наличии источника ионизирующего излучения.\par%В  структурном элементе  ``Определения''    использованы   материалы   [\ref{bib:non-fiction.er1} ; \ref{bib:non-fiction.vor1}  ; \ref{bib:non-fiction.eg1}],          ``Введение''   ---   [], .\par%
+
+\noindent\makebox[1cm]{}Для    достижения   данной   цели       нужно   решить  задачи:\par%Необходимо    разработать   автоматизированную систему управления самолетом по приборной скорости при наличии источника ионизирующего излучения.\par%В  
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{1)}Описать объект контроля:\par%
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}построить функциональную схему   АСУ самолетом по приборной скорости;\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{---}привести условия эксплуатации авиационных приборов;\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{2)}Выбрать датчик давления, :\par%
+
+
+\newpage
+
+%\begin{textblock*}{1cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{1.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{10.pdf}
+\end{textblock*}
+
+\refstepcounter{np}
+
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}выбрать датчик давления, имеющий стойкость к ионизирующему излучению;\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{3)}Выбрать микропроцессор (микроконтроллер), :\par%
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}выбрать микропроцессор (микроконтроллер);\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{---}построить структурную схему    АСУ  самолетом по приборной скорости;\par%
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}написать исходный код вычисления приборной скорости для микропроцессора (микроконтроллера);\par%
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}построить структурную схему  прибора автоматического регулирующего  самолет по приборной скорости;\par%
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}выбрать закон регулирования, определить параметры регулирования;\par%
+
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}написать исходный код для прибора автоматического регулирующего самолет по приборной скорости;\par%
+
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}построить  схему  подключения датчика давления, сервопривода к микропроцессору (микроконтроллеру), микропроцессора (микроконтроллера) к компьютеру;\par%
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{---}подключить микропроцессор (микроконтроллер) к компьютеру;\par%
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}разработать интерфейс взаимодействия оператора с АСУ самолетом по приборной скорости;\par%
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{---}построить  схему   электрическую   принципиальную АСУ самолетом по приборной скорости.\par%
+
+
+%\noindent\makebox[1cm]{}В  структурном элементе  ``Определения''    использованы   материалы   [\ref{bib:non-fiction.er1} ; \ref{bib:non-fiction.vor1}  ; \ref{bib:non-fiction.eg1} ; \ref{bib:regulatory.gost4401}],          ``Введение''   ---   [\ref{bib:electronic.zc1} ; \ref{bib:electronic.sd1} ; \ref{bib:electronic.kp1} ; \ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.avia1} ; ], .\par%
+
+%\noindent\makebox[1cm]{}В  структурном  элементе  \textquotedblleft Введение\textquotedblright\  использованы материалы  [\ref{bib:non-fiction.avia1} ; \ref{bib:regulatory.ustsam1} ; \ref{bib:non-fiction.trof1} ; \ref{bib:regulatory.vib1} ; \ref{bib:non-fiction.stu1}],    подразделе  1.1  ---  [\ref{bib:non-fiction.vor1}],  1.2  ---  [\ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.trof1} ; \ref{bib:non-fiction.avia1}],  1.3  ---  [\ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.trof1}],  1.4  ---  [\ref{bib:non-fiction.avia1} ; \ref{bib:non-fiction.vor1}],  1.5  ---  [\ref{bib:non-fiction.vor1} ;  \ref{bib:non-fiction.bod1}  ;  \ref{bib:non-fiction.er1} ; \ref{bib:non-fiction.trof1}],  1.6  ---  [\ref{bib:non-fiction.trof1} ; \ref{bib:regulatory.ust1} ; \ref{bib:non-fiction.vag1} ; \ref{bib:non-fiction.stu1}],   подразделе  2.1  [\ref{bib:non-fiction.trof1} ; \ref{bib:non-fiction.vag1} ; \ref{bib:non-fiction.stu1} ; \ref{bib:non-fiction.dbmar1}] ---  ,  2.2  --- [\ref{bib:electronic.rek1} ; \ref{bib:regulatory.ust1}] ,  структурном    элементе    ``Заключение''  ---  [\ref{bib:non-fiction.stu1}; \ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.trof1} ; \ref{bib:non-fiction.vag1} ; \ref{bib:electronic.rek1}].\par
+%разделе  2  ---  ,  
+
+%\refstepcounter{np}
+
+%\label{pintro:1}
+
+%\begin{textblock*}{5cm}[0,0](10.5cm,28.5cm)
+%	{\fontsize{12}{14.4}\selectfont\raggedright\singlespace\thenp}
+%\end{textblock*}
+
+\endinput

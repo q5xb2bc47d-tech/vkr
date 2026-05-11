@@ -1,0 +1,1046 @@
+%\newpage
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{42.pdf}
+%\end{textblock*}
+
+\vspace{\baselineskip}\par
+
+%\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Arduino  Software (IDE). Вычислитель В. Структурная схема АСУ самолетом по приборной скорости. Прибор автоматический регулирующий самолет по приборной скорости\label{s:2.10x}\par%
+\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Описание среды разработки программного обеспечения Arduino Software (IDE)\label{s:2.10x}\par%
+
+\vspace{\baselineskip}\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Интегрированная среда разработки Arduino или Arduino Software (IDE) содержит текстовый редактор для написания кода, область сообщений, текстовую консоль, панель инструментов с кнопками общих функций и серии меню    в соответствии с рисунком   \ref{il:ide1}. Она подключается к аппаратному обеспечению Arduino для загрузки программ и связи с ним.\par
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{43.pdf}
+\end{textblock*}
+
+
+
+\noindent\makebox[1cm]{}Программы, написанные с помощью Arduino Software (IDE), называются эскизами. Эти эскизы пишутся в текстовом редакторе и сохраняются в файлы с расширением .ino. Область сообщений дает обратную связь пока происходит сохранение и экспорт и также выводит ошибки. Консоль отображает выходную информацию в виде текста, включающую полное сообщение об ошибке  и другую информацию. Панель инструментов кнопок позволяет  проверять и загружать программы, создавать, открывать, сохранять эскизы, открывать последовательный монитор.\par
+
+\refstepcounter{np}
+
+%\label{pc:2}\label{ps:2.1}\label{ps:2.2}\label{ps:2.3}\label{ps:2.4}\label{ps:2.5}\label{ps:2.6}\label{ps:2.7}\label{ps:2.8}\label{ps:2.9}
+%\label{ps:2.10}
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{19.pdf}
+%\end{textblock*}
+
+
+
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{ide.pdf}}\par
+
+%\raggedright\singlespace\small$\Delta x$ --- перемещение стенки цилиндра, м;\par%   ^ --- ;   \par
+\centering\singlespace\small 1 --- серия меню;
+2 --- область сообщений;
+3 --- текстовая консоль;
+4 --- панель инструментов с кнопками общих функций;
+5 --- текстовый редактор\par
+
+\centering\singlespace\small Источник:  собственная разработка\par%
+
+\refstepcounter{l}
+
+
+%\refstepcounter{la}
+
+\normalsize
+
+Рисунок  \thel\ ---    Интерфейс    Arduino Software (IDE)   на    macOS\label{il:ide1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+\noindent\makebox[1cm]{}Дополнительные команды могут быть найдены в меню: File, Edit, Sketch, Tools, Help.\par
+\noindent\makebox[1cm]{}Перед загрузкой эскиза   нужно выбрать   правильный пункт из Tools/  Board   и   Tools/  Port  меню.   На Mac  последовательный порт возможно выглядит как /dev/tty.usbmodem241   или  /dev/tty.USA19QW1b1P1.1 . На Windows возможно COM1 или COM2 (для плат с последовательным\linebreak\pagebreak%    
+
+
+%\newpage
+
+%\begin{textblock*}{1cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{1.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{44.pdf}
+\end{textblock*}
+
+\refstepcounter{np}
+
+
+
+\noindent портом) или COM4, COM5, COM7 или выше (для плат с USB портом). На linux должно быть /dev/ttyACMx, /dev/ttyUSBx или похожий.\par
+\noindent\makebox[1cm]{}Для использования библиотеки в эскизе  выбрать ее из  Sketch/  Import Library меню.\par
+\noindent\makebox[1cm]{}Поддержка стороннего аппаратного обеспечения может быть добавлена в директории аппаратного обеспечения. Для установки, нужно создать директорию аппаратного обеспечения, затем разархивировать стороннюю платформу в ее поддиректорию.\par
+\noindent\makebox[1cm]{}Для того чтобы отправить данные на плату   нужно  вести текст и нажать кнопку отправить или ввод.\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+
+
+
+	\refstepcounter{j}
+
+\vspace{\baselineskip}\par
+
+%\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Arduino  Software (IDE). Вычислитель В. Структурная схема АСУ самолетом по приборной скорости. Прибор автоматический регулирующий самолет по приборной скорости\label{s:2.10x}\par%
+\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Вычислитель приборной скорости В\label{s:2.10xx}\par%
+
+\vspace{\baselineskip}\par
+
+
+\refstepcounter{f}
+
+\noindent\makebox[1cm]{}Запишем   градуировочную    формулу   для измерителей приборной скорости\par%
+
+\vspace{\baselineskip}\par
+\noindent\makebox[2cm]{}\hfill\adjustbox{margin=0pt 7pt 0cm 7pt}{$V_\mathrm{пр} = \left[ 2 R T_0 \dfrac{k}{k - 1} \left[ \left[ \dfrac{p_\mathrm{дин}}{p_0} + 1\right] ^{\dfrac{k - 1}{k}} - 1 \right] \right] ^{0.5}$},\hfill\makebox[2cm][r]{(\thef)}\label{fl:1.1}\par
+\vspace{\baselineskip}\par
+\noindent\makebox[1cm][l]{где}$V_\mathrm{пр}$ --- приборная скорость, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м;\par
+\noindent\makebox[1cm]{}$R = 287,14$ кг\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}К\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}Дж --- газовая постоянная воздуха;\par%
+\noindent\makebox[1cm]{}$T_0 = 288,15$ К --- стандартная температура в соответствии с ГОСТ [\ref{bib:regulatory.gost4401}];\par%
+\noindent\makebox[1cm]{}$k = 1,4$ --- показатель адиабаты в соответствии с ГОСТ [\ref{bib:regulatory.gost4401}];\par%
+\noindent\makebox[1cm]{}$p_\mathrm{дин} = p_\mathrm{п} - p$ --- динамическое давление, Па; $p_\mathrm{п}$, $p$ --- полное, статическое давление, Па;\par%
+\noindent\makebox[1cm]{}$p_0 = 101325$ Па --- стандартное давление в соответствии с ГОСТ [\ref{bib:regulatory.gost4401}].\par%
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm]{}\par%
+
+
+
+
+\noindent\makebox[1cm]{}На рисунке \ref{il:VV1} показана блок-схема программы вычислителя В.\par%
+\noindent\makebox[1cm]{}Вычисление приборной скорости производится по формуле (\ref{fl:1.1}).\par%
+\noindent\makebox[1cm]{}В программной единице  setup() поочередно вводятся необходимые параметры и далее происходит обращение к процедуре Wire.begin().\par%
+
+
+
+\newpage
+
+%\begin{textblock*}{1cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{1.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{45.pdf}
+\end{textblock*}
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{V1.pdf}}\par
+
+%\raggedright\singlespace\small$\Delta x$ --- перемещение стенки цилиндра, м;\par%   ^ --- ;   \par
+%\centering\singlespace\small 1 --- серия меню;
+%2 --- область сообщений;
+%3 --- текстовая консоль;
+%4 --- панель инструментов с кнопками общих функций;
+%5 --- текстовый редактор\par
+
+\centering\singlespace\small Источник:  собственная разработка\par%
+
+\refstepcounter{l}
+
+
+%\refstepcounter{la}
+
+\normalsize
+
+Рисунок  \thel\ ---    Блок-схема программы вычислителя В\label{il:VV1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+\noindent\makebox[1cm]{}После идет обращение к программной единице  loop(), в которой производится считывание данных с АЦП от датчика давления Д, вычисление\linebreak\pagebreak%    
+
+
+%\newpage
+
+%\begin{textblock*}{1cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{1.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{46.pdf}
+\end{textblock*}
+
+\refstepcounter{np}
+
+
+\noindent приборной скорости, затем   производится  обращение к процедуре Wire.Transmission(9), передача вычисленной приборной скорости vp и окончание передачи через Wire.endTransmission().\par%
+
+\noindent\makebox[1cm]{}Далее идет возврат к программной единице  loop() и цикл повторяется.\par%
+
+
+\noindent\makebox[1cm]{}Ниже приведен    исходный код   программы вычислителя В на языке  C.\par%
+
+
+\vspace{\baselineskip}\par
+
+%\small
+\footnotesize
+\singlespace
+
+\ttfamily
+
+\noindent \#define defpd a0\par% // получение данных измеряемого давления от АЦП a0\par%
+\noindent \#include <Wire.h>\par% // подключаем библиотеку I2C\par%
+
+%\noindent // параметры\par%
+
+\noindent float vp;\par% // приборная скорость\par%
+\noindent float p0;\par% // стандартное давление  в соответствии с ГОСТ 4401\par%
+\noindent float t0;\par% // стандартная температура в соответствии с ГОСТ 4401\par%
+\noindent float k;\par% // показатель адиабаты в соответствии с ГОСТ 4401\par%
+\noindent float R;\par% // газовая постоянная воздуха\par%
+\noindent float pd;\par% // динамическое давление\par%
+\noindent float pmin;\par% // нижнее значение диапазона измерения датчика\par%
+\noindent float pmax;\par% // верхнее значение диапазона измерения датчика\par%
+\noindent byte raw[4];\par% // массив для передачи данных\par%
+
+%\noindent // Предварительное вычисление \par%
+%\noindent float beta;\par%
+\noindent  void setup() \{\par%
+\noindent  \ \ \ \ p0 = 101325;\par%
+\noindent  \ \ \ \ t0 = 288.15;\par%
+
+
+\noindent  \ \ \ \ k = 1.4;\par%
+\noindent  \ \ \ \ R = 287.14;\par%
+\noindent  \ \ \ \ pmin = 0;\par%
+\noindent  \ \ \ \ pmax = 40000;\par%
+\noindent \ \ \ \ Wire.begin();\par% // инициализация передачи данных\par%
+
+\noindent \};\par%
+
+
+%\noindent beta = td/ (td + h * N);\par% // td - постоянная времени дифференцирования; h - интервал выборки; N - число порядка 5-10\par%
+%\noindent float ipart;\par%
+%\noindent ipart = 0;\par%
+%\noindent float x;\par%
+%\noindent x = 0;\par%
+%\noindent float uc;\par%
+%\noindent float y;\par%
+%\noindent float e;\par%
+%\noindent float ppart;\par%
+%\noindent float dpart;\par%
+%\noindent float dp; // pп - p\par%
+%\noindent float K;\par%
+
+%\noindent //  вычисление приборной скорости \par%
+\noindent  void loop() \{\par%
+\noindent \ \ \ \ pd = (float)analogread(defpd) * (pmax - pmin) / 1023.;\par% // ввод значения измеренного давления\par%
+%\noindent y = i2c(v);\par% // ввод измерения i2c вход от вычислителя В\par%
+\noindent \ \ \ \ vp = sqrt(2 * R * t0 * k * (pow(1 + pd / p0, (k - 1) / k) - 1) / (k - 1));\par% // вычисление  приборной скорости\par%
+%\noindent ppart = K * e; // пропорциональная часть\par%
+%\noindent dpart = x; // дифференциальная часть\par%
+%\noindent u = ppart + ipart + dpart; // вывод регулятора\par%
+
+%\noindent twioutput(u); // передача вычисленной приборной скорости на прибор П\par%
+\noindent \ \ \ \ Wire.beginTransmission(9);\par% // 9 - номер платы адресата\par%
+
+\noindent \ \ \ \ (float\&)raw = vp;\par% // записываем побайтно vp в raw\par%
+\noindent \ \ \ \ for (int i = 0; i < 4; i++) \{\par% // передаем raw\par%
+\noindent \ \ \ \ \ \ \ \ Wire.write(raw[i]);\par% \par%
+\noindent \ \ \ \ \}\par%
+
+
+%\noindent Wire.write(vp); // передаем vp\par%
+\noindent \ \ \ \ Wire.endTransmission();\par% // конец передачи\par%
+\noindent \};\par%
+%\noindent x = beta * x; // обновление состояния\par%
+%\noindent \par%
+
+
+\normalsize
+\normalfont
+\onehalfspacing
+
+%\vspace{\baselineskip}\par
+
+
+
+	\refstepcounter{j}
+
+\vspace{\baselineskip}\par
+
+%\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Arduino  Software (IDE). Вычислитель В. Структурная схема АСУ самолетом по приборной скорости. Прибор автоматический регулирующий самолет по приборной скорости\label{s:2.10x}\par%
+\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Структурная схема АСУ самолетом по приборной скорости. Прибор автоматический регулирующий самолет по приборной скорости\label{s:2.10xxx}\par%
+
+\vspace{\baselineskip}\par
+
+
+
+\noindent\makebox[1cm]{}На рисунке \ref{il:3.ss1} приведена структурная схема прибора автоматического регулирующего самолет по приборной скорости.\par%
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}П-регулятор стоить применять, если не важно значение ошибки в 5--10\%.\par
+
+
+%\newpage
+\newpage
+\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{47.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{24.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=29.7cm
+\pdfpageheight=21.cm
+
+\hsize=25.7cm
+\vsize=16.cm
+
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.ss1.pdf}}\par
+
+\normalfont\centering\singlespace\small\noindent\fontdimen2\font=.3cm\fontdimen3\font=2cm 
+$\theta \left( p \right)$ --- изображение угла тангажа $\theta$, рад; 
+$k_\theta = 57,3$ рад\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}° --- коэффициент   преобразования угла тангажа $\theta$ из рад в °,  
+$k_d$ ---     дифференциального,  
+$k_i$ ---     интегрального,
+$k_p$ ---   пропорционального     звена регулятора,
+$k_\mathrm{в} = 8000$ ---     вычислителя В,  
+$k_\mathrm{д} = 0,0000005$ ---     датчика  давления Д,  
+$k_\mathrm{у} = 250$ ---     усилителя У;
+$p$ --- оператор Лапласа;
+$R \left( p \right)$ --- изображение выходной характеристики СПРВ;
+$u_2 ^{**} \left( p \right)$ ---    код пропорциональный напряжению на выходе АЦП вычислителя В;   
+$u \left( p \right)$ ---     напряжение на выходе из датчика  давления Д, 
+$u_\mathrm{у} \left( p \right)$ ---     на выходе из усилителя  У;   
+$V_\mathrm{пр} \left( p \right)$ --- изображение приборной скорости, ч\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}км;
+$V_\mathrm{пр} '^{**} \left( p \right)$ --- код пропорциональный изображению   приборной скорости, поступающей в прибор П,    ч\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}км;
+$V_{\mathrm{пр}E} ^{**} \left( p \right)$ ---  код пропорциональный ошибке изображения приборной скорости,     ч\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}км;
+$V_\mathrm{пр} \left( \theta \right)$ ---  зависимость $V_\mathrm{пр}$, ч\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}км, от угла тангажа $\theta$, рад;
+$W_{\omega gz/ \Delta \delta_\mathrm{в}} \left( p\right)$ ---   передаточная функция  преобразования воздействия руля высоты на самолет в угол тангажа $\theta$, рад;
+$W_\mathrm{рв} \left( p \right)$ --- передаточная функция   руля высоты;
+$W_{\omega gz/ w_x} \left( p \right)$ ---   передаточная функция   воздействия ветра на самолет  по оси  $x$,   
+$W_{\omega gz/ w_y} \left( p \right)$ ---       воздействия ветра на самолет  по оси  $y$;   
+$w_x \left( p \right)$ --- входная характеристика передаточной функции $W_{\omega gz/ w_x} \left( p \right)$,   
+$w_y \left( p \right)$ ---     передаточной функции $W_{\omega gz/ w_y} \left( p \right)$;   
+$x_{w_x} \left( p \right)$ --- выходная характеристика передаточной функции $W_{\omega gz/ w_x} \left( p \right)$,
+$x_{w_y} \left( p \right)$ ---       передаточной функции $W_{\omega gz/ w_y} \left( p \right)$
+
+%$\Delta P_1 \left( V_\mathrm{и} \right)$ --- зависимость  $\Delta P_1 $ от $V_\mathrm{и}$;  
+%$\Delta P_1 \left( p\right)$ --- изображение разницы давлений $p_\mathrm{п} -p$,   
+%$\Delta P_2 ^{**} \left( p\right)$ ---  кода разницы давлений $p_\mathrm{п} -p$,   
+%$V_\mathrm{и}  \left( \Delta P_2\right)$ - код  преобразования $\Delta P_2$ в  $V_\mathrm{и}$,   %, ч\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}м;
+%$V_\mathrm{и} ^{**} \left( p\right)$ - код изображения,    %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;
+%$V_\mathrm{из} \left( p\right)$ - изображение   заданное,   %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+%$V_\mathrm{из} \left( p\right)$ - изображение    заданное    приборной скорости;   %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+
+\centering\singlespace\fontdimen2\font=.3cm\fontdimen3\font=2cm Источник:  собственная разработка\par%
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Структурная         схема    прибора   автоматического регулирующего самолет по приборной скорости\label{il:3.ss1}\par%\vspace{6pt}\par
+%автоматического,   регулирующего   изделие    по   индикаторной    \adjustbox{margin=0pt 7pt 0pt 7pt}{$V_\mathrm{и}$}  скорости
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{48.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{25.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+
+
+
+
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}ПИ-регулирование применимо в условиях, если не важно время стабилизации процесса.\par
+\justifying\normalfont\noindent\makebox[1cm]{}Если важно время регулирования в сторону его уменьшения, тогда нужно использовать ПИД-регулятор.\par
+
+
+
+\noindent\makebox[1cm]{}В качестве регулятора используется ПИД-регулятор.\par%
+%\noindent\makebox[1cm]{}Необходимо определить параметры регулятора.\par%
+
+\refstepcounter{f}
+
+\noindent\makebox[1cm]{}Передаточная функция руля высоты имеет вид [\ref{bib:non-fiction.ab1}]:\par%
+
+\vspace{\baselineskip}\par
+\noindent\makebox[2cm]{}\hfill\adjustbox{margin=0pt 7pt 0cm 7pt}{$W_\mathrm{рв} \left( p \right) = \dfrac{1}{0,08 p + 1}$}.\hfill\makebox[2cm][r]{(\thef)}\label{fl:3.2}\par
+\vspace{\baselineskip}\par
+%\noindent\makebox[1cm][l]{где}$V_\mathrm{пр}$ --- приборная скорость, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м;\par
+%\noindent\makebox[1cm]{}$R = 287,14$ кг\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}К\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}Дж --- газовая постоянная воздуха;\par%
+
+
+
+
+\refstepcounter{f}
+
+\noindent\makebox[1cm]{}Передаточная функция преобразования воздействия руля высоты на самолет в угол тангажа $\theta$, рад,   имеет вид [\ref{bib:non-fiction.ab1}]:\par%
+
+\vspace{\baselineskip}\par
+%\noindent\makebox[2cm]{}\hfill\adjustbox{margin=0pt 7pt 0cm 7pt}{$W_{\omega gz/ \Delta \delta_\mathrm{в}} \left( p\right) = -c_\delta p - c_\delta b_\dot{y} p^2 + \left( c_\dot{v} + b_\dot{y} + c_\ddot{y} V_b 180° \pi \right) p + c_\dot{y} V_b 180° \pi + b_\dot{y} c_\dot{v}$} [\ref{bib:non-fiction.ab1}],\hfill\makebox[2cm][r]{(\thef)}\label{fl:3.3}\par
+\noindent\makebox[1.5cm]{}\hfill\adjustbox{margin=0pt 7pt 0cm 7pt}{$W_{\omega gz/ \Delta \delta_\mathrm{в}} \left( p\right) = \dfrac{-c_\delta p - c_\delta b_{\dot{y}}}{p^2 + \left( c_{\dot{v}} + b_{\dot{y}} + c_{\ddot{y}} \dfrac{V_b}{57,3} \right) p + c_{\dot{y}} \dfrac{V_b}{57,3} + b_{\dot{y}} c_{\dot{v}}}$},\hfill\makebox[1.5cm][r]{(\thef)}\label{fl:3.3}\par
+\vspace{\baselineskip}\par
+\noindent\makebox[1cm][l]{где}коэффициенты уравнений продольного движения    взяты из [\ref{bib:non-fiction.up1}] для самолета N 3 --- тяжелого бомбардировщика со стреловидным крылом    и приведены в таблице \ref{tb:3.s1};\par
+\noindent\makebox[1cm]{}$V_b$ --- скорость ЛА относительно воздуха в невозмущенном режиме, ч\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}км.\par%
+
+
+%\noindent\makebox[1cm]{}Коэффициенты     резистора переменного 16K1-10C5K, L15KC  приведены  в  таблице  \ref{tb:2.tz1}.\par
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\noindent Таблица  \thet\ ---   Коэффициенты уравнений продольного движения для самолета N 3\label{tb:3.s1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}c@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}c@{\makebox[4.7mm][l]{}}|}
+\hline
+\makebox[7.5cm][c]{Коэффициент} & \makebox[7.5cm][c]{Самолет N 3} \\ \hline%
+$a_v$ & 0,171 \\ %\hline%
+$b_v$ & 0 \\ %\hline%
+$b_{\dot{y}}$ & 1,39 \\ %\hline%
+$c_v$ & 1,14 \\ %\hline%
+$c_{\dot{y}}$ & 1,94 \\ %\hline%
+$c_{\ddot{y}}$ & 0,13 \\ %\hline%
+$c_\delta$ & 4,72 \\ \hline%
+% &  \\ %\hline%
+% &  \\ %\hline%
+% &  \\ %\hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: [\ref{bib:non-fiction.up1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+\normalsize
+
+
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{49.pdf}
+\end{textblock*}
+
+
+
+\refstepcounter{f}
+
+\noindent\makebox[1cm]{}Зависимость    приборной скорости от угла тангажа, °, равна  [\ref{bib:non-fiction.aaz1}]:\par%
+
+\vspace{\baselineskip}\par
+\noindent\makebox[1.5cm]{}\hfill\adjustbox{margin=0pt 7pt 0cm 7pt}{$V_\mathrm{пр} \left( \theta \right) = \dfrac{348,094 - 1,571 \theta + 595,517 -2,454 \theta}{2}$}.\hfill\makebox[1.5cm][r]{(\thef)}\label{fl:3.4}\par
+\vspace{\baselineskip}\par
+%\noindent\makebox[1cm][l]{где}коэффициенты уравнений продольного движения    взяты из [\ref{bib:non-fiction.up1}] для самолета N 3 --- тяжелого бомбардировщика со стреловидным крылом    и приведены в таблице \ref{tb:3.s1};\par
+%\noindent\makebox[1cm]{}$V_b$ --- скорость ЛА относительно воздуха в невозмущенном режиме, ч\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}км.\par%
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Для нахождения коэффициентов регулятора использовалась среда  Altair Embed (в прошлом VisSim).\par%
+
+
+\refstepcounter{f}
+
+\justifying\normalfont\noindent\makebox[1cm]{}Для преобразования приборной скорости $V_\mathrm{пр}$, ч\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}км, в динамическое давление, Па, используется формула при $M \le 1$\par%
+
+\vspace{\baselineskip}\par
+\noindent\makebox[1.5cm]{}\hfill\adjustbox{margin=0pt 7pt 0cm 7pt}{$p_\mathrm{дин} = p_\mathrm{п} - p = p_0 \left[ \left[ V_\mathrm{пр} \dfrac{k - 1}{2 k R T_0} + 1 \right] ^{\dfrac{k}{k - 1}} - 1 \right]$},\hfill\makebox[1.5cm][r]{(\thef)}\label{fl:3.5}\par
+\vspace{\baselineskip}\par
+\noindent\makebox[1cm][l]{где}$p_\mathrm{дин} $ --- динамическое давление, Па; $p_\mathrm{п}$, $p$ --- полное, статическое давление, Па;\par%
+\noindent\makebox[1cm]{}$p_0 = 101325$ Па --- стандартное давление в соответствии с ГОСТ [\ref{bib:regulatory.gost4401}];\par%
+\noindent\makebox[1cm]{}$V_\mathrm{пр}$ --- приборная скорость, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м;\par
+\noindent\makebox[1cm]{}$k = 1,4$ --- показатель адиабаты в соответствии с ГОСТ [\ref{bib:regulatory.gost4401}];\par%
+\noindent\makebox[1cm]{}$R = 287,14$ кг\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}К\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}Дж --- газовая постоянная воздуха;\par%
+\noindent\makebox[1cm]{}$T_0 = 288,15$ К --- стандартная температура в соответствии с ГОСТ [\ref{bib:regulatory.gost4401}].\par%
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm][l]{где}коэффициенты уравнений продольного движения    взяты из [\ref{bib:non-fiction.up1}] для самолета N 3 --- тяжелого бомбардировщика со стреловидным крылом    и приведены в таблице \ref{tb:3.s1};\par
+%\noindent\makebox[1cm]{}$V_b$ --- скорость ЛА относительно воздуха в невозмущенном режиме, ч\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}км.\par%
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Для обратного преобразования давления в приборную скорость $V_\mathrm{пр}$, ч\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}км,   используется формула    \ref{fl:1.1}.\par%
+
+
+
+
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Коэффициенты регулятора определялись следующим образом.\par%
+\justifying\normalfont\noindent\makebox[1cm]{}Брался квадрат ошибки и  затем интегрировался и подавался на блок cost, расположенного в блоках оптимизации.\par%
+\justifying\normalfont\noindent\makebox[1cm]{}Далее в падающем меню выбираем Система/ Оптимизация Системы, ставим галочку на Оптимизации параметров, ошибку, которая  удовлетворяет, как ошибку разницы между текущей и предыдущим значением ошибки.\par%
+\justifying\normalfont\noindent\makebox[1cm]{}Затем    выбираем Метод оптимизации, например, Powel.\par%
+\justifying\normalfont\noindent\makebox[1cm]{}После   на вход блока unknownParameter подаем значение, например, для пропорционального звена равного 1, и выводим значение на блок Variable, назвав его для пропорционального звена p.\par%
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{50.pdf}
+\end{textblock*}
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Выполняем то же для коэффициентов интегрального, дифференциального звена. Запускаем парамметризацию через Run.\par%
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Полученные значения на выходе из блоков Variable будут искомыми коэффициентами регулятора.\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}Значения коэффициентов передаточных звеньев берем из   [\ref{bib:non-fiction.bes1} ;  \ref{bib:non-fiction.gus1} ;  \ref{bib:non-fiction.ab1} ;  \ref{bib:non-fiction.aaz1} ;  \ref{bib:non-fiction.aaz1} ;  \ref{bib:non-fiction.per1}].\par%
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Коэффициенты  пропорционального, интегрального, дифференциального звена равны     0,00071904, \adjustbox{margin=0pt 7pt 0pt 7pt}{$1,132175 \times 10^{-7}$}, 0,000931013.\par%
+
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}Переходная характеристика $h \left( t \right)$, ч\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}км, процесса показана на рисунке \ref{il:3.ht}.\par%
+
+
+%\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.ht.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm1,    3  ---  мембрана;  2  ---  шток;     4  ---     ПЧЭ}\par
+
+%\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  собственная разработка\par%
+
+%\refstepcounter{l}
+
+%\normalsize
+
+%Рисунок  \thel\ ---  Переходная характеристика $h \left( t \right)$ процесса\label{il:3.ht}\par%\vspace{6pt}\par
+%\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+%\refstepcounter{nl}
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}Весовая функция $w \left( t \right)$, ч\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}км,  показана на рисунке \ref{il:3.wt}.\par%
+
+
+%\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.wt.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm1,    3  ---  мембрана;  2  ---  шток;     4  ---     ПЧЭ}\par
+
+%\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  собственная разработка\par%
+
+%\refstepcounter{l}
+
+%\normalsize
+
+%Рисунок  \thel\ ---  Весовая функция $w \left( t \right)$ процесса\label{il:3.wt}\par%\vspace{6pt}\par
+%\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+%\refstepcounter{nl}
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}ЛАЧХ разомкнутого контура показана на рисунке \ref{il:3.amp1}.\par%
+
+
+%\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.amp1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm1,    3  ---  мембрана;  2  ---  шток;     4  ---     ПЧЭ}\par
+
+%\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  собственная разработка\par%
+
+%\refstepcounter{l}
+
+%\normalsize
+
+%Рисунок  \thel\ ---  ЛАЧХ разомкнутого контура\label{il:3.amp1}\par%\vspace{6pt}\par
+%\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+%\refstepcounter{nl}
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}ЛФЧХ разомкнутого контура показана на рисунке \ref{il:3.ph1}.\par%
+
+
+%\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.ph1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm1,    3  ---  мембрана;  2  ---  шток;     4  ---     ПЧЭ}\par
+
+%\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  собственная разработка\par%
+
+%\refstepcounter{l}
+
+%\normalsize
+
+%Рисунок  \thel\ ---  ЛФЧХ разомкнутого контура\label{il:3.ph1}\par%\vspace{6pt}\par
+%\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+%\refstepcounter{nl}
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}Анализ диаграммы Боде для исследуемой системы показывает, что запас устойчивости по амплитуде равен 31,07 дБ, запас устойчивости по фазе равен 76,61°, частота среза равна 0,04 Гц.\par%
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Годограф Найквиста  исследуемой системы    показана на рисунке \ref{il:3.n1}.\par%
+
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.n1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm1,    3  ---  мембрана;  2  ---  шток;     4  ---     ПЧЭ}\par
+
+\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  собственная разработка\par%
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Годограф Найквиста исследуемой системы\label{il:3.n1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Годограф Найквиста исследуемой системы не охватывает точку с координатами ($-$1, 0), то есть     замкнутая исследуемая система устойчива.\par%
+
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Моделирование    воздействия ветра на самолет не производилось.\par%
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Для САР самолетами по приборной скорости ошибка в регулировании   составляет $\pm$10 ч$^{-1}$км.\par
+\justifying\normalfont\noindent\makebox[1cm]{}Ошибка в ходе моделирования не превысила 3--4 ч$^{-1}$км, что свидетельствует о приемлемых результатах найденного закона регулирования и его параметров.\par
+
+
+
+\noindent\makebox[1cm]{}На рисунке \ref{il:algp1} показана блок-схема программы прибора П.\par%
+
+
+%\refstepcounter{np}
+
+\newpage
+\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{51.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{22.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=42.cm
+\pdfpageheight=29.7cm
+
+\hsize=38.cm
+\vsize=24.7cm
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{algp.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=.4cm $F \left( t\right)$ ---  возмущающее воздействие;\par%
+%\raggedright\singlespace\small $u '$ --- код напряжения пропорционального измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $u \left( t\right)$ --- напряжение пропорциональное измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} '$ --- код  приборной скорости измеренной;\par%, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} \left( t\right)$ ---  приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} '$ --- код заданной приборной скорости;\par%, с\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} \left( t\right)$ --- заданная приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+%\centering\singlespace\small В --- вычислитель В;
+%Д --- датчик давления Д;
+%З --- задатчик З;
+%К --- компьютер К;
+%Кн. --- кнопка ручки управления;
+%П --- прибор П, формирующий управляющее воздействие;
+%Пер. --- переключатель;
+%РУ --- ручка управления;
+%СПРВ --- сервопривод СПРВ;
+%У --- усилитель У\par%
+
+
+\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:non-fiction.vor1}]}\par
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---   Блок-схема    программы    прибора   П\label{il:algp1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+%\noindent\makebox[1cm]{}Примечание           ---        1,   2,    3,      4     ---    контакты.\par
+
+
+%\refstepcounter{np}
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{52.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{23.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+
+\noindent\makebox[1cm]{}В программной единице  setup() происходит обращение к процедуре Serial.begin(9600), далее к 11 пину Arduino Uno Rev3 SMD, к которому подключен сервопривод СПРВ, происходит обращение через servo1.attach(11).\par%
+\noindent\makebox[1cm]{}После происходит обращение к процедуре Wire.begin(), далее происходит присваивания td1 значение интервала времени, равного 0,0625 с.\par%
+\noindent\makebox[1cm]{}Далее фиксируем время в t1, после происходит присвоение переменным их значений.\par%
+\noindent\makebox[1cm]{}В программной единице loop() происходит присвоение переменным bot1, sw1 значений от АЦП Arduino A0, A2.\par%
+
+\noindent\makebox[1cm]{}Если нажата кнопка ручки управления РУ bot1, тогда в переменную hd1 считываем значение положения ручки управления РУ от АЦП A1, пересчитываем его  в углы отклонения сервопривода и передаем это значение на сервопривод, иначе если включен переключатель sw1, тогда получаем данные от вычислителя В и получаем значение положения задатчика З от АЦП A3, пересчитываем его в приборную скорость, вычисляем значение ошибки e1 приборной скорости и рассчитываем компоненты управляющего сигнала up, ui, фиксируем время t2.\par%
+\noindent\makebox[1cm]{}Далее если разница по модулю текущего времени и времени t1 больше td1, тогда вычисляем компоненту управляющего сигнала ud и рассчитываем значение управляющего сигнала u1.\par%
+\noindent\makebox[1cm]{}После передаем это значение на сервопривод и обнуляем переменные u1, up, ui, ud.\par%
+
+\noindent\makebox[1cm]{}Иначе получаем значение приборной скорости от САУ управления самолетом и вычислителя В.\par%
+\noindent\makebox[1cm]{}Аналогичным образом рассчитываем значение управляющего сигнала и передаем его на сервопривод.\par%
+
+\noindent\makebox[1cm]{}Если последовательный порт доступен, тогда считываем значение с клавиатуры Кл., получаемое через последовательного порта в val1.\par%
+\noindent\makebox[1cm]{}Если val1 равно 1, тогда прибавляем переменной единицу.\par%
+\noindent\makebox[1cm]{}Если значение переменной ii меньше 0 или больше 2, тогда присваиваем ii минус единицу.\par%
+\noindent\makebox[1cm]{}Иначе если val1 равно 2, тогда отнимаем от a1[ii] 0,001.\par%
+\noindent\makebox[1cm]{}Иначе если val1 равно 3, тогда прибавляем к  a1[ii] 0,001.\par%
+
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{53.pdf}
+\end{textblock*}
+
+
+
+\noindent\makebox[1cm]{}Присваиваем переменным kp, ki, kd значения a1[0], a1[1], a1[2].\par%
+
+
+
+
+\noindent\makebox[1cm]{}Ниже приведен    исходный код   программы прибора автоматического регулирующего самолет по приборной скорости  П на языке  C.\par%
+
+%\small
+\vspace{\baselineskip}\par
+
+
+
+\footnotesize
+\singlespace
+
+\ttfamily
+
+
+
+\noindent \#define defbot1 a0\par% // получение данных о нажатой кнопке ручки управления от АЦП a0\par%
+\noindent \#define defhd1 a1\par% // получение данных о положении  ручки управления от АЦП a1\par%
+
+\noindent \#include <Servo.h>\par% // подключаем библиотеку для сервопривода\par%
+
+\noindent \#define defsw1 a2\par% // получение данных о положении переключателя   от АЦП a2\par%
+
+
+\noindent \#define defz1 a3\par% // получение данных о положении задатчика   от АЦП a3\par%
+
+
+\noindent \#include <Wire.h>\par% // подключаем библиотеку I2C\par%
+
+%\noindent // параметры\par%
+
+
+
+\noindent float bot1;\par% // переменная для кнопки \par%
+\noindent float hd1;\par% // переменная для положения ручки управления \par%
+
+\noindent Servo servo1;\par% // экземпляр servo1 класса Servo\par%
+
+\noindent float sw1;\par% // переменная для переключателя \par%
+\noindent float z1;\par% // переменная для задатчика \par%
+\noindent float vp1;\par% // переменная для приборной скорости \par%
+\noindent byte raw[4];\par% // переменная raw\par%
+
+\noindent float td1;\par% // интервал времени\par%
+\noindent float t1;\par% // временной штамп 1\par%
+\noindent float t2;\par% // временной штамп 2\par%
+
+\noindent float u1;\par% // управляющий сигнал\par%
+\noindent float up;\par% // \par%
+\noindent float ui;\par%\par% // \par%
+\noindent float ud;\par% // \par%
+
+\noindent float kp;\par% // \par%
+\noindent float ki;\par%\par% // \par%
+\noindent float kd; \par%// \par%
+
+\noindent float e1;\par% // текущая ошибка\par%
+%\noindent float e2; // предыдущая ошибка\par%
+
+\noindent float vp2;\par% // переменная для приборной скорости от САУ управления самолетом\par%
+
+\noindent int val1;\par% // \par%
+\noindent float a1[3];\par% // \par%
+\noindent int ii;\par% // \par%
+
+%\noindent // Предварительное вычисление \par%
+\noindent  void setup() \{\par%
+\noindent  \ \ \ \ Serial.begin(9600);\par%
+
+\noindent \ \ \ \ servo1.attach(11);\par% // 11 пин для ШИМ СПРВ\par%
+
+\noindent \ \ \ \ Wire.begin();\par% // инициализация получения  данных\par%
+
+\noindent \ \ \ \ td1 = .0625;\par% // время расчета dt (секунд) управляющего сигнала u1\par%
+\noindent \ \ \ \ t1 = millis();\par% // фиксация времени 1\par%
+
+\noindent \ \ \ \ up = 0;\par%
+
+
+
+\noindent \ \ \ \ ui = 0;\par%
+\noindent \ \ \ \ ud = 0;\par%
+
+\noindent \ \ \ \ kp = .000719;\par%
+\noindent \ \ \ \ ki = 1.1322e-7;\par%
+\noindent \ \ \ \ kd = .000931;\par%
+
+\noindent \ \ \ \ a1[0] = kp;\par%
+\noindent \ \ \ \ a1[1] = ki;\par%
+\noindent \ \ \ \ a1[2] = kd;\par%
+
+\noindent \ \ \ \ ii = -1;\par%
+
+%\noindent e2 = .1;\par%
+
+\noindent \};\par%
+
+
+\noindent  void loop() \{\par%
+
+\noindent \ \ \ \ bot1 = (float)analogread(defbot1) * 1. / 1023.;\par% //  отслеживание нажатия кнопки  \par%
+\noindent \ \ \ \ sw1 = (float)analogread(defsw1) * 1. / 1023.;\par% //  отслеживание положения переключателя  \par%
+
+\noindent \ \ \ \ if (bot1 > .5) \{\par% // если кнопка нажата, тогда\par%
+\noindent \ \ \ \ \ \ \ \ hd1 = (float)analogread(defhd1) * 1. / 1023.;\par%\par% //  отслеживание положения ручки управления  \par%
+\noindent \ \ \ \ \ \ \ \ hd1 = map(0., 1., 30, 150);\par% // сопоставляем значение положения ручки управления с углом положения сервопривода\par%
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{54.pdf}
+\end{textblock*}
+
+
+
+\noindent \ \ \ \ \ \ \ \ servo1.write(hd1);\par% // изменение значения положения сервопривода\par%
+
+
+\noindent \ \ \ \ \} else if (sw1 > .5) \{ \par%// иначе, если включен директивный режим, тогда\par%
+
+%\noindent // получаем данные приборной скорости измеренной\par%
+
+\noindent \ \ \ \ \ \ \ \ Wire.beginTransmission(9); \par%// 9 - номер этой платы\par%
+
+\noindent \ \ \ \ \ \ \ \ for (int i = 0; i < 4; i++) \{ \par%// передаем raw\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ raw[i] = Wire.read(); \par%// читаем по байтно \par%
+\noindent \ \ \ \ \ \ \ \ \}\par%
+\noindent \ \ \ \ \ \ \ \ \&vp1 = (float\&)raw; \par%// записываем побайтно raw в vp1\par%
+\noindent \ \ \ \ \ \ \ \ Wire.endTransmission();\par% // конец обмена\par%
+
+%\noindent // задатчик\par%
+\noindent \ \ \ \ \ \ \ \ z1 = (float)analogread(defz1) * 1. / 1023.;\par% //  отслеживание положения  задатчика  \par%
+\noindent \ \ \ \ \ \ \ \ z1 = map(0., 1., 0, 750);\par% // сопоставляем значение положения  задатчика с задаваемой приборной скоростью в км/ ч\par%
+
+
+
+%\noindent // код регулятора\par%
+
+\noindent \ \ \ \ \ \ \ \ e1 = z1 - vp1;\par%
+
+\noindent \ \ \ \ \ \ \ \ up = kp * e1;\par%
+\noindent \ \ \ \ \ \ \ \ ui = ui + ki * abs(millis() - t2) * e1;\par%
+
+\noindent \ \ \ \ \ \ \ \ t2 = millis(); \par%// фиксация времени 2\par%
+
+
+\noindent \ \ \ \ \ \ \ \ if (abs(millis() - t1) > td1) \{\par%// \par%
+%\noindent // расчет u1\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ ud = e1 - kd * ud;\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ u1 = up + ui + ud;\par%
+
+%\noindent // отправка данных на СПРВ\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ servo1.write(u1); \par%// изменение значения положения сервопривода\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ t1 = millis(); \par%// фиксация времени 1\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ u1 = 0;\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ up = 0;\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ ui = 0;\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ ud = 0;\par%
+
+\noindent \ \ \ \ \ \ \ \ \}\par%// \par%
+
+\noindent \ \ \ \ \} else \{ \par%// иначе\par%
+
+%\noindent // автоматический режим\par%
+
+%\noindent // получаем данные приборной скорости от САУ управления самолетом\par%
+
+\noindent \ \ \ \ \ \ \ \ Wire.beginTransmission(8); \par%// \par%
+
+\noindent \ \ \ \ \ \ \ \ for (int i = 0; i < 4; i++) \{ \par%// передаем raw\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ raw[i] = Wire.read(); \par%// читаем по байтно \par%
+\noindent \ \ \ \ \ \ \ \ \}\par%
+\noindent \ \ \ \ \ \ \ \ \&vp2 = (float\&)raw; \par%// записываем побайтно raw в vp2\par%
+\noindent \ \ \ \ \ \ \ \ Wire.endTransmission(); \par%// конец обмена\par%
+
+%\noindent // получаем данные приборной скорости измеренной\par%
+
+\noindent \ \ \ \ \ \ \ \ Wire.beginTransmission(9); \par%// 9 - номер этой платы\par%
+
+\noindent \ \ \ \ \ \ \ \ for (int i = 0; i < 4; i++) \{ \par%// передаем raw\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ raw[i] = Wire.read(); \par%// читаем по байтно \par%
+\noindent \ \ \ \ \ \ \ \ \}\par%
+\noindent \ \ \ \ \ \ \ \ \&vp1 = (float\&)raw; \par%// записываем побайтно raw в vp1\par%
+\noindent \ \ \ \ \ \ \ \ Wire.endTransmission(); \par%// конец обмена\par%
+
+
+%\noindent // код регулятора\par%
+
+\noindent \ \ \ \ \ \ \ \ e1 = vp2 - vp1;\par%
+
+\noindent \ \ \ \ \ \ \ \ up =  kp * e1;\par%
+\noindent \ \ \ \ \ \ \ \ ui = ui + ki * abs(millis() - t2) * e1;\par%
+
+\noindent \ \ \ \ \ \ \ \ t2 = millis(); \par%// фиксация времени 2\par%
+
+%\noindent ud = e1 - kd * e2;\par%
+
+\noindent \ \ \ \ \ \ \ \ if (abs(millis() - t1) > td1) \{\par%// \par%
+%\noindent // расчет u1\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ ud = e1 - kd * ud;\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ u1 = up + ui + ud;\par%
+
+%\noindent // отправка данных на СПРВ\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ servo1.write(u1); \par%// изменение значения положения сервопривода\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ t1 = millis(); \par%// фиксация времени 1\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ u1 = 0;\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ up = 0;\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ ui = 0;\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ ud = 0;\par%
+
+
+
+\noindent \ \ \ \ \ \ \ \ \}\par%
+
+%\noindent // взаимодействие с компьютером\par%
+\noindent \ \ \ \ \ \ \ \ if (Serial.available()) \{\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ val1 = Serial.read();\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ if (val1 == '1') \{ \par%// \par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ii = ii + 1;\par%
+%\noindent ii = ii + 1;\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if (ii < 0 || ii > 2) \{ \par%// \par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ii = -1;\par%
+%\noindent ii = ii + 1;\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}\par%
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{55.pdf}
+\end{textblock*}
+
+
+
+%\noindent // изменение коэффициентов\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \} else if (val1 == '2') \{\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a1[ii] = a1[ii] - .001;\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \} else if (val1 == '3') \{\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ a1[ii] = a1[ii] + .001;\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ \}\par%
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ kp = a1[0];\par%
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ ki = a1[1];\par%
+
+
+
+\noindent \ \ \ \ \ \ \ \ \ \ \ \ kd = a1[2];\par%
+
+\noindent \ \ \ \ \ \ \ \ \}\par%
+\noindent \ \ \ \ \}\par%
+
+\noindent \};\par%
+
+%\noindent void reg1() \{\par%
+%\noindent \}\par%
+
+%\vspace{\baselineskip}\par
+
+%\normalsize
+
+
+
+\normalsize
+\normalfont
+\onehalfspacing
+
+
+
+
+
+%\noindent\makebox[1cm]{}При написании подраздела \thej\ использованы материалы .\par
+
+
+\endinput

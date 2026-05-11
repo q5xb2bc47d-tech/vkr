@@ -1,0 +1,486 @@
+
+
+%\newpage
+
+%\begin{textblock*}{1cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{1.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{13.pdf}
+%\end{textblock*}
+
+%\refstepcounter{np}
+
+
+%\label{ps:1.1xxx}
+
+%\label{pintro:1}
+
+
+%\centering\onehalfspacing\bfseries\uppercase{Введение}\label{intro:1}\par
+
+
+\vspace{\baselineskip}\par
+
+\justifying\onehalfspacing\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Функциональная схема   АСУ самолетом по приборной скорости\par%\label{s:1.3xxx}\par%
+
+\vspace{\baselineskip}\par
+
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Гражданские   лайнеры     приблизились   к пределам своей эффективности.\par%       Аэродинамика планера   [\ref{bib:non-fiction.eg1}]   доведена до совершенства, а у турбовинтиляторных двигателей   [\ref{bib:non-fiction.eg1}]   остался скромный потенциал по уменьшению удельного расхода топлива,    \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{Вт}^{-1} \mathrm{ч}^{-1} \mathrm{кг}$}.\par
+
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Гражданские   лайнеры     приблизились   к пределам своей эффективности.       Аэродинамика планера   [\ref{bib:non-fiction.eg1}]   доведена до совершенства, а у турбовинтиляторных двигателей   [\ref{bib:non-fiction.eg1}]   остался скромный потенциал по уменьшению удельного расхода топлива,    \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{Вт}^{-1} \mathrm{ч}^{-1} \mathrm{кг}$}.\par
+%        
+%\noindent\makebox[1cm]{}Надежды    на  развитие гражданских перевозок связывают с появлением  электрических самолетов.\par%       Создано   несколько проектов    самолетов   с электрическим     двигателем     [\ref{bib:electronic.vir1} ; \ref{bib:electronic.st1}], получающим энергию от    аккумуляторных батарей.\par%, но  после 2030 года ожидается появление  лайнеров вместимостью до 100 человек, способных преодолевать расстояния до 1000 км.\par%
+%[\ref{bib:non-fiction.eg1}]   
+%; \ref{bib:electronic.el1}
+%\noindent\makebox[1cm]{}Проблема    электрической авиации на данный момент это недостаточная емкость аккумуляторов,   А ч, и отсутствие подходящих электромоторов большой мощности,  Вт.\par%    По прогнозам   емкость,   А ч, литий-ионных   батарей в ближайшие десятилетия смогут увеличить  в      двое.\par
+
+%\noindent\makebox[1cm]{}В 1949 году в Соединенных Штатах стартовала программа по созданию ядерного авиационного двигателя.\par%  Подрядчиками выбрали    General Electric и Pratt \& Whitney.      В качестве летающей лаборатории выбрали     Convair B-36.    Он обладал необходимой грузоподъемностью,    кг,  шириной фюзеляжа,   м,      чтобы разместить   реактор массой   16 т.    Место для него нашлось в задней части бомбового отсека.    Кабина экипажа находилась в   капсуле из свинца, которая весила 12 т.   Излучение прикрывалось     в сторону носовой части самолета   для   чего использовались перегородки   из  различных     материалов.\par%   
+
+%\noindent\makebox[1cm]{}В 1949 году в Соединенных Штатах стартовала программа по созданию ядерного авиационного двигателя.  Подрядчиками выбрали    General Electric и Pratt \& Whitney.      В качестве летающей лаборатории выбрали     Convair B-36.    Он обладал необходимой грузоподъемностью,    кг,  шириной фюзеляжа,   м,      чтобы разместить   реактор массой   16 т.    Место для него нашлось в задней части бомбового отсека.    Кабина экипажа находилась в   капсуле из свинца, которая весила 12 т.   Излучение прикрывалось     в сторону носовой части самолета   для   чего использовались перегородки   из  различных     материалов.\par%   
+%по всему фюзеляжу.\par%
+%[\ref{bib:non-fiction.eg1}]    
+%Биологическую защиту реактора сделали теневой,   то есть 
+%Для  испытаний ядерного реактора в воздухе привлекли  компанию Convair.   
+%\noindent\makebox[1cm]{}Самолет поднялся в небо в  1955 году.   В течении  двух лет он совершил   47  полетов,    часть которых  была выполнена с работающим реактором.   Ни одна из его систем   не была запитана от  реактора.    Реактор использовали    для тестов,   которые проводили во время полетов,   а также   исследовалось влияние радиации на бортовое     оборудование.\par%
+
+%\noindent\makebox[1cm]{}General Electric    разрабатывала двигатель с прямоточной схемой,  Pratt \& Whitney   с использованием теплообменника.     Прямоточная схема работает следующим образом.    Воздушный поток    сжимается с помощью компрессора,      проходит   через   каналы   в  реакторе,   где нагревается.   Далее   газ попадает на турбину, которая соединена с компрессором     валом,   после  выбрасывается через сопловой аппарат, создавая     тягу,   Н.   Преимущества этой схемы   простота,   компактность  конструкции,   но плюсы  перебивает   минус.   Такой двигатель оставляет      радиоактивный след.\par%
+
+
+%\refstepcounter{np}
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{4.pdf}
+%\end{textblock*}
+
+
+
+%\noindent\makebox[1cm]{}В   1961   году   проект         был  свернут.\par%,   что   при   проектировании самолетов является проблемой номер один\par%
+%Концепция    установки,  которую  разрабатывали  в   Pratt \&  Whitney,   работала   следующим образом.     Установка включала в себя два изолированных друг от друга контура.   Первый  контур   включает в себя реактор и систему   трубопроводов, соединенных с теплообменником.   Тепло от реактора по трубам подается с помощью теплоносителя, в качестве которого применялся жидкий натрий.    Схема  второго  контура   схожа   с прямоточной,   но   воздух теперь    проходит  через   теплообменник.  Для    этого используется сеть трубопроводов.  В остальном    все   то же   самое,  что   и на прямоточной схеме:   на входе компрессор, на выходе турбина   и сопловой аппарат.    Схема с теплообменником     практически лишена грязного выхлопа,   но   не лишена недостатков.    И    главный из них это большой вес,    кг, и габариты,   м.     Инженеры   Pratt  \&   Whitney    не смогли  собрать прототип двигателя,   который бы удовлетворял   заказчика.    Он  получался   тяжелым и   сложным.       General  Electric   построила   и   испытала   прототипы   своих   установок.      
+
+%\noindent\makebox[1cm]{}Концепция    установки,  которую  разрабатывали  в   Pratt \&  Whitney,   работала   следующим образом.     Установка включала в себя два изолированных друг от друга контура.   Первый  контур   включает в себя реактор и систему   трубопроводов, соединенных с теплообменником.   Тепло от реактора по трубам подается с помощью теплоносителя, в качестве которого применялся жидкий натрий.    Схема  второго  контура   схожа   с прямоточной,   но   воздух теперь    проходит  через   теплообменник.  Для    этого используется сеть трубопроводов.  В остальном    все   то же   самое,  что   и на прямоточной схеме:   на входе компрессор, на выходе турбина   и сопловой аппарат.    Схема с теплообменником     практически лишена грязного выхлопа,   но   не лишена недостатков.    И    главный из них это большой вес,    кг, и габариты,   м.     Инженеры   Pratt  \&   Whitney    не смогли  собрать прототип двигателя,   который бы удовлетворял   заказчика.    Он  получался   тяжелым и   сложным.       General  Electric   построила   и   испытала   прототипы   своих   установок.      В   1961   году   проект         был  свернут.\par%,   что   при   проектировании самолетов является проблемой номер один\par%
+
+%\noindent\makebox[1cm]{}Программа по созданию   атомных самолетов в Советском Союзе стартовала в 1955 году.     В  1961 году состоялся первый полет с  реактором на борту.   Воздушные испытания продолжались   4  месяца.\par%    За  этот период  выполнили 34 полета,   в большинстве из которых \par%    Ответственные за постройку      установок на ядерном топливе назначили       бюро  Кузнецова и  Люльки, проектирование самолетов поручили коллективам Туполева и Мясищева.     Для воздушных испытаний и отработки противорадиационной защиты выбрали    Ту-95.    В 1958 году построили  реактор.    После наземных испытаний его разместили в бомбовом отсеке летающей лаборатории.   В  1961 году состоялся первый полет с  реактором на борту.   Воздушные испытания продолжались   4  месяца.    За  этот период  выполнили 34 полета,   в большинстве из которых запускали  реактор.\par%
+
+%\noindent\makebox[1cm]{}Программа по созданию   атомных самолетов в Советском Союзе стартовала в 1955 году.\par%    Ответственные за постройку      установок на ядерном топливе назначили       бюро  Кузнецова и  Люльки, проектирование самолетов поручили коллективам Туполева и Мясищева.     Для воздушных испытаний и отработки противорадиационной защиты выбрали    Ту-95.    В 1958 году построили  реактор.    После наземных испытаний его разместили в бомбовом отсеке летающей лаборатории.   
+%запускали  реактор.\par%
+
+%\noindent\makebox[1cm]{}Была   предпринята   попытка создать атомолет на базе    Ан-22.   Большой корпус   самолета   подходил для размещения      установки.   В 1972 году   летающая     лаборатория совершила 23     полета    после   чего  проект    закрыли.\par%
+
+%\noindent\makebox[1cm]{}Kilopower     [\ref{bib:electronic.ki1}]   --- концепт  ядерного    реактора.    Эта разработка может дать от 1 до 10 кВт.     В работу заложен    процесс     ядерного распада.    Мы  генерируем тепло, которое разогревает трубки, заполненные натрием,   натрий вскипает  и    запускает двигатели    Стирлинга   [\ref{bib:non-fiction.kl1}].\par%, простого, состоящего из минимума частей\par%
+
+
+%\refstepcounter{np}
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{5.pdf}
+%\end{textblock*}
+
+
+
+%\noindent\makebox[1cm]{}Принцип   работы    преобразователя   прост.    В нем используется   перемещающийся поршень и герметичная трубка с натрием внутри.   Трубка   нагревается с одной стороны,   избыточное тепло выводится наружу при помощи радиатора,   что обеспечивает охлаждение трубки и возвращает поршень в начальное положение.   Кипение натрия приводит в действие поршень, поршень воздействует на линейный преобразователь, который преобразует движение, м, в электричество.   За счет замкнутости системы  поршень при заданной температуре, К, движется с постоянной частотой,  Гц.   Ход поршня, м, может контролироваться с помощью внешнего контроллера, который также будет преобразовывать переменный ток,   А, в постоянный.   Коэффициент полезного действия    цикла    Стирлинга может достигать 55\%.   Каждый преобразователь производит  125 Вт.   Ядро реактора    ---      цилиндр из обогащенного урана диаметром 15 см, высотой  30 см и массой  28 кг. Ядро обернуто отражающей оболочкой из оксида берилия диаметром 25 см.   В   термогенераторах    используется       плутоний  238,   количество    которого ограничено,   а мощность такого генератора составляет   110   Вт.    Kilopower   использует   более   доступный    уран   235,   а   даже один генератор Стирлинга дает больше мощности,   Вт.    Для    запуска генератора используется     стержень из карбида бора.   Полное погружение стержня   останавливает   реактор и процесс деления ядер, полный подъем обеспечивает полную мощность,   Вт.     Деление ядер используется для производства тепла, которое по        трубкам   попадает    в   8     преобразователей  Стирлинга.     Между ядром реактора и генераторами     находится радиационный щит, который защищает электронику    и   находящихся    рядом людей от излучения.\par%
+%Сами   преобразователи   охлаждаются при помощи выведения тепла наружу.   
+
+
+
+
+
+
+%\noindent\makebox[1cm]{}При  воздействии  облучений  на  полупроводниковые  приборы  представляют  интерес  два  эффекта:  ионизации  и  смещения.  Эффекты,  связанные  с  ионизацией,  являются  кратковременными,  но  могут  вывести  схему  из  рабочего  состояния.  Эффекты  смещения  вызывают  долговременные  повреждения  полупроводниковых  приборов.\par
+
+
+
+
+
+
+
+
+
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В   САУ САУ-1Т в режиме   стабилизации угла тангажа $v$, рад, в сервопривод        руля  высоты     СПРВ   в   соответствии с рисунком \ref{il:1.sau1t1}    с сигналами $U_v$, В, и $U_{\omega _z}$, В, пропорциональными отклонению угла тангажа  и угловой скорости $\omega _z$, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}рад,  относительно поперечной оси самолета,   подается     сигнал   $U_V$,   В,   пропорциональный   скорости   \adjustbox{margin=0pt 7pt 0pt 0pt}{$V_\mathrm{пр}$},     с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м.    Сигнал   $U_V$  при возрастании скорости выше допустимой поступает на вход привода  СПРВ через диодную цепь зоны нечувствительности и усилитель.   Привод   отклоняет   руль   высоты  на  кабрирование      ВС,   и   его   скорость,   с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,   уменьшается.\par%
+%В    системе автоматического управления   САУ-1Т   в канале  руля  высоты   используется   СВС    [\ref{bib:non-fiction.vor1}].\par%      
+%в   соответствии  с  рисунком    \ref{il:1.fss1},    а.    
+
+
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{15.pdf}
+\end{textblock*}
+
+\pdfpagewidth=29.7cm
+\pdfpageheight=21.cm
+
+\hsize=25.7cm
+\vsize=16.cm
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l1.sau1t1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $\delta _\mathrm{рв}$ --- угол отклонения руля высоты, рад;
+$\omega _z$ --- угловая скорость самолета относительно поперечной оси самолета, с\adjustbox{margin=0pt 0pt 0pt 0pt}{$^{-1}$}рад;
+$U_{\Delta H}$, $U_{\Delta M}$, $U_{\Delta V}$ --- напряжение пропорциональное отклонению высоты, числа $M$, приборной скорости, В;
+$U_{\omega _z}$ --- напряжение пропорциональное угловой скорости самолета $\omega _z$, В;
+$U_V$ --- напряжение пропорциональное приборной скорости, В;
+$U_v$ --- напряжение пропорциональное углу тангажа, В;
+$V$ --- приборная скорость, с\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}м;
+$v$ --- угол тангажа, рад;
+СПРВ --- сервопривод\par% {\fontsize{12}
+
+%\centering\singlespace {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.rek1}]}\par
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm Источник: [\ref{bib:non-fiction.vor1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Схема  использования СВС в системе САУ-1Т\label{il:1.sau1t1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+%\noindent\makebox[1cm]{}Примечание           ---        1,   2,    3,      4     ---    контакты.\par
+
+
+\refstepcounter{np}
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{16.pdf}
+\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+
+
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В режимах стабилизации числа $M$, скорости $V_\mathrm{пр}$ или высоты полета на вход привода СПРВ поступают соответственно сигналы $U_{\Delta M}$, В, $U_{\Delta V}$, В, и $U_{\Delta H}$, В, пропорциональные отклонениям этих параметров от заданных значений. Сигнал $U_{\Delta M}$ выдается электрическим блоком коррекции числа $M$ БКМЭ, сигналы $U_{\Delta V}$ и $U_{\Delta H}$ --- корректорами-задатчиками скорости приборной КЗСП и корректора-задатчика высоты КЗВ.\par%
+
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Сигнал   ШИМ при возрастании скорости выше допустимой поступает на вход привода  СПРВ в   соответствии с рисунком \ref{il:1.asu1}.      Привод   отклоняет   руль   высоты  на  кабрирование      ВС,   и   его   скорость,   с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,   уменьшается.\par%
+%через диодную цепь зоны нечувствительности и усилитель.   
+%$U_V$  
+%В   сервопривод        руля  высоты     СПРВ   в   соответствии с рисунком \ref{il:1.asu1}    подается     сигнал   
+%$U_V$,   В,   пропорциональный   скорости   \adjustbox{margin=0pt 7pt 0pt 7pt}{$V_\mathrm{пр}$},     с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м.    
+%с сигналами $U_v$, В, и $U_{\omega _z}$, В, пропорциональными отклонению угла тангажа  и угловой скорости $\omega _z$, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}рад,  относительно поперечной оси самолета,   
+%режиме   стабилизации угла тангажа $v$, рад, в 
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}АСУ управления самолетом по приборной скорости строится на основе САУ-1Т по каналу управления самолетом по приборной скорости.\par%
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}АСУ управления самолетом по приборной скорости представляет собой АРМ.\par%
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}АСУ управления самолетом по приборной скорости содержит САР, подключенный к ней компьютер К с интерфейсами (клавиатура Кл., трекпад Т, экран Э), необходимыми для взаимодействия оператора с САР.\par%
+
+
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}САР содержит задатчик приборной скорости З, переключатель Пер. с автоматического на полуавтоматический режим работы САР; ручку управления РУ, изменение положения которой при нажатой на ней кнопки ручки управления РУ (при ручном режиме управления САР),  вызывает непосредственное управляющее воздействие на СПРВ; прибор автоматический регулирующий самолет по приборной скорости П, сервопривод СПРВ, приемник давлений Пр., датчик давления Д, инструментальный усилитель, вычислитель приборной скорости В.\par%
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}САР  имеет режимы работы: автоматический (основной), полуавтоматический (директивный), ручной.\par%
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В автоматическом режиме работы САР получает значение приборной скорости от САУ управления самолетом, в полуавтоматическом --- значение приборной скорости задается оператором, в ручном --- оператор непосредственно управляет СПРВ через ручку управления РУ.\par%
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В полуавтоматическом режиме работы САР\par%
+
+
+
+
+\newpage
+
+%\begin{textblock*}{1cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{1.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{3.pdf}
+%\end{textblock*}
+
+
+\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{17.pdf}
+\end{textblock*}
+
+
+%\refstepcounter{np}
+
+\pdfpagewidth=29.7cm
+\pdfpageheight=21.cm
+
+\hsize=25.7cm
+\vsize=16.cm
+
+
+\refstepcounter{np}
+
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l1.asu1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $\delta _\mathrm{рв}$ --- угол отклонения руля высоты, рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $\omega _z$ --- угловая скорость самолета относительно поперечной оси самолета, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta H}$, $U_{\Delta M}$, $U_{\Delta V}$ --- напряжение пропорциональное отклонению высоты, числа $M$, приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta M}$ --- напряжение пропорциональное отклонению  числа $M$, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta V}$ --- напряжение пропорциональное отклонению приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\omega _z}$ --- напряжение пропорциональное угловой скорости самолета $\omega _z$, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_V$ --- напряжение пропорциональное приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_v$ --- напряжение пропорциональное углу тангажа, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $V$ --- приборная скорость, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $v$ --- угол тангажа, рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm СПРВ --- сервопривод\par% {\fontsize{12}
+
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $F \left( t\right)$ --- возмущающее воздействие;
+$p_\mathrm{д} \left( t\right)$ ---  динамическое давление, Па;
+$R \left( t\right)$ ---  воздействие, формируемое СПРВ;
+$u '$ --- код пропорциональный измеряемому давлению $p_\mathrm{д}$;
+$u_{sw} '$ --- код пропорциональный положеню кнопки ручки управления РУ;
+$u_{sw\mathrm{з}} '$ --- код пропорциональный положеню переключателя Пер.;
+$u_\mathrm{ру} '$ --- код пропорциональный положеню ручки управления РУ;
+$u \left( t\right)$ ---  напряжение пропорциональное измеряемому давлению $p_\mathrm{д}$, В;
+$u_{sw} \left( t\right)$ ---  напряжение пропорциональное положению кнопки ручки управления РУ, В;
+$u_{sw\mathrm{з}} \left( t\right)$ ---  напряжение пропорциональное положению переключателя Пер., В;
+$u_\mathrm{ру} \left( t\right)$ ---  напряжение пропорциональное положению ручки управления РУ, В;
+$V_\mathrm{пр}'$ --- код  пропорциональный приборной скорости, поступающий от вычислителя В;
+$V_\mathrm{прз}'$ --- код  пропорциональный приборной скорости, поступающий от задатчика З;
+$V_\mathrm{прСАУ}'$ --- код  пропорциональный приборной скорости, поступающий от САУ управления самолетом;
+$V_\mathrm{пр} \left( t\right)$ ---    приборная скорость, с\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}м;
+$V_\mathrm{прз} \left( t\right)$ ---    напряжение пропорциональное приборной скорости, поступающей от задатчика З, В;
+В --- вычислитель;
+Д --- датчик давления;
+З --- задатчик; 
+К --- компьютер;
+Кл. --- клавиатура;
+ОК --- самолет;
+П --- прибор автоматический регулирующий самолет по приборной скорости;
+Пер. --- переключатель;
+Пр. --- приемник давлений;
+РУ --- ручка управления;
+СПРВ --- сервопривод;
+Т --- трекпад;
+Э --- экран\par% {\fontsize{12}
+
+%\centering\singlespace {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.rek1}]}\par
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm Источник: собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Функциональная схема    АСУ  самолетом по приборной скорости\label{il:1.asu1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{ps:1.3xxxx}
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{18.pdf}
+\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+
+
+
+
+
+	\refstepcounter{j}
+
+\label{s:1.3xxxx}
+
+\vspace{\baselineskip}\par
+
+\justifying\onehalfspacing\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Самолет. Условия эксплуатации авиационных приборов\par%\label{s:1.3xxx}\par%
+
+\vspace{\baselineskip}\par
+
+
+\noindent\makebox[1cm]{}Самолет имеет в составе силовой установки  двигатель 3 в соответствии с рисунком \ref{il:1.sam1} для создания силы тяги, Н, крыло 4 для создания подъемной силы, Н (при наличии поступательной скорости, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м, за счет силы тяги).\par%
+\noindent\makebox[1cm]{}Устойчивость движения и управляемость самолета обеспечиваются вертикальным оперением 6 и рулем направления 7 в горизонтальной плоскости, горизонтальным оперением 8 и рулем высоты 9 в вертикальной плоскости.\par%
+\noindent\makebox[1cm]{}Передняя опора, опоры 5 самолета обеспечивают стоянку и движение самолета при маневрировании по аэродрому, разбеге и взлете и пробеге на посадке.\par%
+\noindent\makebox[1cm]{}Фюзеляж 2 самолета объединяет в единую конструкцию все части самолета.\par%
+\noindent\makebox[1cm]{}Приемник давлений 1 устанавливается в носовой части фюзеляжа.\par%
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Оборудование    подразделяется на оборудование,  расположенное:  а)  в отсеках с регулируемой  температурой,  К, 2;  б)  в отсеках с нерегулируемой температурой,  К, 10 и в зонах, контактирующих с  потоком 1;  в)  в двигательных  отсеках 3.\par
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Нижний предел  температуры равен  $-$60  °С.  Верхний предел температуры для случая  а  равен  55  °С,  для   б  ---  определяется режимом  полета,  для   в  ---  315  °С.
+Скорость изменения температуры в случае  а  может достигать 2  \adjustbox{margin=0pt 0pt 0pt 0pt}{$\dfrac{\mathrm{°С}}{\mathrm{мин}}$},     б  ---  5  \adjustbox{margin=0pt 0pt 0pt 0pt}{$\dfrac{\mathrm{°С}}{\mathrm{мин}}$},     в  ---  10  \adjustbox{margin=0pt 0pt 0pt 0pt}{$\dfrac{\mathrm{°С}}{\mathrm{мин}}$}.\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Различают  оборудование,  предназначенное  для высот,  м,  до: 6000  м  ($p=47$,2  кПа);  10000  м  ($p=26$,5  кПа);  15000  м  ($p=12$  кПа).  Оборудование, устанавливаемое в гермокабинах и гермоотсеках, должно  функционировать при быстром  (не более 15 с)  изменении давления от 560 мм рт. ст. до  значения,  указанного в  скобках,  и  в условиях пониженного давления,  Па, в течение 10 мин.\par
+
+\noindent\makebox[1cm]{}Относительная влажность воздуха может меняться до  100\%.\par
+
+
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{19.pdf}
+\end{textblock*}
+
+\pdfpagewidth=29.7cm
+\pdfpageheight=21.cm
+
+\hsize=25.7cm
+\vsize=16.cm
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l1.sam1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $\delta _\mathrm{рв}$ --- угол отклонения руля высоты, рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $\omega _z$ --- угловая скорость самолета относительно поперечной оси самолета, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta H}$, $U_{\Delta M}$, $U_{\Delta V}$ --- напряжение пропорциональное отклонению высоты, числа $M$, приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta M}$ --- напряжение пропорциональное отклонению  числа $M$, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta V}$ --- напряжение пропорциональное отклонению приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\omega _z}$ --- напряжение пропорциональное угловой скорости самолета $\omega _z$, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_V$ --- напряжение пропорциональное приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_v$ --- напряжение пропорциональное углу тангажа, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $V$ --- приборная скорость, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $v$ --- угол тангажа, рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm СПРВ --- сервопривод\par% {\fontsize{12}
+
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm 1 --- приемник давлений, зона контактирующая с потоком;
+2 --- фюзеляж, отсек с регулируемой температурой (отсек вне силовой установки);
+3 --- двигатель, двигательный отсек;
+4 --- крыло;
+5 --- опора основной ноги;
+6 --- вертикальное оперение;
+7 --- руль направления;
+8 --- стабилизатор;
+9 --- руль высоты;
+10 --- отсек с нерегулируемой температурой;
+11 --- отсек в зоне силовой установки;
+12 --- отсек в зоне действия шума выхлопной струи\par% {\fontsize{12}
+
+%\centering\singlespace {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.rek1}]}\par
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm Источник:  [\ref{bib:regulatory.sk1} ; \ref{bib:regulatory.nch1} ; \ref{bib:regulatory.ss1} ; \ref{bib:regulatory.cch1} ; \ref{bib:regulatory.ku1} ; \ref{bib:regulatory.kpp1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Самолет\label{il:1.sam1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+
+\refstepcounter{np}
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{20.pdf}
+\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+
+
+%\noindent\makebox[1cm]{}Цифровая    СВС   СВС-2Ц-1М   [\ref{bib:non-fiction.avia1}]  вычисляет   и выдает    потребителям,   в   частности,    приборную   $V_\mathrm{пр}$,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м,   скорость.\par%
+%и вертикальную $V_y$, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, скорости; отклонения $\Delta H$, м, и $\Delta M$ текущих значений параметров $H$ и $M$ от их стабилизируемых величин.\par%      %
+%:   абсолютную  $H_\mathrm{а}$, м, и относительную $H$, м, барометрические высоты;   число  $M$; воздушную $V$, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м,     
+
+%\noindent\makebox[1cm]{}Для       вычисления       $V_\mathrm{пр}$        необходимо   измерять давление   $p$,  Па,   и   $p_\mathrm{п}$,   Па.\par%,    температуру $T_\mathrm{т}$, К,  и  вводить  в систему           $p_\mathrm{з}$,   Па.\par%
+%$H_\mathrm{а}$,  $H_\mathrm{з}$, м, $H$,  числа $M$, $V$,    
+
+%\refstepcounter{np}
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{6.pdf}
+%\end{textblock*}
+
+
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Полное   $p_\mathrm{п}$   и статическое   $p$   давления к приборам поступают от приемников воздушных     давлений.\par
+
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В системах СВС-2Ц  [\ref{bib:non-fiction.avia1}]  применяются  датчики давления  ДДГ    [\ref{bib:non-fiction.avia1}].\par
+
+%\noindent\makebox[1cm]{}Датчики  ДДГ-2-1, ДДГ-2-2, ДДГ-2-3, ДДГ-2-4 и БДДМ-1  [\ref{bib:electronic.dat1}]  не  имеют       стойкости к ионизирующему  излучению  [\ref{bib:regulatory.vib1}].\par
+
+%\noindent\makebox[1cm]{}Структуры  КНС  обладают  радиационной       стойкостью.       В   датчиках давления  используются тензочувствительные элементы,  основанные  на  структурах       КНС  [\ref{bib:non-fiction.stu1}].\par
+
+
+%\noindent\makebox[1cm]{}\par
+
+
+%\noindent\makebox[1cm]{}При написании структурного элемента \textquotedblleft Введение\textquotedblright\ использованы материалы [\ref{bib:1}].\par
+
+
+\endinput

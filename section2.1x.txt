@@ -1,0 +1,407 @@
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{12.pdf}
+%\end{textblock*}
+
+
+\vspace{\baselineskip}\par
+
+%\justifying\onehalfspacing\bfseries\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Введение в архитектуру AVR\label{s:2.1}\par
+\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Arduino Uno Rev 3 SMD\label{s:2.1x}\par
+
+\vspace{\baselineskip}\par
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}\par%
+
+
+%измерительного устройства для измерения давления Стоимость    преобразователя давления МИДА-ПД-94-НК  (9970 рублей),  инструментального усилителя LM6142AIM/ NOPB, LM6142AIM (810 %рублей) [\ref{bib:electronic.iu1}] составляет 10780 рублей. 
+%с цифровым выходом. Таким образом, в качестве датчика давления используется преобразователь давления МИДА-ПД-94-НК.\par%\label{s:1.2xx}\par
+
+%\justifying\normalfont\noindent\makebox[1cm]{}Необходимо \par%, можно    добиться уменьшения стоимости 
+
+\justifying\normalfont\noindent\makebox[1cm]{}Устройство,  основанное на  микропроцессоре (микроконтроллере),    должно быть   использовано в вычислителе В, приборе    П;   а также оно должно быть компактным для использования в вычислителе В.\par%, можно    добиться уменьшения стоимости 
+
+\justifying\normalfont\noindent\makebox[1cm]{}Устройство,  основанное на  микропроцессоре (микроконтроллере),    должно стоить    меньше, чем 4400 рублей.\par%, можно    добиться уменьшения стоимости 
+
+\justifying\normalfont\noindent\makebox[1cm]{}Микроконтроллеры имеют недорогую и компактную микросхему с небольшим количеством разъемов [\ref{bib:non-fiction.tanen1}].\par%
+
+\justifying\normalfont\noindent\makebox[1cm]{}Arduino Uno Rev 3 SMD стоит 700 рублей [\ref{bib:electronic.auc1}], а его конкурент Raspberry Pi Pico --- 670 рублей [\ref{bib:electronic.pico1}]. Однако     Arduino Uno Rev 3 SMD получила    большее распространение [\ref{bib:non-fiction.tanen1}] и имеет большую поддержку сообщества.\par%
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}В качестве   микроконтроллера выбран   микроконтроллер  MEGA328P, расположенный на плате с дополнительным интерфейсом  16U2 подключения к компьютеру   (Arduino Uno Rev 3 SMD).\par
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Arduino Uno Rev 3 SMD  ---   плата с расположенным на ней микроконтроллером, основанным на ATmega328p.   Он    имеет 14 цифровых входных     (выходных)    контактов (из которых 6 могут быть использованы как ШИМ [\ref{bib:non-fiction.pwm1}] выходы), 6 аналоговых входов, 16 МГц керамический резонатор (CSTCE16M0V53-R0), USB-соединение  [\ref{bib:electronic.usb1}], разъем питания, разъем ICSP [\ref{bib:non-fiction.icsp1}] и кнопку сброса.\par% Он содержит все необходимое для поддержки микроконтроллера; просто подключите его к компьютеру через USB кабель или подключите его через адаптер переменного тока в постоянный или батарею для начала работы.\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+
+
+
+
+
+
+
+
+
+
+
+%\noindent\makebox[1cm]{}Рис.    А.\ref{il:a.mega328p1}   приведен в Приложении А.\par
+
+\noindent\makebox[1cm]{}ATmega328p на Arduino Uno поставляется запрограммированным с загрузчиком, который позволяет  загружать новый код в него без использования внешнего аппаратного программатора. Он взаимодействует используя оригинальный протокол STK500 (спецификации, файлы заголовков C).\par%
+\noindent\makebox[1cm]{}Можно также обойти загрузчик и программировать микроконтроллер через разъем ICSP   используя Arduino ISP.\par%
+
+
+
+
+\refstepcounter{np}
+
+%\label{pc:2x}\label{ps:2.1x}%\label{ps:2.2}\label{ps:2.3}\label{ps:2.4}\label{ps:2.5}\label{ps:2.6}\label{ps:2.7}\label{ps:2.8}\label{ps:2.9}\label{ps:2.10}
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{37.pdf}
+\end{textblock*}
+
+
+
+\noindent\makebox[1cm]{}Прошивка исходного кода ATmega16U2   доступна в репозитарии Arduino. ATmega16U2  может быть загружено с DFU загрузчиком.\par%
+
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{14.pdf}
+%\end{textblock*}
+
+
+
+
+\noindent\makebox[1cm]{}Можно затем использовать Atmel FLIP программу (Windows) или загрузчик DFU (Mac OS X) для загрузки новой прошивки. Или можно использовать ISP разъем с внешним программатором (перезапись DFU загрузчика). \par%
+
+
+
+
+
+
+\noindent\makebox[1cm]{}Arduino Uno имеет предохранитель, который защищает USB порты  компьютера от замыканий и перегрузки по току. Хотя большинство компьютеров обеспечиваются их собственными внутренней защитой, предохранитель обеспечивает дополнительный уровень защиты. Если больше чем 500 мА приложено к USB порту, предохранитель будет автоматически разрывать соединение до тех пор, пока короткое замыкание или перегрузка не будут устранены.\par%
+
+
+
+\noindent\makebox[1cm]{}Схема электрическая принципиальная          Arduino Uno Rev 3 SMD  приведена на  рисунке   \ref{il:3.mega328p1}.\par%
+
+
+
+\noindent\makebox[1cm]{}Arduino Uno  может быть запитана через USB соединение или с помощью внешнего источника питания. Источник питания переключается автоматически.\par%
+
+\refstepcounter{np}
+
+%\label{pc:2}\label{ps:2.1}\label{ps:2.2}\label{ps:2.3}\label{ps:2.4}\label{ps:2.5}\label{ps:2.6}\label{ps:2.7}\label{ps:2.8}\label{ps:2.9}\label{ps:2.10}
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{15.pdf}
+%\end{textblock*}
+
+\noindent\makebox[1cm]{}Внешний (не USB) источник может поступать либо от адаптера переменного тока в постоянный или от батареи. Адаптер может быть подключен через 2,1 мм центральный положительный разъем питания платы. Провода от батареи могут быть вставлены в разъемы GND и VIN разъема питания.\par%
+\noindent\makebox[1cm]{}Плата может работать от внешнего источника от 6 до 20 В. Если поставляется меньше чем 7 В, однако, контакт 5 В может поставлять меньше чем 5 В, тогда плата может стать нестабильной. Если использовать больше чем 12 В, регулятор напряжения может перегреться и повредить плату. Рекомендуемый диапазон составляет от 7 до 12 В.\par%
+%\noindent\makebox[1cm]{}Питания контакты следующие.\par%
+\noindent\makebox[1cm]{}Входное напряжение Arduino плат, когда оно используется как внешний источник питания (в отличие от 5 В USB соединения или другого регулируемого источника питания). Можно подать напряжение через VIN контакт, или, если подано напряжение через разъем питания, доступный через этот контакт.\par%
+
+
+
+\newpage
+\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{38.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2h.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{34.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=42.cm
+\pdfpageheight=29.7cm
+
+\hsize=38.cm
+\vsize=24.7cm
+
+
+
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.mega328p1.pdf}}\par
+
+%\raggedright\singlespace\small$\Delta x$ --- перемещение стенки цилиндра, м;\par%   ^ --- ;   \par
+%\raggedright\singlespace\small\par%   ^ --- ;   \par
+
+\centering\singlespace\small Источник:  [\ref{bib:electronic.ad1}]\par%
+
+\refstepcounter{l}
+
+
+%\refstepcounter{la}
+
+\normalsize
+
+Рисунок  \thel\ ---    Схема  электрическая принципиальная   Arduino Uno Rev 3 SMD\label{il:3.mega328p1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{39.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{35.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+
+
+
+
+
+\noindent\makebox[1cm]{}Контакт на 5V выводит регулируемые 5 В от регулятора на плате. Плата может питаться либо от разъема источника постоянного тока (7--12 В), USB соединения (5 В), или VIN разъема на плате (7--12 В). Подача напряжения через 5 В или 3,3 В разъем обходит регулятор, и может повредить  плату.\par%
+\noindent\makebox[1cm]{}3,3 В питание генерируется регулятором на плате. Максимальный вырабатываемый ток составляет 50 мА.\par%
+
+
+
+\noindent\makebox[1cm]{}GND --- разъем земли.\par%
+\noindent\makebox[1cm]{}Разъем IOREF на Arduino плате обеспечивает опорное напряжение, с которым работает микроконтроллер. Правильно настроенный экран может читать IOREF разъем напряжения и переключить соответствующий источник питания или включить преобразователь напряжения на выводе для работы с 5 В или 3,3 В.\par%
+\noindent\makebox[1cm]{}ATmega328 имеет 32 кБ (с 0,5 кБ занятых загрузчиком). Он также имеет 2 кБ SRAM и 1 кБ EEPROM (которая может быть прочтена и записана с EEPROM библиотекой).\par%
+
+\refstepcounter{np}
+
+%\label{pc:2}\label{ps:2.1}\label{ps:2.2}\label{ps:2.3}\label{ps:2.4}\label{ps:2.5}\label{ps:2.6}\label{ps:2.7}\label{ps:2.8}\label{ps:2.9}\label{ps:2.10}
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{16.pdf}
+%\end{textblock*}
+
+\noindent\makebox[1cm]{}Каждый из 14 цифровых разъемов Uno могут быть использованы как вводы или выводы, используются pinMode(), digitalWrite(), и digitalRead() функции. Они работают на 5 В. Каждый вывод может обеспечивать или получать 20 мА как рекомендовано условиями и имеет внутренний подтягивающий резистор (отсоединенный по умолчанию) на 20--50 кОм. Максимум 40 мА  --- значение, которое не должно быть превышено на любом вводе (выводе) разъеме чтобы избежать необратимого повреждения микроконтроллера.\par%
+\noindent\makebox[1cm]{}В дополнение, некоторые выводы имеют специальные функции.\par%
+%\noindent\makebox[1cm]{}Serial 0 (RX) и 1 (TX) используется для получения (RX) и  (TX) передачи ТТЛ последовательных данных. Эти выводы подключаются к соответствующим контактам ATmega8U2 USB-to-TTL Serial чипу.\par%
+\noindent\makebox[1cm]{}Внешние прерыватели: 2 и 3. Эти контакты могут быть настроены для запуска прерывания при низком значении, восходящем или падающем фронте, или изменении значения (attachInterrupt() функция).\par%
+\noindent\makebox[1cm]{}ШИМ: 3, 5, 6, 9, 10 и 11. Обеспечивает 8  битный вывод с analogWrite() функцией.\par%
+\noindent\makebox[1cm]{}SPI: 10 (SS), 11 (MOSI), 12 (MISO), 13 (SCK). Эти контакты поддерживают SPI связь с использованием SPI библиотеки.\par%
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{40.pdf}
+\end{textblock*}
+
+
+
+\noindent\makebox[1cm]{}LED: 13.  Это   встроенный LED управляемый цифровым контактом 13. Когда контакт имеет HIGH значение, LED включен, когда контакт имеет LOW, он выключен.\par%
+\noindent\makebox[1cm]{}TWI: A4 или SDA контакт и A5 или SCL контакт.  TWI связь поддерживается с использованием Wire библиотеки.\par%
+
+
+\noindent\makebox[1cm]{}Uno имеет 6 аналоговых входов, обозначенных от A0 до A5, каждый из которых обеспечивается 10 битным разрешением (то есть 1024 различных значений). По умолчанию они измеряются от земли до 5 В, хотя возможно изменить верхнее значение их диапазона с использованием AREF контакта и analogReference() функции. Есть пара других контактов на плате.\par%
+\noindent\makebox[1cm]{}AREF --- опорное напряжение для аналоговых вводов. Используется с analogReference().\par%
+\noindent\makebox[1cm]{}Reset --- приводит эту линию к LOW для сброса микроконтроллера. Обычно используется для добавления сброса кнопки к защите, которая блокирует ту, что на плате.\par%
+
+\refstepcounter{np}
+
+%\label{pc:2}\label{ps:2.1}\label{ps:2.2}\label{ps:2.3}\label{ps:2.4}\label{ps:2.5}\label{ps:2.6}\label{ps:2.7}\label{ps:2.8}\label{ps:2.9}\label{ps:2.10}
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{17.pdf}
+%\end{textblock*}
+
+\noindent\makebox[1cm]{}Arduino Uno    может быть связана с компьютером, другой Arduino платой, или другим микроконтроллером. ATmega328p обеспечивает UART TTL (5 В) последовательную связь, которая доступна на цифровом контакте 0 (RX) и 1 (TX). ATmega16U2 на плате направляет эту последовательную связь по USB и отображается как виртуальный Com порт для программного обеспечения на компьютере. 16U2 прошивка использует стандартный USB COM драйвер, и внешних драйверов не требует. Однако, в Windows, .inf файл требуется. Arduino Software (IDE) включает последовательный монитор, который позволяет использовать простые текстовые данные для отправки в и из платы. RX и TX светодиоды на плате загораются, когда данные передаются через USB-to-serial чип и USB связь на компьютере (но не для последовательной связи на контактах 0 и 1).\par%
+\noindent\makebox[1cm]{}SoftwareSerial библиотека позволяет осуществлять последовательную связь на любых у Uno цифровых контактах.\par%
+\noindent\makebox[1cm]{}ATmega328p также поддерживает I2C (TWI) и SPI связь. Arduino Software (IDE) включает Wire библиотеку для упрощения использования I2C шины. Для SPI связи, используется SPI библиотека.\par%
+%\noindent\makebox[1cm]{}Автоматический (программный) сброс.\par%
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{41.pdf}
+\end{textblock*}
+
+
+\noindent\makebox[1cm]{}Чем требовать физического нажатия кнопки сброса перед загрузкой, Arduino Uno плата разработана таким образом, что позволяет сбросить программным обеспечением на подключенном компьютере. Один из аппаратного потока линии управления (DTR) ATmega16U2 подключенного к линии сброса  ATmega328p через 100 нФ конденсатор.   Arduino Software (IDE) использует эту возможность чтобы разрешить  загружать код простым нажатием загрузки кнопки в интерфейсе панели инструментов. Это означает, что загрузчик может иметь более короткое время, так как снижение DTR может быть хорошо скоординированно с началом загрузки.\par%
+%Когда эта линии выбрано Low, сброс линия падает долго достаточно для сброса чипа. 
+
+\refstepcounter{np}
+%\refstepcounter{np}
+
+%\label{pc:2}\label{ps:2.1}\label{ps:2.2}\label{ps:2.3}\label{ps:2.4}\label{ps:2.5}\label{ps:2.6}\label{ps:2.7}\label{ps:2.8}\label{ps:2.9}
+
+\refstepcounter{np}
+%\refstepcounter{np}
+
+\label{ps:2.10x}
+
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{ps:2.10xx}
+
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{ps:2.10xxx}
+
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{ps:2.11x}
+
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{ps:2.11xx}
+
+\refstepcounter{np}
+
+\label{ps:2.11xxx}
+
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{18.pdf}
+%\end{textblock*}
+
+
+\noindent\makebox[1cm]{}Эта настройка имеет другие последствия. Когда Uno подключено к любому компьютеру запущенному  Mac OS X или Linux, оно сбрасывается каждый раз при соединении, которое производится программным обеспечением (через USB). Для следующих нескольких секунд или дольше, загрузчик работает на Uno. Пока оно запрограммировано на игнорирование искаженных данных (то есть что угодно, кроме загрузки нового кода), оно будет перехватывать первые несколько байтов посылаемых данных на плату после того как соединение открыто. Если программа, запущенная на плате, получает одноразовую конфигурацию или другие данные, когда оно впервые запущено, нужно убедиться, что программное обеспечение с которым оно связано, ожидает одну секунду после открытия соединения и до отправки этих данных.\par%
+\noindent\makebox[1cm]{}Uno плата содержит трассировку, которую может быть вырезана, чтобы отключить авто сброс. Площадки с обеих сторон трассировки могут быть спаяны вместе чтобы снова включить его. Оно обозначено RESET-EN. Можно также отключить авто сброс подключением 110 Ом резистором из 5 В к линии сброса.\par%
+
+
+
+
+%\noindent\makebox[1cm]{}\par%
+%\noindent\makebox[1cm]{}\par%
+
+
+
+\noindent\makebox[1cm]{}Технические  характеристики      Arduino Uno Rev 3 SMD  приведены  в  таблице  \ref{tb:2.ar1}.\par
+
+
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+
+\noindent Таблица  \thet\ ---  Технические характеристики      Arduino Uno Rev 3 SMD\label{tb:2.ar1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Микроконтроллер & ATmega328p \\ \hline
+Рабочее напряжение, В & 5 \\ \hline
+%Входное напряжение (рекомендуемое), В & 7--12 \\ \hline
+%Входное напряжение (предельное), В & 6--20 \\ \hline
+%Цифровых входных (выходных) контактов & 14 (из которых 6 могут быть использованы как ШИМ выходы) \\ \hline
+%ШИМ цифровых входных (выходных) контактов & 6 \\ \hline
+%Аналоговых входных контактов & 6 \\ \hline
+%Постоянный ток на контакте вход (выход), мА & 20 \\ \hline
+%Постоянный ток для контактов 3,3 В, мА & 50 \\ \hline
+%Flash память (ATmega328p), кБ, из которых 0,5 кБ используются загрузчиком & 32    \\ \hline
+%SRAM, кБ, (ATmega328p) & 2   \\ \hline
+%EEPROM, кБ, (ATmega328p) & 1   \\ \hline
+%Тактовая частота, МГц & 16 \\ \hline
+%Номер контакта встроенного светодиода & 13 \\ \hline
+%Длина, мм & 68,8 \\ \hline
+%Ширина, мм & 53,4 \\ \hline
+%Вес, г & 25 \\ \hline
+\end{tabular}}\par%\vspace{6pt}
+
+%\noindent {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.ad1}]}\par
+\onehalfspacing
+
+%\refstepcounter{nt}
+
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{42.pdf}
+\end{textblock*}
+
+
+\noindent Продолжение таблицы\par%\label{tb:2.pd1}\par%\vspace{6pt}\par
+
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+%Наименование характеристики & Значение характеристики \\ \hline%
+%Микроконтроллер & ATmega328p \\ \hline
+%Рабочее напряжение, В & 5 \\ \hline
+Входное напряжение (рекомендуемое), В & 7--12 \\ \hline
+Входное напряжение (предельное), В & 6--20 \\ \hline
+Цифровых входных (выходных) контактов & 14 (из которых 6 могут быть использованы как ШИМ выходы) \\ \hline
+ШИМ цифровых входных (выходных) контактов & 6 \\ \hline
+Аналоговых входных контактов & 6 \\ \hline
+Постоянный ток на контакте вход (выход), мА & 20 \\ \hline
+Постоянный ток для контактов 3,3 В, мА & 50 \\ \hline
+Flash память (ATmega328p), кБ, из которых 0,5 кБ используются загрузчиком & 32    \\ \hline
+SRAM, кБ, (ATmega328p) & 2   \\ \hline
+EEPROM, кБ, (ATmega328p) & 1   \\ \hline
+Тактовая частота, МГц & 16 \\ \hline
+Номер контакта встроенного светодиода & 13 \\ \hline
+Длина, мм & 68,8 \\ \hline
+Ширина, мм & 53,4 \\ \hline
+Вес, г & 25 \\ \hline
+\end{tabular}}\par%\vspace{6pt}
+
+\noindent {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.ad1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+
+
+
+%\noindent\makebox[1cm]{}При написании раздела \thei\ использованы материалы .\par
+
+%\refstepcounter{np}
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}\par
+%\noindent\makebox[1cm]{}\par
+
+%\noindent\makebox[1cm]{}При написании подраздела \thej\ использованы материалы .\par
+
+
+\endinput

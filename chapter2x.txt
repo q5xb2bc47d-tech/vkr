@@ -1,0 +1,27 @@
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{36.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{13.pdf}
+%\end{textblock*}
+
+
+
+%\refstepcounter{np}
+
+\justifying\onehalfspacing\fontdimen2\font=.3cm\fontdimen3\font=2cm\noindent\makebox[1cm]{}\makebox[2cm][l]{\uppercase{Глава}}\makebox[1cm][l]{\thei}\uppercase{Описание цифровой части  АСУ  самолетом по приборной скорости}\label{c:2x}\par
+
+%\vspace{\baselineskip}\par
+
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{pc:2x}\label{ps:2.1x}%\label{ps:2.2}\label{ps:2.3}\label{ps:2.4}\label{ps:2.5}\label{ps:2.6}\label{ps:2.7}\label{ps:2.8}\label{ps:2.9}\label{ps:2.10}
+
+
+
+\endinput

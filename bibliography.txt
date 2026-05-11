@@ -1,0 +1,355 @@
+%\refstepcounter{np}
+\refstepcounter{np}
+
+%\label{p:1}
+\label{pbibliography:1}
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{63.pdf}
+\end{textblock*}
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{29.pdf}
+%\end{textblock*}
+%\end{textblock*}
+
+\centering\onehalfspacing\uppercase{Список использованных источников}\label{bibliography:1}\par
+
+%\refstepcounter{b}
+
+%\justifying\normalfont\fontdimen3\font=2cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Авиационные приборы / Под общ. ред. С. С. Дорофеева. --- М.: Военное издательство. --- 1992. --- 495 с.\label{bib:1}\label{bib:999}\par
+
+
+\vspace{\baselineskip}\par
+
+\centering\normalfont\fontdimen2\font=.3cm\fontdimen3\font=2.cm Официальные и нормативные материалы\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}А.  с.  1465707  СССР.  Устройство  самовозбуждения  механических  резонаторов  частотных  датчиков  /  Корольков  И.  В.,  Панкратов  А.  К.,  Кожарин  Г.  В.  [и  др.].  ---  N  4163495/ 24-21;  опубл.  15.03.89,  Бюл.  N  10.  ---  3  с.\label{bib:regulatory.ustsam1}\par%
+
+
+\refstepcounter{b}
+
+\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}ГОСТ 4401-81. Атмосфера стандартная. Параметры. --- Изм. --- М.: ИПК Издательство стандартов, 2004. --- 180 с.\label{bib:regulatory.gost4401}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат. 101820 Российская Федерация. Частотный датчик давления / Зотов В. А., Индрупский М. И. --- N 2010136504/28; опубл. 27.01.2011.\label{bib:regulatory.fd1}\par%
+
+\refstepcounter{b}
+
+\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат.  2312791  Российская  Федерация.  Крыло летательного аппарата и подкрыльевой пилон / Субботин В. В., Ивашечкин Ю. В., Курьянский М. К. [и  др.].  ---  N  2006138046/ 11;  опубл.  20.12.2007,  Бюл.  N  35.\label{bib:regulatory.kpp1}\par%
+
+%\refstepcounter{b}
+
+%\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат.  2316743  Российская  Федерация.  Устройство  для измерения  давления / Лучко  В. Е., Юровский А. Я., Сычугов Е. М.  %[и  др.].  ---  N  2004132029/ 28;  опубл.  10.02.2008,  Бюл.  N  24.\label{bib:regulatory.ust1}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат. 2384472  Российская  Федерация. Самолет, скоростное стреловидное крыло и топливная система самолета / Субботин В. В., Ивашечкин Ю. В., Курьянский М. К. [и др.]. ---  N  2006138063/11; опубл. 20.03.2010, Бюл. N  8. ---  68 с.\label{bib:regulatory.sk1}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат. 2398709  Российская  Федерация. Самолет и его стреловидное крыло / Субботн В. В., Ивашечкин Ю. В., Курьянский М. К.  [и др.]. ---  N  2009122521/11; опубл. 10.09.2010,  Бюл. N  25. ---  49  с.\label{bib:regulatory.ss1}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат. 2403174  Российская  Федерация. Носовая часть фюзеляжа  / Субботин В. В., Кузнецов К. А., Гусев Е. В. [и др.]. ---  N  2008134703/11; опубл. 10.11.2010,  Бюл. N  31. ---  17  с.\label{bib:regulatory.nch1}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат. 2443599  Российская  Федерация. Центральная часть фюзеляжа и бимс / Осипов Ю. А., Промохов А. В., Смирнов Н. А. [и др.]. ---  N  2010150860/11; опубл. 27.02.2012,  Бюл. N  6. ---  25  с.\label{bib:regulatory.cch1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат.  2481243 Российская Федерация. Крыло самолета и узел стыковки его консолей / Цыганков А. С., Поляков М. С., Камышов Ю. А. --- 2012103071/11; заявл. 31.01.2012; опубл. 10.05.2013, Бюл. N 13. -- 17 с.\label{bib:regulatory.ku1}\par%
+
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Пат.  2502971  Российская Федерация.  Вибрационный  датчик избыточного  давления / Конькин  В. Ф.,  Ерохов  И. Ф.  ---  N 2012124697/ 28 ;  опубл.  27.12.2013,  Бюл.  N  36.\label{bib:regulatory.vib1}\par%
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{64.pdf}
+\end{textblock*}
+
+
+\vspace{\baselineskip}\par
+
+\normalfont\centering\fontdimen2\font=.3cm\fontdimen3\font=2.cm Специальная литература\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}In-Circuit Serial Programming (ICSP) Guide / Microchip Technology Inc.    --- 2003. --- 264 p.\label{bib:non-fiction.icsp1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}А. А. Аравенков, Ю. А. Пасынков. Анализатор гармоник на основе широтно-импульсной модуляции // Ползуновский вестник. --- N 3.  --- 2015. --- С. 120--125.\label{bib:non-fiction.pwm1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}А. А. Задорожний. Определение достоверности параметра приборной скорости на основе динамических характеристик объекта, полученных в ходе летных испытаний // Автоматизация процессов управления. --- N 1 (59). --- 2020. --- 113--120 с.\label{bib:non-fiction.aaz1}\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Авиационные приборы / Под общ. ред. С. С. Дорофеева. --- М.: Военное     издательство. --- 1992. --- 495 с.\label{bib:non-fiction.avia1}\par%
+
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Боднер  В.  А.  Приборы  первичной  информации.  ---  М.:  Машиностроение,  1981.  ---  344  с.\label{bib:non-fiction.per1}\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Бутиков Е. И., Быков А. А., Кондратьев А. С. Физика в примерах и задачах. М., \textquotedblleft Наука\textquotedblright , 1979. 464 с.\label{bib:non-fiction.butikovfizika1}\par%18
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Вайсбурд Ф. И., Панаев Г. А., Савельев Б. Н. Электронные приборы и усилители. Изд. 4-е, стереотипное. --- М.: КомКнига, 2007. --- 480 с.\label{bib:non-fiction.vai1}\par%
+
+
+
+%\refstepcounter{np}
+
+%\label{p:1}
+%\label{pbibliography:1}
+
+
+%\newpage
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{30.pdf}
+%\end{textblock*}
+
+
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Воробьев В. Г., Глухов В. В., Кадышев И. К. Авиационные приборы, информационно-измерительные системы и комплексы / Под ред. В. Г. Воробьева. --- М.: Транспорт, 1992. --- 399 с.\label{bib:non-fiction.vor1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Выборнов, В. Е. Операционные усилители и их применение в электронных устройствах автоматики. --- Екатеринбург, 1999. --- 21 с.\label{bib:non-fiction.vib1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Густав Олссон, Джангуидо Пиани.   Цифровые системы автоматизыции и управления. --- СПб.: Невский Диалект, 2001. --- 577 с.\label{bib:non-fiction.gus1}\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Егер С. М., Матвеенко А. М., Шаталов И. А.  Основы авиационной  техники / Под ред. И. А. Шаталова.  ---  Изд. второе, перераб. и доп.  ---  М.: Изд-во МАИ, 1999.  ---  576 с.\label{bib:non-fiction.eg1}\par%\label{bib:999}\par
+
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Еремеев С. М., Шакиров З. В., Штофель С. Д. Авиационные приборы / Под общ. ред. М. И.  Захарина.  ---  М.: Воениздат,  1970.  ---  416  с.\label{bib:non-fiction.er1}\par%
+
+%\refstepcounter{b}
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Жиленков А. А., Гуаняо Ли, Жуйлэ Лю. Математическая модель системы позиционирования сервопривода промышленного робота с заданными показателями качества // Качество и жизнь. --- 2017. --- N 2 (14). --- С. 90--94.\label{bib:non-fiction.zhil1}\par%
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{65.pdf}
+\end{textblock*}
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Конспект лекций по дисциплине ``Техническая термодинамика''. В 2 ч. Ч. 1. Цикл Стирлинга / ИАТЭ НИЯУ МИФИ.\label{bib:non-fiction.kl1}\par%\label{bib:999}\par
+
+
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Микеладзе В. Г., Титов В. М. Основные геометрические и аэродинамические характеристики самолетов и ракет. М., ``Машиностроение'', 1978, 124 с.\label{bib:non-fiction.mik1}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Н. С. Абрамов, Д. А. Макаров, М. В. Хачумов, Управление пространственным движением летательного аппарата по заданному маршруту, Автомат. и телемех., 2015, выпуск 6, 153--166 с.\label{bib:non-fiction.ab1}\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Стучебников,  В. М.  Структура  ``кремний на сапфире''  как материал для тензопреобразователей механических  величин // Радиотехника  и  электроника.  ---  2005.  ---  Т.  50.  ---  N  6.  ---  С.  678--696.\label{bib:non-fiction.stu1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд. --- СПб.: Питер, 2013. --- 816 с.\label{bib:non-fiction.tanen1}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Теория  систем  автоматического  управления  /  В.  А.  Бесекерский,  Е.  П.  Попов.  ---  Изд.  4-е,  перераб.  и  доп.  ---  СПб.,  Изд-во  \textquotedblleft Профессия\textquotedblright ,  2003.  ---  752  с.\label{bib:non-fiction.bes1}\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Трофимов А. И. Приборы и системы контроля ядерных энергетических  установок.  ---  М.:  Энергоатомиздат,  1999.  ---  494  с.\label{bib:non-fiction.trof1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Херпи М. Аналоговые интегральные схемы: Пер. с англ. --- М.: Радио и связь, 1983. --- 416 с.\label{bib:non-fiction.herp1}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Ю. П. Доброленский. Динамика полета в нейспокойной атмосфере. --- М.: Издательство ``Машиностроение'', 1969. --- 257 с.\label{bib:non-fiction.up1}\par%
+
+
+%\refstepcounter{np}
+
+%\label{p:1}
+%\label{pbibliography:1}
+
+%\newpage
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{24.pdf}
+%\end{textblock*}
+
+\vspace{\baselineskip}\par
+
+\centering\fontdimen2\font=.3cm\fontdimen3\font=2.cm Электронные ресурсы\par
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}16K1-10C10K, L15KC, 10 кОм, Резистор переменный / ЗАО ``ЧИП и ДИП''.  URL: https://static.chipdip.ru/lib/492/DOC001492227.pdf (дата обращения: 03.10.2021).\label{bib:electronic.16k1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}ARDUINO UNO, отладочная плата на ATmega328 Rev 3 / ЗАО ``ЧИП и ДИП''.  URL: https://www.chipdip.ru/product0/8135003882 (дата обращения: 04.10.2021).\label{bib:electronic.auc1}\par%
+
+
+\refstepcounter{b}
+
+\raggedright\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Arduino Uno Rev 3 SMD / Arduino.  URL: https://store.arduino.cc/collections/boards/products/arduino-uno-rev3-smd (дата обращения: 12.09.2021).\label{bib:electronic.ad1}\par%
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{66.pdf}
+\end{textblock*}
+
+
+\refstepcounter{b}
+
+\raggedright\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Convair NB-36H / Wikimedia Foundation, Inc.  URL: https://en.wikipedia.org/wiki/Convair\_NB-36H (дата обращения: 13.10.2021).\label{bib:electronic.nb36h1}\par%
+
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Kilopower / National Aeronautics and Space Administration.  URL: https://www.nasa.gov/directorates/spacetech/kilopower (дата обращения: 26.09.2021).\label{bib:electronic.ki1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}LM6142AIM/ NOPB, LM6142AIM Инструментальный усилитель / ЗАО ``ЧИП и ДИП''.  URL: https://www.chipdip.ru/product/lm6142aim-nopb (дата обращения: 03.10.2021).\label{bib:electronic.iu1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Marc A. Gibson, Steve R. Oleson, Dave I. Poston, Patrick McClure. NASA's Kilopower Reactor Development and the Path to Higher Power Missions / Glenn Research Center, Consolidated Nuclear Security, LLC.  URL: https://ntrs.nasa.gov/api/citations/20170011067/downloads/20170011067.pdf (дата обращения: 11.09.2021).\label{bib:electronic.nasa1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}MTS-101 A-2, Микротумблер ON-OFF SPST 2P 250В/ 3А / ЗАО ``ЧИП и ДИП''.  URL: https://static.chipdip.ru/lib/030/DOC001030936.pdf (дата обращения: 03.10.2021).\label{bib:electronic.tt1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}OKY3432, Модуль расширения, джойстик / ЗАО ``ЧИП и ДИП''.  URL: https://www.chipdip.ru/product0/8002581297 (дата обращения: 03.10.2021).\label{bib:electronic.dzh1}\par%
+
+%\refstepcounter{b}
+
+%\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Our   Story / magniX.  URL: magnix.aero .\label{bib:electronic.st1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Raspberry Pi Pico, Программируемый контроллер на базе RP2040 (32-Бит, ARM Cortex-M0+) / ЗАО ``ЧИП и ДИП''.  URL: https://www.chipdip.ru/product/raspberry-pi-pico-2 (дата обращения: 04.10.2021).\label{bib:electronic.pico1}\par%
+
+\refstepcounter{b}
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}SG90 analog servo, Сервомотор аналоговый 1.8кг.см 180° / ЗАО ``ЧИП и ДИП''.  URL: https://www.chipdip.ru/product/sg90-analog-servo (дата обращения: 03.10.2021).\label{bib:electronic.sg1}\par%
+
+\refstepcounter{b}
+
+\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}USB 2.0 / USB Implementers Forum, Inc. URL: usb.org (дата обращения: 06.09.2021).\label{bib:electronic.usb1}\par%\label{bib:999}\par%
+
+%\refstepcounter{b}
+
+%\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Virus  SW   121 / PIPISTREL d.o.o. URL: pipistrel-aircraft.com .\label{bib:electronic.vir1}\par%\label{bib:999}\par%
+
+
+
+%\refstepcounter{np}
+
+%\label{p:1}
+%\label{pbibliography:1}
+
+
+%\newpage
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{31.pdf}
+%\end{textblock*}
+
+
+
+\refstepcounter{b}
+
+\raggedright\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Атомолет / Wikimedia Foundation, Inc.  URL: https://ru.wikipedia.org/wiki/Атомолет (дата обращения: 13.10.2021).\label{bib:electronic.htre21}\par%
+
+\refstepcounter{b}
+
+\raggedright\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Датчики     абсолютного     давления ДДГ и БДДМ. ОАО  \textquotedblleft Аэроприбор-Восход\textquotedblright . URL: http://www.aeropribor.ru/upload/iblock/053/.guvu\%20lrexvs\%20gy\%20ufkflpsq.pdf (дата   обращения:    27.09.2021).\label{bib:electronic.dat1}\par%
+
+\refstepcounter{b}
+
+\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Датчики    давления.  МИДА.  URL:  http://www.midaus.com/katalog/datchiki-davleniya.html (дата обращения: 04.10.2021).\label{bib:electronic.dds1}\par
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{67.pdf}
+\end{textblock*}
+
+\refstepcounter{b}
+
+\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}За что критикуют авиацию экологи? / Авиасмотр.  URL:   https://www.youtube.com/watch?v=5xsQhtCQHOs    (дата обращения: 26.09.2021).\label{bib:electronic.zc1}\par%\label{bib:999}\par%
+
+
+\refstepcounter{b}
+
+\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Космический     ядерный реактор NASA: Принцип работы     Kilopower / Alpha    Centauri.  URL:   https://www.youtube.com/watch?v=q9XnzL9TRuQ   (дата   обращения:   26.09.2021).\label{bib:electronic.kp1}\par%\label{bib:999}\par%
+
+\refstepcounter{b}
+
+\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}МИДА-ПД-94-НК.  МИДА.  URL:  http://midaus.com/katalog/ preobrazovateli-davleniya/mida-pd-94-nk.html (дата обращения: 10.09.2021).\label{bib:electronic.mid1}\par
+
+\refstepcounter{b}
+
+\raggedright\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Общепромышленные датчики давления МИДА-13П.  МИДА.  URL:  http://www.midaus.com/dokumentatsiya/publikatsii/preobrazovateli-i-datchiki-pg-mida/15-obshchepromyshlennye-datchiki-davleniya-mida-13p.html (дата обращения: 03.10.2021).\label{bib:electronic.13p1}\par
+
+\refstepcounter{b}
+
+\raggedright\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Преобразователи давления.  МИДА.  URL:  http://www.midaus.com/katalog/preobrazovateli-davleniya.html (дата обращения: 03.10.2021).\label{bib:electronic.pds1}\par
+
+\refstepcounter{b}
+
+\raggedright\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Рекомендации  потребителю  по  применению  преобразователей  и  модулей  давления  МИДА.  МИДА.  URL:  http://www.midaus.com/dokumentatsiya/28-primenenie-preobrazovatelej-i-modulej- davleniya-mida.html  (дата обращения: 10.07.2021).\label{bib:electronic.rek1}\par%\label{bib:999}\par%\par%\label{bib:999}\par%
+
+\refstepcounter{b}
+
+\justifying\noindent\makebox[1cm]{}\makebox[1cm][l]{\theb}Самолеты   на ядерном   двигателе.   Фантастика?    / Авиасмотр.  URL:   https://www.youtube.com/watch?v=oC3KBgxfeg0    (дата обращения:   26.09.2021).\label{bib:electronic.sd1}\label{bib:999}\par%
+
+
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{p:1}
+%\label{pbibliography:1}
+
+\endinput

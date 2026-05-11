@@ -1,0 +1,241 @@
+\newpage
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{3.pdf}
+\end{textblock*}
+
+\centering\onehalfspacing\uppercase{Определения}\label{definitions:1}\par
+\vspace{\baselineskip}\par
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Абсолютная    барометрическая   высота   $H$,  м}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Абсолютная     высота   $H$, м,   отсчитывается   от уровня моря, м}%
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Агрегат}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm наиболее крупная часть планера самолета (фюзеляж, крыло, стойка шасси), законченная в конструктивном и технологическом отношении}%
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Аэродинамика}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm раздел  механики,  в котором изучаются законы движения газообразной среды   (например,   воздуха)   и   ее взаимодействие с движущимися в ней обтекаемыми твердыми телами}%
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Аэродром}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm ---     подготовленный земельный участок, имеющий комплекс сооружений и оборудования, обеспечивающий полеты, хранение и обслуживание самолетов}%
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Вертикальное   оперение}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm несущая    часть  самолета,   обеспечивающая   устойчивость движения и управляемость самолета в горизонтальной      плоскости}% его симметрии}%  [\ref{bib:non-fiction.er1}]}
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Воздухозаборник}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Для подвода необходимого количества воздуха,   кг\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м\adjustbox{margin=0pt 7pt 0pt 0pt}{$^3$},   и   поддержания устойчивой работы газотурбинного двигателя на всех режимах полета служат воздухозаборники}%  [\ref{bib:non-fiction.er1}]}
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Горизонтальное      оперение}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm несущая    часть  самолета,   обеспечивающая   устойчивость движения и управляемость самолета в вертикальной     плоскости}% его симметрии}%  [\ref{bib:non-fiction.er1}]}
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+%\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+%	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Давление динамическое $p_\mathrm{д}$, Па}%
+%	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Под динамическим давлением $p_\mathrm{д}$ понимают разность между полным $p_\mathrm{п}$, Па, }%  [\ref{bib:non-fiction.vor1}]}
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+%\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Истинная воздушная скорость  $V$, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm скорость      движения     самолета     относительно  воздушной  среды}%  [\ref{bib:non-fiction.vor1}]}
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+%\begin{Parallel}{5cm}{11cm}
+%	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Киль}%
+%	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm вертикально      расположенная   несущая   поверхность      неподвижно   закрепленная   на  фюзеляже}%,   либо,    которая может поворачиваться относительно   фюзеляжа}%
+%\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Крыло}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm несущая   часть  самолета,  создающая   (при  наличии поступательной скорости,   с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м, за счет силы тяги, Н)    подъемную силу,   Н}%
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{def1.pdf}
+%\end{textblock*}
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Несущая   поверхность}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Несущими   частями самолета   (в   аэродинамическом   аспекте)   называются обтекаемые потоком\linebreak\pagebreak% 
+
+\noindent  части самолета, создающие подъемную силу,   Н, и силы,   Н, обеспечивающие устойчивость движения и управляемость самолета. Это крыло, горизонтальное оперение  и   вертикальное оперение}%
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+%\newpage
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{4.pdf}
+\end{textblock*}
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Относительная    барометрическая   высота   $H_\mathrm{отн}$,   м}%
+	\ParallelRText{\onehalfspacing\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm отсчитывается   от  выбранного уровня,  м,   например,  от места взлета   или посадки}%
+%,  с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м, 
+\end{Parallel}%
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Планер    самолета}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm крыло с рулевыми поверхностями (элеронами), корпус самолета --- фюзеляж, горизонтальное оперение с рулями высоты, вертикальное оперение с рулями     направления}%
+%, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}}м, 
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Подъемная   сила,   Н}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Сила,   преодолевающая  силу   тяжести,  Н,   называется подъемной силой}%
+%, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}}м, 
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Приборная     скорость, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm условная      скорость     соответствующая истинной воздушной       скорости,  с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м, у поверхности земли}%  [\ref{bib:non-fiction.er1}]}
+%, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}}м, 
+\end{Parallel}
+
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Руль    высоты}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm концевая   часть    стабилизатора    горизонтального   оперения}%  [\ref{bib:non-fiction.er1}]}
+%, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}}м, 
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Руль    направления}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm концевая   часть        вертикального   оперения}%  [\ref{bib:non-fiction.er1}]}
+%, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}}м, 
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Самолет}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm летательный аппарат тяжелее воздуха  с силовой установкой         для создания силы тяги,  Н, и крыльями, создающими   (при   наличии   поступательной скорости,  с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,     за   счет   силы   тяги)   подъемную силу,   Н}%
+\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Сила   тяги,  Н}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Силу,   преодолевающую   сопротивление   внешней  среды  \adjustbox{margin=0pt 7pt 0pt 0pt}{$\vec{X}$},  Н,   называют   силой  тяги  (тягой)  \adjustbox{margin=0pt 7pt 0pt 0pt}{$\vec{P}$}, Н}%
+\end{Parallel}
+
+%\begin{Parallel}{5cm}{11cm}
+%	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Сила   тяжести,   Н}%
+%	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Полет   основан   на преодолении   гравитационной   силы  (силы  тяжести)   $G=mg$, где $G$ --- сила земного тяготения, Н; $m$ --- масса летящего тела, кг;  $g$ --- ускорение свободного падения,   с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-2}$}м}%
+%\end{Parallel}
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{def1.pdf}
+%\end{textblock*}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Силовая  установка}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Двигатели  с агрегатами   и системами,  обеспечивающими их работоспособность    (системы регулирования подачи топлива, запуска, управления и контроля работы, смазки, противопожарной защиты двигателя),   воздухозаборники и выхлопные   устройства, топливная система    ЛА    составляют   его   силовую    установку}%
+\end{Parallel}
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{5.pdf}
+\end{textblock*}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Система   воздушных  сигналов}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm    предназначена   для   комплексного   измерения   высотно-скоростных параметров   и централизованного снабжения   ими различных   потребителей.   К таким параметрам относят: число $M$, истинную воздушную скорость $V$, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,  приборную скорость $V_\mathrm{пр}$, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,  относительную барометрическую высоту $H_\mathrm{отн}$,  м, абсолютную барометрическую высоту $H$, м, температуру наружного воздуха $T$, К, отклонения $\Delta M$, $\Delta H$, м, $\Delta V$, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м, числа $M$, высоты $H$,   скорости  $V_\mathrm{пр}$  от заданных     значений}%
+\end{Parallel}
+
+%\begin{Parallel}{5cm}{11cm}
+%	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Скольжение}%
+%	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm см.   угол скольжения   $\beta$}%
+%\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Стабилизатор}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm дополнительно  горизонтально   расположенная   несущая   поверхность    либо  неподвижно   закрепленная   на  фюзеляже,   либо,    которая может поворачиваться относительно   фюзеляжа}%
+\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Стойка    шасси}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm см.    шасси}%
+\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Угол    атаки  $\alpha$,  рад}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Углом  атаки   $\alpha$  называется угол между проекцией вектора скорости самолета на плоскость симметрии и продольной осью самолета}%
+\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Угол    скольжения  $\beta$,  рад}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Углом  скольжения   $\beta$  называется угол между вектором скорости самолета и плоскостью его симметрии}%
+\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Угол    тангажа  $v$,  рад}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Углом  тангажа   $v$  называется угол между продольной осью самолета и горизонтальной плоскостью}%
+\end{Parallel}
+
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Уровень   моря, м}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm В    расчетах   параметров стандартной атмосферы средний уровень моря, м, принят за нулевую высоту     в   соответствии с ГОСТ    [\ref{bib:regulatory.gost4401}]}%
+\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Фюзеляж}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm корпус}%
+\end{Parallel}
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{def1.pdf}
+%\end{textblock*}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Число $M$}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm ---   равна   отношению скорости  $V$, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,  воздушного  потока   (скорости   движения тела в воздухе) к скорости   звука   $a$, с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м, в данной точке потока: \adjustbox{margin=0pt 7pt 0pt 0pt}{$M=\dfrac{V}{a}$}}%
+\end{Parallel}
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{6.pdf}
+\end{textblock*}
+
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Шасси}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm ---     системы    опор самолета, обеспечивающих устойчивую стоянку и движение самолета при маневрировании по аэродрому, разбеге на взлете и пробеге на посадке}%
+%Базирование самолета на аэродроме требует наличия у самолета шасси     
+\end{Parallel}
+
+\begin{Parallel}{5cm}{11cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Элерон}%
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm поворотная    поверхность   на задних кромках  концевых частей   крыла}%
+\end{Parallel}
+
+
+%\justifying\normalfont\begin{Parallel}{5cm}{11cm}
+%	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=2.cmУгол  тангажа,   рад}
+%	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=2.cmугол между  продольной осью  изделия   и горизонтальной   плоскостью}%  [\ref{bib:non-fiction.er1}]}
+%\end{Parallel}
+
+\endinput

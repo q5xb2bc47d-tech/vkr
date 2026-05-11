@@ -1,0 +1,370 @@
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{7.pdf}
+\end{textblock*}
+
+\centering\onehalfspacing\uppercase{Обозначения и сокращения}\label{designations:1}\par
+\vspace{\baselineskip}\par
+
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=2.cm\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=2.cmДИМ}
+%	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=2.cmдистанционные  индуктивные    манометры}
+%\end{Parallel}
+
+%\justifying\normalfont\fontdimen3\font=.4cm\
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent ИТП}
+%	\ParallelRText{\noindent интегральные  тензопреобразователи}
+%\end{Parallel}
+
+
+%\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+%	\ParallelLText{\noindent $V_\mathrm{пр}$}
+%	\ParallelRText{\noindent приборная   скорость,   с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м}
+%\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent АРМ}
+	\ParallelRText{\noindent автоматизированное рабочее место}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent АСУ}
+	\ParallelRText{\noindent автоматизированная система управления}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent АЦП}
+	\ParallelRText{\noindent аналого-цифровое преобразование}
+\end{Parallel}
+
+%\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+%	\ParallelLText{\noindent В}
+%	\ParallelRText{\noindent вычислитель}
+%\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ВС}
+	\ParallelRText{\noindent воздушное    судно}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent КНС}
+	\ParallelRText{\noindent кремний  на  сапфире}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ЛА}
+	\ParallelRText{\noindent летательный     аппарат}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ЛЛ}
+	\ParallelRText{\noindent летающая     лаборатория}
+\end{Parallel}
+
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent МИ}
+%	\ParallelRText{\noindent Манометр  индуктивный    унифицированный}
+%\end{Parallel}
+
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent НТМ}
+%	\ParallelRText{\noindent Недистанционные  теплостойкие манометры}
+%\end{Parallel}
+
+%\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+%	\ParallelLText{\noindent П}
+%	\ParallelRText{\noindent прибор}
+%\end{Parallel}
+
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent ПММ}
+%	\ParallelRText{\noindent передаточно-множительные механизмы}
+%\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ПЗУ}
+	\ParallelRText{\noindent постоянное запоминающее устройство}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ПЧЭ}
+	\ParallelRText{\noindent полупроводниковые  чувствительные  элементы}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent САР}
+	\ParallelRText{\noindent система      автоматического регулирования}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent САУ}
+	\ParallelRText{\noindent система      автоматического управления}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent СВС}
+	\ParallelRText{\noindent система      воздушных сигналов}
+\end{Parallel}
+
+%\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+%	\ParallelLText{\noindent СПРВ}
+%	\ParallelRText{\noindent сервопривод}
+%\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ТВД}
+	\ParallelRText{\noindent Турбовинтовой  двигатель}
+\end{Parallel}
+
+\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ТП}
+	\ParallelRText{\noindent тензорезисторные  преобразователи}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ТРД}
+	\ParallelRText{\noindent турбореактивный  двигатель}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ШИМ}
+	\ParallelRText{\noindent широтно-импульсная модуляция}
+\end{Parallel}
+
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent УЧЭ}
+%	\ParallelRText{\noindent упругие чувствительные элементы}
+%\end{Parallel}
+
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent ЧЭ}
+%	\ParallelRText{\noindent чувствительный  элемент}
+%\end{Parallel}
+
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent ЭДМУ}
+%	\ParallelRText{\noindent Унифицированные  электромеханические  дистанционные  манометры}
+%\end{Parallel}
+
+%\begin{Parallel}{2cm}{14cm}
+%	\ParallelLText{\noindent ЭМ}
+%	\ParallelRText{\noindent Электрический  манометр}
+%\end{Parallel}
+
+%\begin{Parallel}{4cm}{12cm}
+%	\ParallelLText{\noindent ЭДС}
+%	\ParallelRText{\noindent электродвижущая сила}
+%\end{Parallel}
+
+
+
+
+% eng
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent AREF}
+	\ParallelRText{\noindent опорное напряжение для аналоговых вводов}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent Arduino ISP}
+	\ParallelRText{\noindent Внутрисхемное программирование Arduino}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm Com, COM}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm последовательный порт}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm DFU}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm обновление прошивки устройства}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm DTR}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm терминал передачи данных}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm EEPROM}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm электрически стираемое перезаписываемое ПЗУ}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm GND}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm корпус, земля}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm HIGH}
+	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm высокий}
+\end{Parallel}
+
+%\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+%	\ParallelLText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm $H$}
+%	\ParallelRText{\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm абсолютная    барометрическая высота,   м}
+%\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent I2C}
+	\ParallelRText{\noindent см. TWI}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent ICSP}
+	\ParallelRText{\noindent Внутрисхемное программирование}
+\end{Parallel}
+
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent IDE}
+	\ParallelRText{\noindent интегрированная среда разработки}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent  IOREF}
+	\ParallelRText{\noindent опорное напряжение микроконтроллера}
+\end{Parallel}
+
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent  ISP}
+	\ParallelRText{\noindent см.   Arduino  ISP}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent $j$}
+	\ParallelRText{\noindent линейное ускорение центра масс самолета, с$^{-2}$м}
+\end{Parallel}
+
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent LED}
+	\ParallelRText{\noindent светодиод}
+\end{Parallel}
+
+
+
+\refstepcounter{np}
+
+
+\newpage
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{8.pdf}
+\end{textblock*}
+
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent LOW}
+	\ParallelRText{\noindent низкий}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent MISO}
+	\ParallelRText{\noindent линия ведущего для получения данных от   ведомого}
+\end{Parallel}
+
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent MOSI}
+	\ParallelRText{\noindent линия ведущего для передачи данных ведомому}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent $p$}%
+	\ParallelRText{\noindent статическое   давление, Па}%
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent $p_\mathrm{п}$}%
+	\ParallelRText{\noindent полное      давление, Па}%
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent RX}
+	\ParallelRText{\noindent линия приемника интерфейса UART}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SCK}
+	\ParallelRText{\noindent линия передачи сигнала синхронизации устройств}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SCL}
+	\ParallelRText{\noindent линия синхронизации}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SDA}
+	\ParallelRText{\noindent линия данных}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SMD}
+	\ParallelRText{\noindent технология поверхностного монтажа}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SOIC}
+	\ParallelRText{\noindent интегральная схема маленького контура}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SPI}
+	\ParallelRText{\noindent последовательный периферийный интерфейс}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SRAM}
+	\ParallelRText{\noindent статическая память с произвольным доступом}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent SS}
+	\ParallelRText{\noindent вывод включения ведомого устройства}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent TTL}
+	\ParallelRText{\noindent транзисторно-транзисторная логика}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent TWI}
+	\ParallelRText{\noindent последовательная ассиметричная шина}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent TX}
+	\ParallelRText{\noindent линия передатчика интерфейса UART}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent UART}
+	\ParallelRText{\noindent универсальный  асинхронный приемопередатчик}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent USB}
+	\ParallelRText{\noindent универсальная последовательная шина}
+\end{Parallel}
+
+\justifying\normalfont\begin{Parallel}{3cm}{13cm}
+	\ParallelLText{\noindent VIN}
+	\ParallelRText{\noindent разъем питания}
+\end{Parallel}
+
+
+
+\endinput

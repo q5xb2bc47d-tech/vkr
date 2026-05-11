@@ -1,0 +1,81 @@
+\newpage
+
+%\begin{textblock*}{1cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{1.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{2.pdf}
+\end{textblock*}
+
+\centering\onehalfspacing\uppercase{Содержание}\par
+\vspace{\baselineskip}\par
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\uppercase{Введение}\dotfill\ref{pintro:1}\par
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[2.cm][l]{\uppercase{Глава}}\makebox[.5cm][l]{\ref{c:1}}\uppercase{Kilopower. Управление самолетом по приборной скорости}\dotfill\ref{pc:1}\par%.   Преобразователь давления МИДА-ПД-94-НК\dotfill\ref{pc:1}\par%
+
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm][l]{\ref{s:1.1xxx}}Самолеты на ядерном двигателе. Kilopower\dotfill\ref{ps:1.1xxx}\par%
+%\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[2cm][l]{\ref{s:1.2xxx}}Kilopower\dotfill\ref{ps:1.2xxx}\par%
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm][l]{\ref{s:1.3xxx}}Функциональная схема   АСУ самолетом по приборной скорости\dotfill\ref{ps:1.3xxx}\par%
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm][l]{\ref{s:1.3xxxx}}Самолет. Условия эксплуатации авиационных приборов\dotfill\ref{ps:1.3xxxx}\par%
+
+
+
+%\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[2cm][l]{\ref{s:1.1}}Условия эксплуатации авиационных приборов\dotfill\ref{ps:1.1}\par%
+
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[2.cm][l]{\uppercase{Глава}}\makebox[.5cm][l]{\ref{c:1xx}}\uppercase{Описание аналоговой части   АСУ самолетом по приборной скорости}\dotfill\ref{pc:1xx}\par
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm][l]{\ref{s:2.1xx}}Элементы автоматики\dotfill\ref{ps:2.1xx}\par%
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm][l]{\ref{s:1.4xxxx}}Датчики  давления    ДДГ\dotfill\ref{ps:1.4xxxx}\par%
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm][l]{\ref{s:1.2xx}}Преобразователь давления МИДА-ПД-94-НК\dotfill\ref{ps:1.2xx}\par%
+
+
+%Общие сведения об авиационных приборах, информационно-измерительных системах и комплексах. Условия\linebreak эксплуатации\dotfill\ref{pc:1}\par%.   
+%\noindent\makebox[2cm][l]{\ref{s:1.1}}Общие сведения об авиационных приборах, информационно-измерительных системах и комплексах. Условия\linebreak эксплуатации\dotfill\ref{ps:1.1}\par
+
+%\noindent\makebox[2cm][l]{Глава}\makebox[1cm][l]{\ref{c:1}}Датчик  давления  ДДГ-2-4\dotfill\pageref{c:1}\par
+%\noindent\makebox[2cm][l]{\ref{s:1.1}}Общие сведения об авиационных приборах, информационно-измерительных системах и комплексах. Условия эксплуатации\dotfill\pageref{s:1.1}\par
+
+\noindent\makebox[2.cm][l]{\uppercase{Глава}}\makebox[.5cm][l]{\ref{c:2x}}\uppercase{Описание цифровой части   АСУ самолетом по приборной скорости}\dotfill\ref{pc:2x}\par
+\noindent\makebox[1cm][l]{\ref{s:2.1x}}Arduino Uno Rev 3 SMD\dotfill\ref{ps:2.1x}\par
+%\noindent\makebox[2cm][l]{\ref{s:2.2}}Системы  RISC\dotfill\ref{ps:2.2}\par
+%Введение в архитектуру AVR. 
+%\noindent\makebox[2cm][l]{\ref{s:2.3}}Микроконтроллер  \dotfill\ref{ps:2.3}\par
+%\noindent\makebox[2cm][l]{\ref{s:2.4}}Микроархитектура микроконтроллера  \dotfill\ref{ps:2.4}\par
+%\noindent\makebox[2cm][l]{\ref{s:2.5}}Обзор уровня архитектуры набора команд  \dotfill\ref{ps:2.5}\par
+%\noindent\makebox[2cm][l]{\ref{s:2.6}}Типы данных  \dotfill\ref{ps:2.6}\par
+%\noindent\makebox[2cm][l]{\ref{s:2.7}}Форматы команд  \dotfill\ref{ps:2.7}\par
+%\noindent\makebox[2cm][l]{\ref{s:2.8}}Режимы адресации процессора  \dotfill\ref{ps:2.8}\par
+%\noindent\makebox[2cm][l]{\ref{s:2.9}}Команды  \dotfill\ref{ps:2.9}\par
+%\noindent\makebox[1cm][l]{\ref{s:2.10x}}Arduino  Software   (IDE). Вычислитель В. Структурная схема АСУ самолетом по приборной скорости. Прибор автоматический регулирующий самолет по приборной скорости\dotfill\ref{ps:2.10x}\par%
+
+\noindent\makebox[1cm][l]{\ref{s:2.10x}}Описание среды разработки программного обеспечения Arduino Software (IDE)\dotfill\ref{ps:2.10x}\par%
+
+\noindent\makebox[1cm][l]{\ref{s:2.10xx}}Вычислитель приборной скорости В\dotfill\ref{ps:2.10xx}\par%
+
+\noindent\makebox[1cm][l]{\ref{s:2.10xxx}}Структурная схема АСУ самолетом по приборной скорости. Прибор автоматический регулирующий самолет по приборной скорости\dotfill\ref{ps:2.10xxx}\par%
+
+
+%\noindent\makebox[1cm][l]{\ref{s:2.11x}}Схема подключения АСУ самолетом по приборной скорости. Интерфейс взаимодействия оператора с АСУ самолетом по приборной скорости. Схема электрическая принципиальная АСУ самолетом по приборной скорости\dotfill\ref{ps:2.11x}\par%
+
+\noindent\makebox[1cm][l]{\ref{s:2.11x}}Схема подключения АСУ самолетом по приборной скорости\dotfill\ref{ps:2.11x}\par%
+
+\noindent\makebox[1cm][l]{\ref{s:2.11xx}}Интерфейс взаимодействия оператора с АСУ самолетом по приборной скорости\dotfill\ref{ps:2.11xx}\par%
+
+\noindent\makebox[1cm][l]{\ref{s:2.11xxx}}Схема электрическая принципиальная АСУ самолетом по приборной скорости\dotfill\ref{ps:2.11xxx}\par%
+
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\uppercase{Заключение}\dotfill\ref{pconclusion:1}\par
+\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\uppercase{Список использованных источников}\dotfill\ref{pbibliography:1}\par
+
+%\justifying\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent Приложения\dotfill\ref{papplications:1}\par
+
+
+\refstepcounter{np}
+
+\endinput

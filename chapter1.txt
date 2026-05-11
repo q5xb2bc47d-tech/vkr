@@ -1,0 +1,10 @@
+\newpage
+
+\justifying\onehalfspacing\fontdimen2\font=.3cm\fontdimen3\font=3cm\noindent\makebox[1cm]{}\makebox[2cm][l]{\uppercase{Глава}}\makebox[1cm][l]{\thei}\uppercase{Kilopower. Управление Самолетом по приборной скорости}\label{c:1}\par%.    Преобразователь давления МИДА-ПД-94-НК}\label{c:1}\par
+
+\refstepcounter{np}
+
+\label{pc:1}\label{ps:1.1xxx}%\label{ps:1.2xxx}
+\label{ps:1.4xxx}\label{ps:1.1}%%\label{ps:1.2}\label{ps:1.3}\label{ps:1.4}\label{ps:1.5}\label{ps:1.6}
+
+\endinput

@@ -1,0 +1,706 @@
+\vspace{\baselineskip}\par
+
+\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Схема подключения АСУ самолетом по приборной скорости\label{s:2.11x}\par%
+
+%\vspace{\baselineskip}\par
+
+
+\vspace{\baselineskip}\par
+
+%\justifying\onehalfspacing\bfseries\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm 
+
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В  сервопривод    руля  высоты     подается     сигнал,   пропорциональный   скорости   \adjustbox{margin=0pt 7pt 0pt 7pt}{$V_\mathrm{пр}$},     с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м     в   соответствии  с  рисунком    \ref{il:2.fs1}.    Привод   отклоняет   руль   высоты  на  кабрирование      самолета,   и   его   скорость,   с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,   уменьшается.\par%\par
+
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\noindent\makebox[1cm]{}
+%[\ref{bib:non-fiction.eg1}]  
+%[\ref{bib:non-fiction.eg1}]  
+%в   соответствии  с  рисунком    \ref{il:1.fss1},    а.    
+
+
+
+%\noindent\makebox[1cm]{}Вычислитель В вычисляет    и выдает    прибору   П     приборную   $V_\mathrm{пр}$,  ч\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}км,   скорость.      Для    вычисления     $V_\mathrm{пр}$,    ч\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}км,    необходимо   измерять давление   $p$,  Па,   и   $p_\mathrm{п}$,   Па,   и  вводить  в систему   температуру  $T_\mathrm{з}$,  К,   давление   $p_\mathrm{з}$,   Па,   у   земли.\par%
+
+
+
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Полное   $p_\mathrm{п}$,  Па,   и статическое   $p$,  Па,   давления к    датчику давления Д   поступают от приемников воздушных    давлений   [\ref{bib:non-fiction.vor1}].\par
+
+
+
+
+
+
+%\refstepcounter{np}
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{20.pdf}
+%\end{textblock*}
+
+%\pdfpagewidth=29.7cm
+%\pdfpageheight=21.cm
+
+%\hsize=25.7cm
+%\vsize=16.cm
+
+%\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l2.fs1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=.4cm $F \left( t\right)$ ---  возмущающее воздействие;\par%
+%\raggedright\singlespace\small $u '$ --- код напряжения пропорционального измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $u \left( t\right)$ --- напряжение пропорциональное измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} '$ --- код  приборной скорости измеренной;\par%, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} \left( t\right)$ ---  приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} '$ --- код заданной приборной скорости;\par%, с\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} \left( t\right)$ --- заданная приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+%\raggedright\singlespace\small В --- вычислитель приборной скорости по измеренному давлению $p_\mathrm{п} -p$, Па;\par%
+%\raggedright\singlespace\small Д --- датчик давления;\par%
+%\raggedright\singlespace\small ОК --- объект контроля (самолет);\par%
+%\raggedright\singlespace\small П --- прибор, формирующий управляющее воздействие (Arduino Uno Rev 3 SMD);\par%
+%\raggedright\singlespace\small СПРВ --- сервопривод руля высоты\par%
+
+
+%\centering\singlespace {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:non-fiction.vor1}]}\par
+
+%\refstepcounter{l}
+
+%\normalsize
+
+%Рисунок  \thel\ ---  Функциональная схема    прибора  автоматического регулирующего самолетом по индикаторной скорости\label{il:2.fs1}\par%\vspace{6pt}\par
+%\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+%\refstepcounter{nl}
+
+
+
+%\noindent\makebox[1cm]{}Примечание           ---        1,   2,    3,      4     ---    контакты.\par
+
+
+%\refstepcounter{np}
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{21.pdf}
+%\end{textblock*}
+
+%\pdfpagewidth=21.cm
+%\pdfpageheight=29.7cm
+
+%\hsize=17.cm
+%\vsize=24.7cm
+
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}На  рисунке    \ref{il:2.s1}  показана схема подключения    датчика   давления   Д, сервопривода СПРВ   к    микроконтроллеру   П,  микроконтроллера П к компьютеру К.\par%    Привод   отклоняет   руль   высоты  на  кабрирование      самолета,   и   его   скорость,   с\adjustbox{margin=0pt 7pt 0pt 0pt}{$^{-1}$}м,   уменьшается.\par%\par
+
+\noindent\makebox[1cm]{}Датчик давления Д подключается к инструментальному усилителю У.\par
+\noindent\makebox[1cm]{}Инструментальный усилитель У подключается к вычислителю В.\par
+\noindent\makebox[1cm]{}Для связи вычислителя В и прибора П используются шины SDA и SCL.\par
+\noindent\makebox[1cm]{}Питание вычислителя В осуществляется от источника питания, подключенного к разъему X1.\par
+\noindent\makebox[1cm]{}К прибору П подключены кнопка ручки управления Кн., ручка управления РУ, тумблер Пер., задатчик З, сервопривод СПРВ.\par
+\noindent\makebox[1cm]{}Для связи прибора П и САУ управления самолетом используются шины SDA и SCL.\par
+\noindent\makebox[1cm]{}Прибор П подключен к компьютеру К.\par
+\noindent\makebox[1cm]{}Питание прибора П осуществляется от компьютера К.\par
+
+
+
+
+
+\noindent\makebox[1cm]{}Технические характеристики компьютера К приведены в таблице \ref{tb:3.k1}.\par
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\noindent Таблица  \thet\ ---   Технические характеристики компьютера К\label{tb:3.k1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Операционная система & macOS Catalina \\ \hline%
+Версия & 10.15.7 \\ \hline%
+Название  & MacBook Pro (Retina, 13-inch, Late 2012) \\ \hline%
+%Процессор & 2,5 Ghz 2-ядерный процессор Intel Core i5 \\ \hline%
+%Память & 8ГБ 1600 MHz DDR3 \\ \hline%
+%Загрузочный диск & APPLE\_SSD\_SM256E\_MEDIA \\ \hline%
+%Графика & Intel HD Graphics 4000 1536 МБ \\ \hline%
+%Тома: &  \\ %\hline%
+%disk0s5: &  \\ %\hline%
+%Емкость: & 154,39 ГБ \\ %\hline%
+%Содержимое: & Apple\_APFS, зашифрованный \\ \hline%
+%Концентратор: &  \\ %\hline%
+%Скорость, c$^{-1}$Мбит: & До 480  \\ \hline%
+%Встроенная клавиатура Apple/ Трекпад: &  \\ %\hline%
+%Скорость, c$^{-1}$Мбит: & До 12  \\ \hline%
+%Цветной ЖК-дисплей: &  \\ %\hline%
+%Тип монитора: & Встроенный ЖК-дисплей Retina \\ %\hline%
+%Разрешение: & $2560 \times 1600$, Retina \\ %\hline%
+%Глубина кадрового буфера: & Цвет 24 бит (ARGB8888) \\ \hline%
+% &  \\ \hline%
+%% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+%\small\noindent Источник: собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+%\refstepcounter{nt}
+
+%\label{tb:999}
+
+\normalsize
+
+
+%\newpage
+
+
+%\refstepcounter{np}
+
+\newpage
+\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{56.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{22.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=42.cm
+\pdfpageheight=29.7cm
+
+\hsize=38.cm
+\vsize=24.7cm
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.sp1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=.4cm $F \left( t\right)$ ---  возмущающее воздействие;\par%
+%\raggedright\singlespace\small $u '$ --- код напряжения пропорционального измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $u \left( t\right)$ --- напряжение пропорциональное измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} '$ --- код  приборной скорости измеренной;\par%, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} \left( t\right)$ ---  приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} '$ --- код заданной приборной скорости;\par%, с\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} \left( t\right)$ --- заданная приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+\centering\singlespace\small В --- вычислитель В;
+Д --- датчик давления Д;
+З --- задатчик З;
+К --- компьютер К;
+Кн. --- кнопка ручки управления;
+П --- прибор П, формирующий управляющее воздействие;
+Пер. --- переключатель;
+РУ --- ручка управления;
+СПРВ --- сервопривод СПРВ;
+У --- усилитель У\par%
+
+
+\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:non-fiction.vor1}]}\par
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---   Схема    подключения    датчика   давления   Д, сервопривода СПРВ   к    микроконтроллеру   П,  микроконтроллера П к компьютеру К\label{il:2.s1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+%\noindent\makebox[1cm]{}Примечание           ---        1,   2,    3,      4     ---    контакты.\par
+
+
+%\refstepcounter{np}
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{57.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{23.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+\noindent   Продолжение таблицы\par
+
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+%Наименование характеристики & Значение характеристики \\ \hline%
+%Операционная система & macOS Catalina \\ \hline%
+%Версия & 10.15.7 \\ \hline%
+%Название  & MacBook Pro (Retina, 13-inch, Late 2012) \\ \hline%
+Процессор & 2,5 Ghz 2-ядерный процессор Intel Core i5 \\ \hline%
+Память & 8ГБ 1600 MHz DDR3 \\ \hline%
+%Загрузочный диск & APPLE\_SSD\_SM256E\_MEDIA \\ \hline%
+Графика & Intel HD Graphics 4000 1536 МБ \\ \hline%
+Тома: &  \\ %\hline%
+disk0s5: &  \\ %\hline%
+Емкость: & 154,39 ГБ \\ %\hline%
+Содержимое: & Apple\_APFS, зашифрованный \\ \hline%
+Концентратор: &  \\ %\hline%
+Скорость, c$^{-1}$Мбит: & До 480  \\ \hline%
+Встроенная клавиатура Apple/ Трекпад: &  \\ %\hline%
+Скорость, c$^{-1}$Мбит: & До 12  \\ \hline%
+Цветной ЖК-дисплей: &  \\ %\hline%
+Тип монитора: & Встроенный ЖК-дисплей Retina \\ %\hline%
+Разрешение: & $2560 \times 1600$, Retina \\ %\hline%
+Глубина кадрового буфера: & Цвет 24 бит (ARGB8888) \\ \hline%
+% &  \\ \hline%
+%% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+\refstepcounter{nt}
+
+\label{tb:999}
+
+\normalsize
+
+
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}Вдоль шкалы сверху, снизу для текущего режима полета перемещаются предельные его значения приборной скорости.\par%
+
+
+	\refstepcounter{j}
+
+
+\vspace{\baselineskip}\par
+
+\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Интерфейс взаимодействия оператора с АСУ самолетом по приборной скорости\label{s:2.11xx}\par%
+
+%\vspace{\baselineskip}\par
+
+
+\vspace{\baselineskip}\par
+
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}На  рисунке    \ref{il:3.int1}  показан интерфейс взаимодействия оператора с АСУ самолетом по приборной скорости.\par% схема подключения    датчика   давления   Д, сервопривода СПРВ   к    микроконтроллеру   П,  микроконтроллера П к компьютеру К.\par%    Привод   отклоняет   руль   высоты  на  кабрирование      самолета,   и   его   
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}Вдоль шкалы сверху, снизу для текущего режима полета перемещаются предельные его значения приборной скорости.\par%
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}Слева от шкалы перемещается стрелка заданного значения приборной скорости, справа --- текущего.\par%
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}Справа приводятся значения коэффициентов регулятора.\par%
+%\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}Интерфейс черно-белый.\par%
+
+
+
+
+
+
+
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{58.pdf}
+\end{textblock*}
+
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.int1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm1,    3  ---  мембрана;  2  ---  шток;     4  ---     ПЧЭ}\par
+
+\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  собственная разработка\par%
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Интерфейс взаимодействия оператора с АСУ самолетом по приборной скорости\label{il:3.int1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+	\refstepcounter{j}
+
+
+\vspace{\baselineskip}\par
+
+\justifying\onehalfspacing\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Схема электрическая принципиальная АСУ самолетом по приборной скорости\label{s:2.11xxx}\par%
+
+%\vspace{\baselineskip}\par
+
+
+\vspace{\baselineskip}\par
+
+
+
+\justifying\normalfont\fontdimen2\font=.3cm\fontdimen3\font=.4cm\onehalfspacing\noindent\makebox[1cm]{}На  рисунке    \ref{il:3.se1}  показана схема электрическая принципиальная АСУ самолетом по приборной скорости.\par%    Привод   отклоняет   руль   высоты  на  кабрирование      самолета,   и   его   
+
+
+\noindent\makebox[1cm]{}Преобразователь давления  МИДА-ПД-94-НК подключается к инструментальному усилителю DA1.\par
+\noindent\makebox[1cm]{}Преобразователь давления  имеет шунтирующее и дополнительное сопротивления R$_\mathrm{ш}$, Ом, R$_\mathrm{д}$, Ом, для схемной коррекции температурной погрешности.\par
+\noindent\makebox[1cm]{}Инструментальный усилитель DA1 подключается к вычислителю В.\par
+
+\noindent\makebox[1cm]{}Вычислитель В, прибор П основаны на Arduino Uno Rev 3 SMD и    имеют собственную электрическую принципиальную схему.\par
+
+
+
+
+%\refstepcounter{np}
+
+\newpage
+\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{59.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{41.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{22.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=42.cm
+\pdfpageheight=29.7cm
+
+\hsize=38.cm
+\vsize=24.7cm
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l3.se1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=.4cm $F \left( t\right)$ ---  возмущающее воздействие;\par%
+%\raggedright\singlespace\small $u '$ --- код напряжения пропорционального измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $u \left( t\right)$ --- напряжение пропорциональное измеренному давления $p_\mathrm{п} -p$, Па, скорости;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} '$ --- код  приборной скорости измеренной;\par%, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{пр} \left( t\right)$ ---  приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} '$ --- код заданной приборной скорости;\par%, с\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;\par%
+%\raggedright\singlespace\small $V_\mathrm{прз} \left( t\right)$ --- заданная приборная скорость, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}км;\par%
+\centering\singlespace\small В --- вычислитель В;
+К --- компьютер К;
+П --- прибор П, формирующий управляющее воздействие;
+СПРВ --- сервопривод СПРВ\par%
+%Д --- датчик давления Д;
+%З --- задатчик З;
+%Кн. --- кнопка ручки управления;
+%Пер. --- переключатель;
+%РУ --- ручка управления;
+%У --- усилитель У
+
+
+\centering\singlespace\small Источник:  собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:non-fiction.vor1}]}\par
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---   Схема    электрическая принципиальная АСУ самолетом по приборной скорости\label{il:3.se1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+\label{il:999}%
+
+
+%\noindent\makebox[1cm]{}Примечание           ---        1,   2,    3,      4     ---    контакты.\par
+
+
+%\refstepcounter{np}
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{60.pdf}
+\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+%\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{2.cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{8.cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{1.cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{2.cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Поз. обозначение &  Наименование & Кол. & Прим. \\ \hline%
+% &  &  &  \\ \hline
+В, П & Arduino Uno Rev 3 SMD & 2 &  \\ \hline
+ &  &  &  \\ \hline
+К & MacBook Pro (Retina, 13-inch, Late 2012) & 1 &  \\ \hline
+ &  &  &  \\ \hline
+K1, R5 & Модуль расширения & 1 &  \\ \hline
+ &  &  &  \\ \hline
+K2 & Тумблер MTS-101-A2 & 1 &  \\ \hline
+ &  &  &  \\ \hline
+СПРВ & SG90 analog servo & 1 &  \\ \hline
+ &  &  &  \\ \hline
+DA1 & Инструментальный усилитель LM6142AIM/ NOPB, LM6142AIM & 1 &  \\ \hline%
+ &  &  &  \\ \hline
+R1--R4, R$_\mathrm{ш}$, R$_\mathrm{д}$ & Преобразователь давления МИДА-ПД-94-НК & 1 &  \\ \hline%
+ &  &  &  \\ \hline
+R6 & Резистор переменный 16K1-10C5K, L15KC & 1 &  \\ \hline
+\end{tabular}}\par%\vspace{6pt}
+
+%\small\noindent Источник: собственная разработка\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+%\refstepcounter{nt}
+
+%\label{tb:999}
+
+\normalsize
+
+
+
+%\refstepcounter{np}
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{61.pdf}
+\end{textblock*}
+
+%\pdfpagewidth=21.cm
+%\pdfpageheight=29.7cm
+
+%\hsize=17.cm
+%\vsize=24.7cm
+
+
+
+
+
+
+\noindent\makebox[1cm]{}Питание вычислителя В осуществляется от источника питания, подключенного к разъему X1.\par
+
+
+\noindent\makebox[1cm]{}Для связи вычислителя В и прибора П используются шины SDA и SCL.\par
+
+\noindent\makebox[1cm]{}К прибору П подключены кнопка ручки управления K1, ручка управления РУ (потенциометр R5), тумблер K2, задатчик З (потенциометр R6), сервопривод СПРВ.\par
+\noindent\makebox[1cm]{}Для связи прибора П и САУ управления самолетом используются шины SDA и SCL.\par
+
+\noindent\makebox[1cm]{}Прибор П подключен к компьютеру К.\par
+\noindent\makebox[1cm]{}Питание прибора П осуществляется от компьютера К.\par
+
+
+
+
+%\noindent\makebox[1cm]{}Ниже приведен    исходный код   программы ПИД-регулятора на языке  C++.\par
+
+%\vspace{\baselineskip}\par
+
+%\noindent // Предварительное вычисление коэффициентов\par%
+%\noindent float beta;\par%
+
+%\noindent beta = td/ (td + h * N); // td - постоянная времени дифференцирования; h - интервал выборки; N - число порядка 5-10\par%
+%\noindent float ipart;\par%
+%\noindent ipart = 0;\par%
+%\noindent float x;\par%
+%\noindent x = 0;\par%
+%\noindent float uc;\par%
+%\noindent float y;\par%
+%\noindent float e;\par%
+%\noindent float ppart;\par%
+%\noindent float dpart;\par%
+%\noindent float u;\par%
+%\noindent float K;\par%
+
+%\noindent // Алгоритм управления\par%
+%\noindent uc = adinput(a0); // ввод значения от задатчика З\par%
+%\noindent y = i2c(v); // ввод измерения i2c вход от вычислителя В\par%
+%\noindent e = uc - y; // вычисление ошибки управления\par%
+%\noindent ppart = K * e; // пропорциональная часть\par%
+%\noindent dpart = x; // дифференциальная часть\par%
+%\noindent u = ppart + ipart + dpart; // вывод регулятора\par%
+
+%\noindent dpwmoutput(11, u); // передача сигнала на спрв\par%
+%\noindent x = beta * x; // обновление состояния\par%
+%\noindent \par%
+
+%\vspace{\baselineskip}\par
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}На   рисунке    \ref{il:1.s1}         приведена   структурная   схема      прибора     автоматического,  регулирующего  самолет  по  приборной   \adjustbox{margin=0pt 7pt 0pt 7pt}{$V_\mathrm{пр}$},    с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м,        скорости,     использовавшаяся         в      среде           Altair  Embed    для      определения   параметров       прибора,  моделирования     его   работы.\par%
+
+
+%\refstepcounter{np}
+
+
+%\newpage
+
+%\begin{textblock*}{5cm}[0,0](1.7cm,9.5cm)
+%	\raggedright\adjustbox{margin=0pt 6pt 0pt 6pt,angle=270}{\small\thenp}
+%\end{textblock*}
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{24.pdf}
+%\end{textblock*}
+
+%\pdfpagewidth=29.7cm
+%\pdfpageheight=21.cm
+
+%\hsize=25.7cm
+%\vsize=16.cm
+
+%\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l1.s1.pdf}}\par
+
+%\justifying\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm1  ---  жесткий  центр;}\par
+%{\fontsize{12}{14.4}\selectfont\noindent 2  ---  пластинка}\par
+%\normalfont\raggedright\singlespace\small\noindent\fontdimen2\font=.3cm\fontdimen3\font=2cm $\Delta P_1 \left( V_\mathrm{и} \right)$ --- зависимость  $\Delta P_1 $ от $V_\mathrm{и}$;  
+%$\Delta P_1 \left( p\right)$ --- изображение разницы давлений $p_\mathrm{п} -p$,   
+%$\Delta P_2 ^{**} \left( p\right)$ ---  кода разницы давлений $p_\mathrm{п} -p$,   
+%$\theta \left( p\right)$ --- изображение угла $\theta$, рад; 
+%$k_\theta$ - коэффициент   преобразования угла $\theta$ в $V_\mathrm{и}$,
+%$k_p$ -  пропорционального,
+%$k_i$ -     интегрального,
+%$k_d$ -     дифференциального   звена регулятора,  
+%$k_\mathrm{в}$ -     вычислителя В,  
+%$k_\mathrm{у}$ -     усилителя У,  
+%$k_\mathrm{д}$ -     датчика  Д,  
+%$R\left( p\right)$ --- изображение выходной характеристика СПРВ,   
+%$u \left( p\right)$ ---    напряжения на выходе из датчика  Д, 
+%$u_\mathrm{у} \left( p\right)$ ---    напряжения на выходе из усилителя  У, 
+%$u_2 ^{**} \left( p\right)$ ---    код напряжения на выходе АЦП вычислителя В;   
+%$V_\mathrm{и} \left( \theta\right)$ - изображение зависимости $V_\mathrm{и}$ от угла $\theta$;
+%$V_\mathrm{и} \left( p\right)$ - изображение,
+%$V_\mathrm{и}  \left( \Delta P_2\right)$ - код  преобразования $\Delta P_2$ в  $V_\mathrm{и}$,   %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+%$V_\mathrm{и} ^{**} \left( p\right)$ - код изображения,    %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+%$V_\mathrm{из} \left( p\right)$ - изображение   заданное,   %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+%$V_\mathrm{из} ^{**} \left( p\right)$ - код изображения   заданного,   %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+%$V_{\mathrm{и}E} \left( p\right)$ - ошибка кода изображения,    %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+%$V_\mathrm{из} \left( p\right)$ - изображение    заданное    приборной скорости;   %, ч\adjustbox{margin=0pt 6pt 0pt 6pt}{$^{-1}$}м;
+%$W_\mathrm{рв} \left( p\right)$ - передаточная функция   руля высоты,   
+%$W_{\omega gz/ \Delta\delta_\mathrm{в}} \left( p\right)$ -     преобразования воздействия руля высоты на самолет в угол $\theta$,   
+%$W_{\omega gz/ w_x} \left( p\right)$ -      воздействия ветра на самолет  по оси  $x$,   
+%$W_{\omega gz/ w_y} \left( p\right)$ -      воздействия ветра на самолет  по оси  $y$;   
+%$w_x \left( p\right)$ - входная характеристика передаточной функции $W_{\omega gz/ w_x} \left( p\right)$,   
+%$w_y \left( p\right)$ -   передаточной функции $W_{\omega gz/ w_y} \left( p\right)$;   
+%$x_{w_x} \left( p\right)$ - выходная характеристика передаточной функции $W_{\omega gz/ w_x} \left( p\right)$,   
+%$x_{w_y} \left( p\right)$ -   передаточной функции $W_{\omega gz/ w_y} \left( p\right)$
+
+%\adjustbox{margin=0pt 6pt 0pt 0pt}{$V_\mathrm{и} ^{**} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$V_\mathrm{и}  \left( \theta\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$V_{\mathrm{и}1} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$V_\mathrm{и} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$V_\mathrm{иE} ^{**} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$V_\mathrm{из} ^{**}\left( p\right)$},  \adjustbox{margin=0pt 6pt 0pt 0pt}{$V_\mathrm{из}\left( p\right)$}
+%  ---  индикаторная, код; зависимость \adjustbox{margin=0pt 6pt 0pt 0pt}{$V_\mathrm{и}$} от $\theta$; изображения до, после возмущения; код расссогласования;  код  заданной;   изображение, после воздействия  излучения, заданная   индикаторная скорость,   с\adjustbox{margin=0pt 6pt 0pt 0pt}{$^{-1}$}м;  
+%\adjustbox{margin=0pt 6pt 0pt 0pt}{$W_{\Delta\delta_\mathrm{в}^{-1} \omega_{gz}} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_{w_x ^{-1} \omega_{gz}} \left( p\right)$}, %\adjustbox{margin=0pt 6pt 0pt 0pt}{$W_{w_y^{-1} \omega_{gz}} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_1 ^{**} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_2 \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_{f_1}  \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_\mathrm{о} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_{\mathrm{о}f} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_\mathrm{ос} ^{**} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$W_\mathrm{рв}  \left( p\right)$} --- передаточная функция от продольного управления, ветра \adjustbox{margin=0pt 6pt 0pt 0pt}{$w_x$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$w_y$}, П, ИМ,  излучения, возмущающего воздействия, обратной связи, руля высоты; 
+%\adjustbox{margin=0pt 6pt 0pt 0pt}{$w_x \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$w_y \left( p\right)$} --- изображение воздействия ветра; 
+%\adjustbox{margin=0pt 6pt 0pt 0pt}{$x_f \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$x_{f_1} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$x_{w_x} \left( p\right)$}, \adjustbox{margin=0pt 6pt 0pt 0pt}{$x_{w_y} \left( p\right)$} --- изображение   выходной    характеристики возмущающего воздействия,  излучения, ветра; 
+%В --- вычислитель; Д --- датчик давления; ИМ --- исполнительный механизм; ОК --- объект контроля; П --- прибор\par% автоматический регулирующего изделие по индикаторной скорости\par
+% автоматический регулирующего изделие по индикаторной скорости;
+
+%\normalfont\raggedright\singlespace\small\noindent\fontdimen2\font=.3cm\fontdimen3\font=2cm\par
+
+%\normalfont\raggedright\singlespace\small\noindent\fontdimen2\font=.3cm\fontdimen3\font=2cm\par
+
+
+%\centering\singlespace\fontdimen2\font=.3cm\fontdimen3\font=2cm Источник:  [\ref{bib:non-fiction.vor1}]\par
+
+%\refstepcounter{l}
+
+%\normalsize
+
+%Рисунок  \thel\ ---  Структурная         схема    прибора,     использовавшаяся         в      среде           Altair  Embed    для      определения   параметров       прибора, моделирования  его   работы    \label{il:1.s1}\par%\vspace{6pt}\par
+%автоматического,   регулирующего   изделие    по   индикаторной    \adjustbox{margin=0pt 7pt 0pt 7pt}{$V_\mathrm{и}$}  скорости
+%\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+%\refstepcounter{nl}
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\pdfpagewidth=21.cm
+%\pdfpageheight=29.7cm
+
+%\hsize=17.cm
+%\vsize=25.7cm
+
+%\newpage
+
+%\refstepcounter{np}
+
+
+%\begin{textblock*}{5cm}[0,0](11.5cm,28.5cm)
+%	\raggedright\normalfont\noindent\small\thenp
+%\end{textblock*}
+
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{25.pdf}
+%\end{textblock*}
+
+%\pdfpagewidth=21.cm
+%\pdfpageheight=29.7cm
+
+%\hsize=17.cm
+%\vsize=24.7cm
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}Коэффициенты регулятора определялись следующим образом.\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}Брался квадрат ошибки и возводился в квадрат, затем интегрировался и подавался на блок cost, расположенного в блоках оптимизации.\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}Далее в падающем меню выбираем Система/ Оптимизация Системы, ставим галочку на Оптимизации параметров, ошибку, которая на с %удовлетворяет, как ошибку разницы между текущей и предыдущей ошибкой.\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}Затем    выбираем Метод оптимизации, например, Powel.\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}После   на вход блока unknownParameter подаем значение, например, для пропорционального звена равного 1, и выводим значение на блок %Variable, назвав его для пропорционального звена p.\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}Выполняем то же для коэффициентов интегрального, дифференциального звена. Запускаем парамметризацию через Run.\par%
+
+
+
+%\justifying\normalfont\noindent\makebox[1cm]{}Полученные значения на выходе из блоков Variable будут искомыми коэффициентами регулятора.\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}Значения коэффициентов передаточных звеньев берем из   [\ref{bib:non-fiction.bes1} ;  \ref{bib:non-fiction.gus1} ;  \ref{bib:non-%fiction.ab1} ;  \ref{bib:non-fiction.aaz1} ;  \ref{bib:non-fiction.aaz1} ;  \ref{bib:non-fiction.per1}].\par%
+%\justifying\normalfont\noindent\makebox[1cm]{}Коэффициенты  пропорционального, интегрального, дифференциального звена равны     0,00071904, 1,132175e-7, 0,000931013 .\par%
+
+
+
+
+%\noindent\makebox[1cm]{}При написании подраздела \thej\ использованы материалы .\par
+
+
+\endinput

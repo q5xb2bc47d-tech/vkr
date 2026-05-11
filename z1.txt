@@ -1,0 +1,610 @@
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{22.pdf}
+\end{textblock*}
+
+%\centering\onehalfspacing\bfseries\uppercase{Введение}\label{intro:1}\par
+
+
+\vspace{\baselineskip}\par
+
+\justifying\onehalfspacing\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Элементы автоматики\par%\label{s:2.1xx}\par%
+
+\vspace{\baselineskip}\par
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В качестве задатчика используется резистор переменный 16K1-10C5K, L15KC на 5 кОм.\par%
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Резистор переменный 16K1-10C5K, L15KC показан на рисунке \ref{il:1.16k1}.\par%
+
+
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Схема электрическая принципиальная резистора переменного 16K1-10C5K, L15KC показана на рисунке \ref{il:1.cir1}.\par%
+
+
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Технические характеристики резистора переменного 16K1-10C5K, L15KC приведены в таблице \par%
+\noindent\makebox[1cm]{}Технические  характеристики      резистора переменного 16K1-10C5K, L15KC  приведены  в  таблице  \ref{tb:2.tz1}.\par
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\noindent Таблица  \thet\ ---  Технические характеристики      резистора переменного 16K1-10C5K, L15KC\label{tb:2.tz1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Рабочая температура, °С & $-$10--70 \\ \hline%
+Ручная пайка, °С, максимум 3 с & 300   \\ \hline%
+Полное сопротивление, Ом & 500--$2 \times 10^6$ \\ \hline%
+Отклонение сопротивления, \% (больше чем 1 МОм) & $\pm$20 ($\pm$30) \\ \hline%
+Тип конуса & C \\ \hline%
+Шум скольжения, мВ &  $<47$ \\ \hline%
+Остаточное сопротивление, Ом ($R \le 10$ кОм) & $\le 10$   \\ \hline%
+Изоляция, МОм , при питании постоянным током на 500 В & $>100$   \\ \hline%
+Номинальная мощность, Вт & 0,06 \\ \hline%
+Максимальное рабочее напряжение, В & 150 \\ \hline%
+Выдерживает напряжение, минут, при питании переменным током на 500 В  & 1  \\ \hline%
+Полный угол поворота, ° & 300$\pm$5 \\ \hline%
+Крутящий момент, гс см & 30--200  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+Срок службы, циклов  & 15000  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: [\ref{bib:electronic.16k1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+\normalsize
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В качестве переключателя используется тумблер MTS-101-A2.\par%
+
+\noindent\makebox[1cm]{}Технические  характеристики      тумблера MTS-101-A2  приведены  в  таблице  \ref{tb:2.tt1}.\par
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{23.pdf}
+\end{textblock*}
+
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\noindent Таблица  \thet\ ---  Технические характеристики      тумблера MTS-101-A2\label{tb:2.tt1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Номинальное значение, А, В, переменного тока & 6, 125; 3, 250  \\ \hline%
+Контактное сопротивление, МОм, максимум & 20   \\ \hline%
+Сопротивление изоляции, МОм, минимум при 500 В постоянного тока &  1000   \\ \hline%
+Прочность изоляции, минут, при 1500 В переменного тока & 1   \\ \hline%
+Рабочая температура, °С & $-$25--85 \\ \hline%
+Срок службы, циклов  & 10000  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: [\ref{bib:electronic.tt1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+\normalsize
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В качестве ручки управления, кнопки ручки управления используется модуль расширения OKY3432.\par%
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Он комбинирует в себе двухосный джойстик и тактовую кнопку.\par%
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Показатели отклонения по каждой из осей поставляются в виде  аналоговых сигналов, нажатие --- цифровым сигналом.\par%
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В нейтральном положении аналоговый сигнал соответствует половине напряжения питания, В. При перемещении джойстика в одну сторону напряжение, В, будет нарастать, а    в другую  --— падать\par%. Таким образом можно получать точное положение ручки джойстика и реагировать на угол наклона, а не только на сам факт наклона ручки.
+
+%На модуле расположены два трёхконтактных разъёма. Один разъём используется для подачи напряжения и чтения положения по оси X. Другой — для чтения положения по оси Y и текущего состояния кнопки.\par%
+
+\noindent\makebox[1cm]{}Технические  характеристики      модуля расширения OKY3432  приведены  в  таблице  \ref{tb:2.dzh1}.\par
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\noindent Таблица  \thet\ ---  Технические характеристики      модуля расширения OKY3432\label{tb:2.dzh1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Напряжение питания, В & 3--5 \\ \hline%
+Интерфейс по осям X, Y & аналоговый, линейный \\ \hline%
+Интерфейс кнопки & цифровой, бинарный \\ \hline%
+Габариты, мм & $25 \times 35$ \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: [\ref{bib:electronic.dzh1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+\normalsize
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В качестве сервопривода используется сервомотор аналоговый  SG90 analog servo.\par%
+
+\noindent\makebox[1cm]{}Технические  характеристики      сервомотора аналогового  SG90 analog servo  приведены  в  таблице  \ref{tb:2.sg1}.\par
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{24.pdf}
+\end{textblock*}
+
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\noindent Таблица  \thet\ ---  Технические характеристики      сервомотора аналогового  SG90 analog servo\label{tb:2.sg1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Диапазон вращения, ° & 180 \\ \hline%
+Напряжение питания, В & 4,8--6 \\ \hline%
+Крутящий момент, кг см, при 4,8 В & 1,8  \\ \hline%
+Скорость вращения, °, за 0,12 с при 4,8 В & 60  \\ \hline%
+Внутренний интерфейс  & аналоговый \\ \hline%
+Направление & против часовой стрелки \\ \hline%
+Материал шестерен & нейлон \\ \hline%
+Материал корпуса & пластик \\ \hline%
+Длина провода, см & 25 \\ \hline%
+Габариты, мм & $23 \times 12,2 \times 29$ \\ \hline%
+Вес, г & 9 \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: [\ref{bib:electronic.sg1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+\normalsize
+
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Модуль расширения OKY3432,  сервомотор аналоговый  SG90 analog servo используются для разработки АСУ самолетом по приборной скорости, то есть при монтаже этой АСУ на самолет используются  ручка управления, сервопривод этого самолета.\par%
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}\par%
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Полное   $p_\mathrm{п}$, Па,   и статическое   $p$, Па,   давления к приборам поступают от приемников воздушных     давлений.\par%
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}ПВД-4    в соответствии с рисунком \ref{il:2.pd1}  представляет собой латунный корпус обтекаемой формы, состоящий из трех деталей, спаянных серебряным припоем: корпуса 7, наконечника 5 и хвостовика 11. Наружная поверхность корпуса никелирована и отполирована.\par%
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Основной частью приемника является камера полного давления 2 с приемным отверстием 1; камера образована теплопроводом 6, спаянным с наконечником 5. Трубопровод полного давления 10 проложен через отверстие теплопровода и припаян к нему. Для предохранения системы от попадания влаги и инородных частиц конец трубопровода заварен, а для сообщения трубопровода с камерой полного давления на конце его сделан  паз 4. Трубопровод полного давления оканчивается штуцером 15.\par%
+
+
+%\newpage
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{25.pdf}
+\end{textblock*}
+
+\pdfpagewidth=29.7cm
+\pdfpageheight=21.cm
+
+\hsize=25.7cm
+\vsize=16.cm
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l2.pd1.pdf}}\par%
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $\delta _\mathrm{рв}$ --- угол отклонения руля высоты, рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $\omega _z$ --- угловая скорость самолета относительно поперечной оси самолета, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta H}$, $U_{\Delta M}$, $U_{\Delta V}$ --- напряжение пропорциональное отклонению высоты, числа $M$, приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta M}$ --- напряжение пропорциональное отклонению  числа $M$, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\Delta V}$ --- напряжение пропорциональное отклонению приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_{\omega _z}$ --- напряжение пропорциональное угловой скорости самолета $\omega _z$, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_V$ --- напряжение пропорциональное приборной скорости, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $U_v$ --- напряжение пропорциональное углу тангажа, В;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $V$ --- приборная скорость, с\adjustbox{margin=0pt 7pt 0pt 7pt}{$^{-1}$}м;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm $v$ --- угол тангажа, рад;\par% {\fontsize{12}
+%\raggedright\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm СПРВ --- сервопривод\par% {\fontsize{12}
+
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm 1 --- приемное отверстие;
+2 --- камера полного давления;
+3 --- дренажное отверстие;
+4 --- паз;
+5 --- наконечник;
+6 --- теплопровод;
+7 --- корпус;
+8 --- электрообогревательный элемент;
+9 --- отверстие, воспринимающее статическое давление;
+10 --- трубопровод полного давления;
+11 --- хвостовик;
+12 --- камера статического давления;
+13 --- трубопровод статического давления;
+14 --- штуцер статического давления;
+15 --- штуцер полного давления\par% {\fontsize{12}
+
+%\centering\singlespace {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.rek1}]}\par
+\centering\singlespace\small\fontdimen2\font=.3cm\fontdimen3\font=2.cm Источник:  [\ref{bib:non-fiction.er1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Приемник воздушных давлений ПВД-4\label{il:2.pd1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+
+\refstepcounter{np}
+
+\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{26.pdf}
+\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}Для стока влаги, попадающей в камеру полного давления, в нижней части ее просверлено миллиметровое дренажное отверстие 3.\par%
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В полость, образованную теплопроводом 6 и трубкой корпуса 7, помещен электрообогревательный элемент 8, состоящий из трубчатого керамического каркаса, в канавки которого уложена нихромовая проволока. Во избежание замыкания между корпусом и нихромовой проволокой помещены слюдяные прокладки. Концы нихромовой проволоки выводятся через фарфоровые трубки хвостовика и привариваются к токопроводам, которые заканчиваются наконечниками. К наконечникам припаиваются проводники.\par%
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}На корпусе приемника имеются две группы (четыре вверху и пять внизу) миллиметровых отверстий 9, через которые передается статическое давление. Отверстия соединены с камерой статического давления 12.  Камера    через   трубопровод 13 соединена со штуцером 14. Штуцер статического давления 14 обозначен буквой ``с'', а штуцер полного давления 15 --- буквой ``д''. Утолщенная часть переходника имеет в два ряда шесть резьбовых отверстий для закрепления приемника на самолете. Для   установки трубки на самолет наружная поверхность переходника имеет надпись ``Верх''.\par%
+
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В качестве приемника давлений используется приемник воздушных давлений ПВД-18.\par%
+
+
+\noindent\makebox[1cm]{}Технические  характеристики      приемника воздушных давлений ПВД-18  приведены  в  таблице  \ref{tb:2.pd1}.\par
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+
+
+\noindent Таблица  \thet\ ---  Технические характеристики      приемника воздушных давлений ПВД-18\label{tb:2.pd1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Диапазон рабочих углов, °: & \\ %\hline%
+атаки & 5--20 \\ %\hline%
+скольжения & $\pm$10 \\ \hline%
+Интервал рабочей температуры, °С & $\pm$60 \\ \hline%
+Допустимая негерметичность камер статического давления, мм рт. ст.: & \\ %\hline%
+давление в камере & 370 \\ %\hline%
+допустимый спад за 3 минуты & 5 \\ \hline%
+%Допустимая негерметичность камер полного давления, мм рт. ст.: & \\ %\hline%
+%давление в камере & 760 \\ %\hline%
+%допустимый спад за 3 мин & 5 \\ \hline%
+%Потребляемый обогревателем ток, А & 5,5--6,5 \\ \hline%
+%Масса, г & 1200 \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{27.pdf}
+\end{textblock*}
+
+%\noindent Таблица  \thet\ ---  Технические характеристики      приемника воздушных давлений ПВД-18\label{tb:2.pd1}\par%\vspace{6pt}\par
+
+\onehalfspacing
+
+\noindent Продолжение таблицы\par%\label{tb:2.pd1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+%Диапазон рабочих углов, °: & \\ %\hline%
+%атаки & 5--20 \\ %\hline%
+%скольжения & $\pm$10 \\ \hline%
+%Интервал рабочей температуры, °С & $\pm$60 \\ \hline%
+%Допустимая негерметичность камер статического давления, мм рт. ст.: & \\ %\hline%
+%давление в камере & 370 \\ %\hline%
+%допустимый спад за 3 минуты & 5 \\ \hline%
+Допустимая негерметичность камер полного давления, мм рт. ст.: & \\ %\hline%
+давление в камере & 760 \\ %\hline%
+допустимый спад за 3 минуты & 5 \\ \hline%
+Потребляемый обогревателем ток, А & 5,5--6,5 \\ \hline%
+Масса, г & 1200 \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: [\ref{bib:electronic.sg1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+\normalsize
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В качестве инструментального усилителя используется инструментальный усилитель LM6142AIM/ NOPB, LM6142AIM.\par%
+
+\noindent\makebox[1cm]{}Технические  характеристики      инструментального усилителя LM6142AIM/ NOPB, LM6142AIM  приведены  в  таблице  \ref{tb:2.iu1}.\par
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\label{tb:2.iu1}
+
+
+
+\noindent Таблица  \thet\ ---  Технические характеристики      инструментального усилителя LM6142AIM/ NOPB, LM6142AIM\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+Наименование характеристики & Значение характеристики \\ \hline%
+Максимальная рабочая температура, °С & 85 \\ \hline%
+Длина, мм & 5 \\ \hline%
+Напряжение питания, В & 1,8--24 \\ \hline%
+%Коэффициент ослабления синфазного сигнала &  \\ \hline%
+Производитель & Texas Instruments \\ \hline%
+Тип корпуса & SOIC-8 \\ \hline%
+Тип монтажа & Поверхностный монтаж \\ \hline%
+Минимальная рабочая температура,°С  & $-$40 \\ \hline%
+%Ширина, мм & 3,988 \\ \hline%
+%Высота, мм & 1,499 \\ \hline%
+Число контактов & 8 \\ \hline%
+Максимальное напряжение смещения на выходе, мВ & 1 \\ \hline%
+Размеры, мм & $5,004 \times 3,988 \times 1,499$ \\ \hline%
+Максимальное входное сопротивление, МОм & 126 \\ \hline%
+Коэффициент подавления синфазного сигнала, дБ & 84--107 \\ \hline%
+Произведение коэффициента усиления на ширину полосы пропускания, МГц & 17 \\ \hline%
+Входной ток смещения, нА & 280 \\ \hline%
+%Коэффициент подавления помех по питанию, дБ & 80 \\ \hline%
+%Входное напряжение смещения нуля, мВ & 1 \\ \hline%
+%Выходной ток, мА & 24 \\ \hline%
+%Рабочий ток источника питания, мкА & 650 \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+%\small\noindent Источник: [\ref{bib:electronic.iu1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+%\onehalfspacing
+
+%\refstepcounter{nt}
+
+%\normalsize
+
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{28.pdf}
+\end{textblock*}
+
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{ps:1.4xxxx}
+
+
+\onehalfspacing
+
+\noindent Продолжение таблицы\par%\label{tb:2.pd1}\par%\vspace{6pt}\par
+
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+%Наименование характеристики & Значение характеристики \\ \hline%
+%Максимальная рабочая температура, °С & 85 \\ \hline%
+%Длина, мм & 5 \\ \hline%
+%Напряжение питания, В & 1,8--24 \\ \hline%
+%Коэффициент ослабления синфазного сигнала &  \\ \hline%
+%Производитель & Texas Instruments \\ \hline%
+%Тип корпуса & SOIC-8 \\ \hline%
+%Тип монтажа & Поверхностный монтаж \\ \hline%
+%Минимальная рабочая температура,°С  & $-$40 \\ \hline%
+%Ширина, мм & 3,988 \\ \hline%
+%Высота, мм & 1,499 \\ \hline%
+%Число контактов & 8 \\ \hline%
+%Максимальное напряжение смещения на выходе, мВ & 1 \\ \hline%
+%Размеры, мм & $5,004 \times 3,988 \times 1,499$ \\ \hline%
+%Максимальное входное сопротивление, МОм & 126 \\ \hline%
+%Коэффициент подавления синфазного сигнала, дБ & 84--107 \\ \hline%
+%Произведение коэффициента усиления на ширину полосы пропускания, МГц & 17 \\ \hline%
+%Входной ток смещения, нА & 280 \\ \hline%
+Коэффициент подавления помех по питанию, дБ & 80 \\ \hline%
+Входное напряжение смещения нуля, мВ & 1 \\ \hline%
+Выходной ток, мА & 24 \\ \hline%
+Рабочий ток источника питания, мкА & 650 \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+% &  \\ \hline%
+\end{tabular}}\par%\vspace{6pt}
+
+\small\noindent Источник: [\ref{bib:electronic.iu1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+\refstepcounter{nt}
+
+\normalsize
+
+
+
+
+%\justifying\normalfont\fontdimen3\font=.4cm\noindent\makebox[1cm]{}В системах СВС-2Ц  [\ref{bib:non-fiction.avia1}]  применяются  датчики давления  ДДГ    [\ref{bib:non-fiction.avia1}].\par%
+
+
+
+
+
+
+
+
+%\noindent\makebox[1cm]{}Чувствительный  элемент  датчика  представляет  собой  цилиндрический  резонатор  в  соответствии  с  рисунком  А.\ref{il:a.fun1}.  При  подаче  давления  $p$,  Па,  во  внутреннюю  полость  резонатора  изменяется  его  жесткость,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{м}^{-1}$}Н,  следовательно,  и  частота,  Гц,  собственных  колебаний.\par
+
+
+%\noindent\makebox[1cm]{}Рис.  А.\ref{il:a.fun1}  приведен  в  Приложении  А.\par
+
+
+%\noindent\makebox[1cm]{}В  обмотке  катушки  2  при  колебаниях  резонатора  наводится  электродвижущая  сила,  В.\par
+
+%\noindent\makebox[1cm]{}После  усиления  и  ограничения  по  амплитуде  сигнал  обратной  связи  в  виде  тока  $i\left( t\right)$,  А,  поступает  в  обмотку  катушки    5.\par
+
+%\noindent\makebox[1cm]{}Выходной  сигнал  датчика  представляет  собой  последовательность  прямоугольных  импульсов.\par%   Они  формируются  в  согласующем  устройстве     датчика.\par
+
+%\noindent\makebox[1cm]{}Частота,  Гц,  следования  импульсов  равна  частоте  $f$,  Гц,  колебаний  резонатора.\par
+
+%\noindent\makebox[1cm]{}Датчики  не  термостатированы.  Компенсация  температурных  погрешностей  осуществляется  в  вычислителе.  В  датчике  термодиодом  [\ref{bib:non-fiction.trof1}]  измеряется  температура,  К,  резонатора.\par
+
+%\noindent\makebox[1cm]{}Выходной  сигнал  с  обмотки  L1  подаются  через  резистор  R1  на  вход  A1  [\ref{bib:non-fiction.vib1}]  в  соответствии  с  рисунком  А.%\ref{il:a.schem1}.  С  выхода  A1  через  конденсатор  C1  и  резистор  R3  переменная  составляющая  сигнала  $i$,  А,  поступает  на  вход  A2,  в  котором  происходит  ее  усиление  и  ограничение  на  уровне,  определяемом  характеристиками  элемента  VD1  [\ref{bib:non-fiction.vai1}].  Выходной  сигнал  с  A2  через  конденсатор  C2  и  резистор  R5  подается  на  вход  A3,  включенного  по  схеме  с  токовой  обратной  связью  [\ref{bib:non-fiction.herp1}].\par
+
+
+%\noindent\makebox[1cm]{}Рис.  А.\ref{il:a.schem1}  приведен  в  Приложении  А.\par
+
+
+%\noindent\makebox[1cm]{}Фазовый  сдвиг,  рад,  обеспечивается  фильтрами  [\ref{bib:non-fiction.butikovfizika1}]  в  тракте  усиления  и  преобразования  сигнала.\par
+
+
+%\newpage
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{7.pdf}
+%\end{textblock*}
+
+
+%\refstepcounter{np}
+
+
+%\noindent\makebox[1cm]{}При  воздействии  облучений  на  полупроводниковые  приборы  представляют  интерес  два  эффекта:  ионизации  и  смещения.  Эффекты,  связанные  с  ионизацией,  являются  кратковременными,  но  могут  вывести  схему  из  рабочего  состояния.  Эффекты  смещения  вызывают  долговременные  повреждения  полупроводниковых  приборов.\par
+
+
+
+
+
+%\noindent\makebox[1cm]{}Электромагнитные  излучения,  взаимодействуя  с  электронами    атомов  полупроводников,  могут  сообщать  им  энергию,  для  перехода  в  зону  проводимости  полупроводника.  В  результате    образуются  избыточные  носители  ---  электроны  и  дырки,  которые  меняют  проводимость,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{Ом}^{-1}$},  и,  следовательно,  характеристики  полупроводниковых  приборов.\par
+
+
+
+
+
+%\refstepcounter{np}
+
+%\label{pintro:1}
+
+
+
+
+
+
+%\noindent\makebox[1cm]{}В  результате  облучения  диода  при  малых  токах,  А,  происходит  увеличение  прямого  тока,  А,  а  при  больших  ---  уменьшение.  Обратный  ток,  А,  диода  при  облучении  увеличивается.\par
+
+%\noindent\makebox[1cm]{}В  конденсаторах  под  действием  излучения  изменяется  емкость,  Ф,  сопротивление  изоляции,  Ом,  тангенс  угла  диэлектрических  потерь,  проводимость,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{Ом}^{-1}$}.\par
+
+
+
+%\noindent\makebox[1cm]{}Радиационная     стойкость  интегральных  микросхем  не  превышает  стойкости  полупроводниковых      приборов.\par
+
+%\noindent\makebox[1cm]{}В  замкнутой  электрической  цепи  появляется  электрический  ток,  А,  пропорциональный  мощности  излучения,  \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{с}^{-1}$}.\par
+
+
+%\noindent\makebox[1cm]{}Датчики  ДДГ-2-1, ДДГ-2-2, ДДГ-2-3, ДДГ-2-4 и БДДМ-1  [\ref{bib:electronic.dat1}]  не  имеют       стойкости к ионизирующему  излучению  [\ref{bib:regulatory.vib1}].\par%
+
+
+%\noindent\makebox[1cm]{}Структуры  КНС  обладают  радиационной       стойкостью     [\ref{bib:non-fiction.stu1}].       В   датчиках давления  используются тензочувствительные элементы   на  основе      структур          КНС.\par%
+%      в  соответствии  с  рисунком       А.\ref{il:a.rhom44}.
+
+%\noindent\makebox[1cm]{}На     рисунке    А.\ref{il:a.rhom44}      приведены      результаты        при   облучении    структур   $p$-КНС     нейтронами     и      $\mathit{γ}$-квантами    в   реакторе       ВВР-2000.\par
+%Были  получены  результаты      при  облучении  структур  $p$-КНС  нейтронами  и  $\mathit{γ}$-квантами  в  реакторе  ВВР-2000  
+%в  соответствии  с  рисунком  А.\ref{il:a.rhom44}.
+
+%\noindent\makebox[1cm]{}Были  получены  результаты      при  облучении  структур  $p$-КНС  нейтронами  и  $\mathit{γ}$-квантами  в  реакторе  ВВЭР-2000  
+%в  соответствии  с  рисунком  А.\ref{il:a.rhom44}.\par
+
+
+%\noindent\makebox[1cm]{}Рис.  А.\ref{il:a.rhom44}  приведен  в  Приложении  А.\par
+
+%\noindent\makebox[1cm]{}Необходимо    разработать   автоматизированную систему управления самолетом по приборной скорости при наличии источника ионизирующего излучения.\par%В  структурном элементе  ``Определения''    использованы   материалы   [\ref{bib:non-fiction.er1} ; \ref{bib:non-fiction.vor1}  ; \ref{bib:non-fiction.eg1}],          ``Введение''   ---   [], .\par%
+
+%\noindent\makebox[1cm]{}Для    достижения   данной   цели       нужно   решить  задачи:\par%Необходимо    разработать   автоматизированную систему управления самолетом по приборной скорости при наличии источника ионизирующего излучения.\par%В  
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{1)}Описать объект контроля:\par%
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{---};\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{---}привести условия эксплуатации авиационных приборов;\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{2)}Выбрать датчик давления, :\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{---}выбрать датчик давления;\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{3)}Выбрать микропроцессор (микроконтроллер), :\par%
+
+%\noindent\makebox[1cm]{}\makebox[1cm][l]{---}выбрать микропроцессор (микроконтроллер);\par%
+
+
+%\noindent\makebox[1cm]{}В  структурном элементе  ``Определения''    использованы   материалы   [\ref{bib:non-fiction.er1} ; \ref{bib:non-fiction.vor1}  ; \ref{bib:non-fiction.eg1} ; \ref{bib:regulatory.gost4401}],          ``Введение''   ---   [\ref{bib:electronic.zc1} ; \ref{bib:electronic.sd1} ; \ref{bib:electronic.kp1} ; \ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.avia1} ; ], .\par%
+
+%\noindent\makebox[1cm]{}В  структурном  элементе  \textquotedblleft Введение\textquotedblright\  использованы материалы  [\ref{bib:non-fiction.avia1} ; \ref{bib:regulatory.ustsam1} ; \ref{bib:non-fiction.trof1} ; \ref{bib:regulatory.vib1} ; \ref{bib:non-fiction.stu1}],    подразделе  1.1  ---  [\ref{bib:non-fiction.vor1}],  1.2  ---  [\ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.trof1} ; \ref{bib:non-fiction.avia1}],  1.3  ---  [\ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.trof1}],  1.4  ---  [\ref{bib:non-fiction.avia1} ; \ref{bib:non-fiction.vor1}],  1.5  ---  [\ref{bib:non-fiction.vor1} ;  \ref{bib:non-fiction.bod1}  ;  \ref{bib:non-fiction.er1} ; \ref{bib:non-fiction.trof1}],  1.6  ---  [\ref{bib:non-fiction.trof1} ; \ref{bib:regulatory.ust1} ; \ref{bib:non-fiction.vag1} ; \ref{bib:non-fiction.stu1}],   подразделе  2.1  [\ref{bib:non-fiction.trof1} ; \ref{bib:non-fiction.vag1} ; \ref{bib:non-fiction.stu1} ; \ref{bib:non-fiction.dbmar1}] ---  ,  2.2  --- [\ref{bib:electronic.rek1} ; \ref{bib:regulatory.ust1}] ,  структурном    элементе    ``Заключение''  ---  [\ref{bib:non-fiction.stu1}; \ref{bib:non-fiction.vor1} ; \ref{bib:non-fiction.trof1} ; \ref{bib:non-fiction.vag1} ; \ref{bib:electronic.rek1}].\par
+%разделе  2  ---  ,  
+
+%\refstepcounter{np}
+
+%\label{pintro:1}
+
+%\begin{textblock*}{5cm}[0,0](10.5cm,28.5cm)
+%	{\fontsize{12}{14.4}\selectfont\raggedright\singlespace\thenp}
+%\end{textblock*}
+
+\endinput

@@ -1,0 +1,321 @@
+%\refstepcounter{np}
+%\refstepcounter{np}
+\refstepcounter{np}
+\refstepcounter{np}
+
+\label{ps:1.2xx}%\label{ps:1.1}%\label{ps:1.2}\label{ps:1.3}\label{ps:1.4}\label{ps:1.5}\label{ps:1.6}
+
+%\newpage
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{25.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{10.pdf}
+%\end{textblock*}
+
+\vspace{\baselineskip}\par
+
+%\vspace{\baselineskip}\par
+
+\justifying\onehalfspacing\fontdimen2\font=.3cm\fontdimen3\font=2.cm\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}Преобразователь давления МИДА-ПД-94-НК\par%\label{s:1.2xx}\par%
+
+\vspace{\baselineskip}\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Результаты        при   облучении    структур   $p$-КНС     нейтронами     и      $\mathit{γ}$-квантами    в   реакторе       ВВР-2000    в соответствии с рисунком \ref{il:2.rhom44}    показывают, что структуры $p$-КНС имеют стойкость к ионизирующему излучению.\par%
+
+
+
+\noindent\makebox[1cm]{}Из КНС были разработаны датчики давления ``Кристалл'' [\ref{bib:non-fiction.stu1}],  комплексы       ``Сапфир''  и  ``Сапфир-22'', датчики давления МИДА.\par%
+
+\noindent\makebox[1cm]{}В     комплексе    ``Сапфир-22''    погрешность  составляет  не  менее  0,25\%,      ТП  применялись  для  измерения  давления  не  ниже  100 кПа,    в  датчиках  МИДА-13П  [\ref{bib:electronic.13p1}]    погрешность  уменьшена  до  0,15\%,    нижний  предел  измерения    составляет  4 кПа.\par%
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{31.pdf}
+\end{textblock*}
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Датчик разности давлений с цифровым выходным сигналом МИДА-ДД-15-Ц  стоит 15180 рублей [\ref{bib:electronic.dds1}], а преобразователь дифференциального давления МИДА-ПД-94-НК --- 9970 рублей [\ref{bib:electronic.pds1}]. Модулей давления, измеряющих дифференциальное давление, в каталоге МИДА нет.\par%\label{s:1.2xx}\par
+
+
+
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l2.rhom44.pdf}}\par
+
+\centering\singlespace\small > --- $\rho$,  см Ом; * --- $\mu$, \adjustbox{margin=0pt 6pt 0pt 0pt}{$\mathrm{м}^2 \mathrm{В}^{-1} \mathrm{с}^{-1}$};   < --- $p$, \adjustbox{margin=0pt 6pt 0pt 0pt}{$\mathrm{см}^{-3}$};   $+$ --- 1;   $-$ --- 2;   \bfseries ---\normalfont\ --- 3;   $\times$ --- 4\par%   ^ --- ;   \par
+%\raggedright\singlespace\small\par
+%\raggedright\singlespace\small< --- $p$;\par
+%\raggedright\singlespace\small$+$ --- 1;\par
+%\raggedright\singlespace\small$-$ --- 2;\par
+%\raggedright\singlespace\small--- --- 3;\par
+%\raggedright\singlespace\small$\times$ --- 4\par
+
+\centering\singlespace\small Источник:  [\ref{bib:non-fiction.stu1}]\par% {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:non-fiction.stu1}]}\par
+
+\refstepcounter{l}
+
+\normalsize
+
+Рисунок  \thel\ ---  Зависимость  относительного  изменения  удельного  сопротивления  $\rho$,           концентрации  $p$,      подвижности  $\mathit{μ}$        дырок  в  $p$-КНС  от  флюенса  нейтронов;  $T=300$  К,    \adjustbox{margin=0pt 0pt 0pt 0pt}{$p_0 =6 \times 10^{19}$}      \adjustbox{margin=0pt 0pt 0pt 0pt}{$\mathrm{см}^{-3}$}       (а);  температурная  зависимость  коэффициента  \adjustbox{margin=0pt 0pt 0pt 0pt}{$m_{44}$}  [\ref{bib:non-fiction.stu1}] в  $p$-КНС  при  реакторном  облучении;  \adjustbox{margin=0pt 0pt 0pt 0pt}{$p_0 =5\times 10^{19}$}   \adjustbox{margin=0pt 0pt 0pt 0pt}{$\mathrm{см}^{-3}$}       (б)\label{il:2.rhom44}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{32.pdf}
+\end{textblock*}
+
+
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Стоимость    преобразователя давления МИДА-ПД-94-НК  (9970 рублей),  инструментального усилителя LM6142AIM/ NOPB, LM6142AIM (810 рублей) [\ref{bib:electronic.iu1}] составляет 10780 рублей. Подобрав за сумму меньше, чем $15180 - 10780 = 4400$ рублей микропроцессор (микроконтроллер), можно    добиться уменьшения стоимости измерительного устройства для измерения давления с цифровым выходом. Таким образом, в качестве датчика давления используется преобразователь давления МИДА-ПД-94-НК.\par%\label{s:1.2xx}\par
+
+
+%\justifying\onehalfspacing\bfseries\noindent\makebox[1cm]{}\makebox[2cm][l]{\thej}\normalfont 
+\justifying\normalfont\noindent\makebox[1cm]{}В    преобразователе   давления   МИДА-ПД-94-НК     в   полость между мембранами 2, 3 подается давление $p$, Па, а в подмембранную полость мембраны 1 давление $p_\mathrm{п}$, Па.     Смещение,  м,  мембраны  3,  пропорциональное    разности давлений $p_\mathrm{п} -p$,  Па,  через  шток  4  передается  на    мембрану  2  и вызывает  ее  прогиб,  м,      тензорезисторы      изменят  свои  сопротивления,  Ом,      на  выходе  измерительной  схемы  появится  сигнал,  пропорциональный       давлению  $p_\mathrm{п} -p$,  Па,     в  соответствии  с  рисунком   \ref{il:1.ust1}.\par%\label{s:1.2xx}\par
+
+%\justifying\normalfont\noindent\makebox[1cm]{}В полость между мембранами 1, 3 подается давление $p$, Па, а в подмембранную полость мембраны 1 давление $p_\mathrm{п}$, Па.\par%
+
+%\newpage
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{32.pdf}
+%\end{textblock*}
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l1.ust1.pdf}}\par
+\centering\singlespace {\fontsize{12}{14.4}\selectfont\noindent\fontdimen2\font=.3cm\fontdimen3\font=.4cm 1 --- ПЧЭ;    2, 3  ---  мембрана;  4  ---  шток}\par%;     4  ---     ПЧЭ}\par
+
+\centering\singlespace {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:non-fiction.stu1}]}\par
+
+\refstepcounter{l}
+
+Рисунок  \thel\ ---  Преобразователь  давления   МИДА-ПД-94-НК\label{il:1.ust1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+%\vspace{\baselineskip}\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Усиление  выходного  сигнала,    В,          обеспечивается  инструментальным  усилителем  DA1  [\ref{bib:non-fiction.vib1}]  в  соответствии  с  рисунком  \ref{il:2.pUp1}.\par
+
+
+
+\refstepcounter{np}
+
+\newpage
+\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{33.pdf}
+\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{28.9cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{11.pdf}
+%\end{textblock*}
+
+%\pdfpagewidth=29.7cm
+%\pdfpageheight=21.cm
+
+%\hsize=25.7cm
+%\vsize=16.cm
+
+\centering\adjustbox{margin=0cm 0pt 0cm 7pt,vspace=0cm -3.333333333333333pt}{\includegraphics{l2.pUp1.pdf}}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{сф}$},   \adjustbox{margin=0pt 6pt 0cm 6pt}{$C_\mathrm{дф}$}    ---      емкость         конденсатора   фильтра   радиопомех,   Ф;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$R_\mathrm{ф}$}   ---      сопротивление         резистора   фильтра   радиопомех,     Ом;}\par
+%\raggedright\singlespace {\fontsize{12}{14.4}\selectfont\noindent\adjustbox{margin=0pt 6pt 0cm 0pt}{$U_\mathrm{вых}$}   ---      напряжение               выхода,     В}\par
+
+
+\centering\singlespace {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.rek1}]}\par
+
+\refstepcounter{l}
+
+
+Рисунок  \thel\ ---  Схема  подключения  преобразователя давления МИДА-ПД-94-НК\label{il:2.pUp1}\par%\vspace{6pt}\par
+\justifying\onehalfspacing\vspace{\baselineskip}\par
+
+\refstepcounter{nl}
+
+
+
+\noindent\makebox[1cm]{}Примечание           ---        1,   2,    3,      4     ---    контакты.\par
+
+
+%\refstepcounter{np}
+
+%\newpage
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{33.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{inscription2.pdf}
+%\end{textblock*}
+
+%\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+%	\noindent\includegraphics{12.pdf}
+%\end{textblock*}
+
+\pdfpagewidth=21.cm
+\pdfpageheight=29.7cm
+
+\hsize=17.cm
+\vsize=24.7cm
+
+
+
+\noindent\makebox[1cm]{}Преобразователи   (П)    могут  измерять  избыточное  (И),  абсолютное  (А),        разность    давлений  (Д).\par
+
+
+
+
+
+
+
+\noindent\makebox[1cm]{}Технические  характеристики      преобразователя  МИДА-ПД-94-НК  приведены  в  таблице  \ref{tb:2.tech1}.\par
+
+\vspace{\baselineskip}\par
+
+\refstepcounter{t}
+
+\noindent Таблица  \thet\ ---  Технические характеристики      преобразователя  МИДА-ПД-94-НК\label{tb:2.tech1}\par%\vspace{6pt}\par
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+%Рабочая  среда  &  Жидкости,    газы,  неагрессивные  к  титановым  сплавам,    нержавеющим  сталям  \\  \hline
+%Диапазоны  измеряемых        давлений,       абсолютное  давление,  МПа  &  0--0,1;  0--0,16;  0--0,25;  0--0,4;  0--0,6;  0--1;  0--1,6;  0--2,5;  0--4;  0--6;  0--10;  0--16;  0--25;  0--40;  0--60  \\  \hline
+
+Наименование характеристики & Значение характеристики \\ \hline%
+Диапазоны  измеряемых        давлений,           МПа  &  0--0,016;  0--0,025;  0--0,04 \\ \hline%;  0--0,4;  0--0,6;  0--1;  0--1,6;  0--2,5;  0--4;  0--6;  0--10;  0--16;  0--25;  0--40;  0--60  \\  \hline
+Давление  перегрузки,  МПа    &      0,024; 0,037; 0,06 \\ \hline%2    раз      (0--1,6  МПа);      1,5   раз       (1,6--60  МПа)  \\  \hline
+Давление  разрушения   избыточным      (статическим),      МПа,   не   менее      &  2 \\ \hline%  не  менее       4    раз        \\  \hline
+Погрешность при температуре 20   °С,    \%, не более & $\pm$0,5 \\ \hline%
+%(включая нелинейность, вариацию, повторяемость)
+Диапазон  рабочих  температур,  °С  &  $-$40--80  \\  \hline
+%Зона температурной погрешности в диапазоне   $-$40--80 °С,   \%   не более:   начального значение выходного сигнала   &  26   \\ \hline%
+%Зона температурной погрешности в диапазоне   $-$40--80 °С,   \%   не более:   диапазона изменения выходного сигнала   &  15   \\ \hline%
+%Значение  выходного  сигнала  при    20  °С,  мВ  на 1 В  питания   &   $\pm$1,5  \\ \hline
+%      \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{В}^{-1} \mathrm{мВ}$}     &  $\pm$0,2  \\  \hline
+%Изменение  выходного  сигнала  при    20  °С,  мВ  на 1 В  питания   &   > 4  \\ \hline
+%      \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{В}^{-1} \mathrm{мВ}$}     &  $\pm$0,2  \\  \hline
+%Входное,  выходное сопротивление, кОм   &  от 4   до 7       \\ \hline%
+%Сопротивление  изоляции,   МОм,   не менее  &  100 \\ \hline%не  менее  100  МОм  при  500  В  и    температуре  25  °C  \\  \hline
+%Виброустойчивость   &   F2  \\ \hline%
+%Тип штуцера   &   М$12\times 1$,5  \\ \hline%
+%Изменение выходного сигнала, вызванное изменением рабочего избыточного   (статического)  давления от нуля до 1,6   МПа,  выраженное в процентах от диапазона изменения выходного %сигнала, не более   &   $\pm$0,25   \\  \hline%
+
+%Точность  (нелинейность,  вариация,    повторяемость),  не  более  $\pm$\%  &  0,1  (0,2)  от  диапазона  изменения  выходного  сигнала  \\  \hline
+%Диапазон  изменения  выходного  сигнала  (при  температуре  25  °С),     \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{В}^{-1} \mathrm{мВ}$}        &  8--14  \\  \hline
+%Температурный  диапазон  компенсации,  °С  &  -  \\  \hline
+%Дополнительная  температурная  погрешность  в  диапазоне  компенсации,  \%  от  диапазона  изменения  выходного  сигнала,  не  более  &  -  \\  \hline
+%Напряжение  питания,  В  &  5--15  постоянного  тока  \\  \hline
+\end{tabular}}\par%\vspace{6pt}
+
+%\noindent {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+%\refstepcounter{nt}
+
+
+
+\refstepcounter{np}
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{34.pdf}
+\end{textblock*}
+
+
+\noindent Продолжение таблицы\par%
+
+
+\singlespace\noindent{\setlength{\arrayrulewidth}{.3mm}\begin{tabular}{|@{\makebox[4.7mm][l]{}}p{7.5cm}@{\makebox[4.85mm][l]{}}|@{\makebox[4.85mm][l]{}}p{7.5cm}@{\makebox[4.7mm][l]{}}|}
+\hline
+%Рабочая  среда  &  Жидкости,    газы,  неагрессивные  к  титановым  сплавам,    нержавеющим  сталям  \\  \hline
+%Диапазоны  измеряемых        давлений,       абсолютное  давление,  МПа  &  0--0,1;  0--0,16;  0--0,25;  0--0,4;  0--0,6;  0--1;  0--1,6;  0--2,5;  0--4;  0--6;  0--10;  0--16;  0--25;  0--40;  0--60  \\  \hline
+
+%Наименование характеристики & Значение характеристики \\ \hline%
+%Диапазоны  измеряемых        давлений,           МПа  &  0--0,016;  0--0,025;  0--0,04 \\ \hline%;  0--0,4;  0--0,6;  0--1;  0--1,6;  0--2,5;  0--4;  0--6;  0--10;  0--16;  0--25;  %0--40;  0--60  \\  \hline
+%Давление  перегрузки,  МПа    &      0,024; 0,037; 0,06 \\ \hline%2    раз      (0--1,6  МПа);      1,5   раз       (1,6--60  МПа)  \\  \hline
+%Давление  разрушения   избыточным      (статическим),      МПа,   не   менее      &  2 \\ \hline%  не  менее       4    раз        \\  \hline
+%Погрешность при температуре 20   °С,    \%, не более & $\pm$0,5 \\ \hline%
+%(включая нелинейность, вариацию, повторяемость)
+%Диапазон  рабочих  температур,  °С  &  $-$40--80  \\  \hline
+Зона температурной погрешности в диапазоне   $-$40--80 °С,   \%   не более:   начального значение выходного сигнала   &  26   \\ \hline%
+Зона температурной погрешности в диапазоне   $-$40--80 °С,   \%   не более:   диапазона изменения выходного сигнала   &  15   \\ \hline%
+Значение  выходного  сигнала  при    20  °С,  мВ  на 1 В  питания   &   $\pm$1,5  \\ \hline
+%      \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{В}^{-1} \mathrm{мВ}$}     &  $\pm$0,2  \\  \hline
+Изменение  выходного  сигнала  при    20  °С,  мВ  на 1 В  питания   &   > 4  \\ \hline
+%      \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{В}^{-1} \mathrm{мВ}$}     &  $\pm$0,2  \\  \hline
+Входное,  выходное сопротивление, кОм   &  от 4   до 7       \\ \hline%
+Сопротивление  изоляции,   МОм,   не менее  &  100 \\ \hline%не  менее  100  МОм  при  500  В  и    температуре  25  °C  \\  \hline
+Виброустойчивость   &   F2  \\ \hline%
+Тип штуцера   &   М$12\times 1$,5  \\ \hline%
+Изменение выходного сигнала, вызванное изменением рабочего избыточного   (статического)  давления от нуля до 1,6   МПа,  выраженное в процентах от диапазона изменения выходного сигнала, не более   &   $\pm$0,25   \\  \hline%
+
+%Точность  (нелинейность,  вариация,    повторяемость),  не  более  $\pm$\%  &  0,1  (0,2)  от  диапазона  изменения  выходного  сигнала  \\  \hline
+%Диапазон  изменения  выходного  сигнала  (при  температуре  25  °С),     \adjustbox{margin=0pt 7pt 0pt 7pt}{$\mathrm{В}^{-1} \mathrm{мВ}$}        &  8--14  \\  \hline
+%Температурный  диапазон  компенсации,  °С  &  -  \\  \hline
+%Дополнительная  температурная  погрешность  в  диапазоне  компенсации,  \%  от  диапазона  изменения  выходного  сигнала,  не  более  &  -  \\  \hline
+%Напряжение  питания,  В  &  5--15  постоянного  тока  \\  \hline
+\end{tabular}}\par%\vspace{6pt}
+
+\noindent {\fontsize{12}{14.4}\selectfont Источник:  [\ref{bib:electronic.mid1}]}\par
+\onehalfspacing
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Использование вычислителя В позволяет провести дополнительную коррекцию температурной погрешности [\ref{bib:non-fiction.stu1}].\par%, а параболическая зависимость в случае схемной компенсации      погрешностей для датчиков давления производства МИДА   [\ref{bib:non-fiction.stu1}]  позволяет произвести   эту коррекцию  c    использованием      микропроцессора (микроконтроллера).\par%
+
+\justifying\normalfont\noindent\makebox[1cm]{}От дополнительной    коррекции   температурной погрешности преобразователя давления МИДА-ПД-94-НК пришлось отказаться из-за отсутствия времени для ее проведения.\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Зона температурной погрешности в диапазоне $-$40--80 °С для начального значения выходного сигнала    составляет 26\%, для изменения выходного сигнала 15\%.\par
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Считается, что $p$-КНС обладают стойкостью к ионизирующему излучению.\par
+
+
+
+
+\newpage
+\begin{textblock*}{20.2cm}[0,0](.6cm,.3cm)
+	\noindent\includegraphics{35.pdf}
+\end{textblock*}
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Результаты при облучении $p$-КНС нейтронами    показывают, что относительное изменение  удельного    сопротивления для флюенса равного $4 \times 10^{16}$ см$^{-2}$ составляет 20\%.\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Таким образом, необходимо производить дополнительную компенсацию погрешности, вызванной воздействием ионизирующего излучения.\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}ТП,   основанные    на        монокристаллах,      имеют  высокую  стоимость.\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Стоимость преобразователя давления МИДА-ПД-94-НК составляет 9970 рублей.\par
+
+\justifying\normalfont\noindent\makebox[1cm]{}Нижний предел температуры эксплуатации авиационных приборов равен $-$60 °С.\par
+
+
+
+\justifying\normalfont\noindent\makebox[1cm]{}Нижний предел диапазона рабочих температур преобразователя давления МИДА-ПД-94-НК составляет $-$40 °С, что накладывает ограничения на высоту эксплуатации АСУ самолетом по приборной скорости в соответствии с ГОСТ   [\ref{bib:regulatory.gost4401}]   до 6 км   [\ref{bib:non-fiction.eg1}].\par
+
+
+
+
+%\noindent\makebox[1cm]{}\par
+
+%\noindent\makebox[1cm]{}При написании подраздела \thej\ использованы материалы [\ref{bib:6}].\par
+
+%\refstepcounter{np}
+
+%\begin{textblock*}{5cm}[0,0](10.5cm,28.5cm)
+%	{\fontsize{12}{14.4}\selectfont\raggedright\singlespace\thenp}
+%\end{textblock*}
+
+\endinput
